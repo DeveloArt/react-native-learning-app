@@ -10,7 +10,12 @@
     "backgroundColor": "#000",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Potrzebujemy dostępu do mikrofonu, aby sprawdzić Twoją wymowę hiszpańskich słówek.",
+        "NSSpeechRecognitionUsageDescription": "Potrzebujemy dostępu do rozpoznawania mowy, aby sprawdzić Twoją wymowę hiszpańskich słówek."
+      },
+      "bundleIdentifier": "com.nemeyeth.reactnativelearningapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +23,8 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.nemeyeth.reactnativelearningapp"
+      "package": "com.nemeyeth.reactnativelearningapp",
+      "permissions": ["android.permission.RECORD_AUDIO"]
     },
     "web": {
       "bundler": "metro",

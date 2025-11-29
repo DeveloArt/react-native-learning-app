@@ -137,5 +137,15 @@ export default {
   speaking: {
     howDoYouSay: 'How do you say...',
     tapMic: 'Tap the microphone and say the word',
+    recording: 'Recording...',
+    processing: 'Processing...',
+    correct: 'Perfect! ✅',
+    tryAgain: 'Try again 🔄',
+    correctAnswer: 'Correct answer:',
+    next: 'Next',
+    noPermission: 'No microphone permission',
+    error: 'An error occurred',
+    notAvailable: 'Speech recognition is not available',
+    youSaid: 'You said',
   },
 };
