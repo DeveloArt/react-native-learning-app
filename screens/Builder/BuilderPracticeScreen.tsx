@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import { BuilderProgressSection } from './components/BuilderProgressSection';
 import { BuilderWordAreas } from './components/BuilderWordAreas';
-import { getSentences } from './data/sentences';
+import { getSentencesForCategory } from './data/sentences';
 
 interface Props {
   categoryKey?: string;
@@ -13,8 +13,8 @@ interface Props {
 
 export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
   const sentences = useMemo(
-    () => (categoryKey && subKey ? getSentences(categoryKey, subKey) : []),
-    [categoryKey, subKey],
+    () => (categoryKey ? getSentencesForCategory(categoryKey) : []),
+    [categoryKey],
   );
   const { i18n } = useTranslation();
   const [idx, setIdx] = useState(0);
@@ -38,7 +38,6 @@ export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
     setPoolWords((prev) => [...prev, w]);
   };
 
-  // Reset tokens when sentence changes
   useEffect(() => {
     if (!current) return;
     const words = current.targetEs.split(' ');
@@ -47,7 +46,6 @@ export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
     setError(null);
   }, [current]);
 
-  // Auto-advance when full sequence is correct
   useEffect(() => {
     if (!current) return;
     const isComplete =
@@ -73,9 +71,7 @@ export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
       />
       {current && (
         <View className="items-center mt-4">
-          <View className="items-center">
-            <>{/* prompt text under the areas */}</>
-          </View>
+          <View className="items-center"></View>
           {error && (
             <View className="mt-2">
               <ThemedText size="small" className="text-[#ef4444]">
@@ -85,7 +81,6 @@ export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
           )}
         </View>
       )}
-      {/* No explicit Check button */}
     </View>
   );
 }

@@ -1,4 +1,5 @@
 import { AppHeader } from '@/components/headers/AppHeader';
+import Splash from '@/components/Splash';
 import { Colors } from '@/constants/color';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import i18n from '@/i18n';
@@ -8,6 +9,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
+import { useState } from 'react';
 import { I18nextProvider, useTranslation } from 'react-i18next';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import 'react-native-reanimated';
@@ -31,6 +33,8 @@ export default function RootLayout() {
     MontserratSemiBold: require('../assets/fonts/Montserrat-SemiBold.ttf'),
     MontserratBold: require('../assets/fonts/Montserrat-Bold.ttf'),
   });
+
+  const [showSplash, setShowSplash] = useState(true);
 
   if (!loaded) {
     return null;
@@ -82,6 +86,7 @@ export default function RootLayout() {
                         }}
                       />
                     </Stack>
+                    {showSplash && <Splash onFinish={() => setShowSplash(false)} />}
                     <StatusBar style={resolved === 'dark' ? 'light' : 'dark'} />
                   </ThemeProvider>
                 );
