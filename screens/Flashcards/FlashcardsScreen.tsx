@@ -94,13 +94,14 @@ export function FlashcardsScreen() {
     setKnownIds(new Set());
   };
 
-  const applyCategorySelection = (catKey: string | null) => {
+  const applyCategorySelection = async (catKey: string | null) => {
     setSelectedCategory(catKey);
     setPickerOpen(false);
     try {
-      saveSelectedCategory(catKey);
-    } catch (e) {}
-    // build new deck filtered by category (if any)
+      await saveSelectedCategory(catKey);
+    } catch (e) {
+      console.error('saveSelectedCategory failed', e);
+    }
     const source = spanishFlashcards.filter((e) => (catKey ? e.category === catKey : true));
     const selection = pickRandomEntries(source, 10);
     const base = mapToStudyCards(selection);
@@ -127,7 +128,9 @@ export function FlashcardsScreen() {
           applyCategorySelection(v);
         }
       })
-      .catch(console.error);
+      .catch((e) => {
+        console.error('[flashcards] getSelectedCategory error', e);
+      });
     return () => {
       mounted = false;
     };

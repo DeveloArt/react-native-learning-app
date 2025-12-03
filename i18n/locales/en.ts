@@ -51,6 +51,7 @@ export default {
   },
   builder: {
     check: 'Check',
+    backToCategories: 'Back to categories',
     translate: 'Translate the sentence',
     examplePrompt: 'Build the sentence',
     tryAgain: 'Almost! Check the word order and try again.',

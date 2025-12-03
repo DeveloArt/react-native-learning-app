@@ -2,7 +2,7 @@
   "expo": {
     "name": "react-native-learning-app",
     "slug": "react-native-learning-app",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "reactnativelearningapp",
@@ -10,7 +10,9 @@
     "backgroundColor": "#000",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.develoart.reactnativelearningapp",
+      "buildNumber": "4"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +20,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.nemeyeth.reactnativelearningapp"
+      "package": "com.develoart.reactnativelearningapp"
     },
     "web": {
       "bundler": "metro",
@@ -42,10 +44,11 @@
     },
     "extra": {
       "router": {},
+      "ENABLE_SPEAKING": false,
       "eas": {
-        "projectId": "bcd0354c-fbb9-4613-a5de-eebe0ffd420c"
+        "projectId": "e91cb122-8238-4a78-82c5-fc3f338e0fc8"
       }
     },
-    "owner": "nemeyeth"
+    "owner": "develo_art"
   }
 }

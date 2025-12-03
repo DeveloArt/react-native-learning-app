@@ -12,6 +12,8 @@ export default function TabLayout() {
   const router = useRouter();
   const { t } = useTranslation();
   const { height, width } = Dimensions.get('window');
+  // const { boolEnv } = require('@/src/env');
+  // const ENABLE_SPEAKING = boolEnv('ENABLE_SPEAKING', false);
 
   return (
     <Tabs
@@ -111,17 +113,19 @@ export default function TabLayout() {
           ),
         }}
       />
-      <Tabs.Screen
-        name="speaking"
-        options={{
-          title: t('common.tabs.speaking'),
-          tabBarIcon: ({ color, size }) => (
-            <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
-              <MaterialCommunityIcons name="microphone-outline" size={size} color={color} />
-            </View>
-          ),
-        }}
-      />
+      {/* {ENABLE_SPEAKING && (
+        <Tabs.Screen
+          name="speaking"
+          options={{
+            title: t('common.tabs.speaking'),
+            tabBarIcon: ({ color, size }) => (
+              <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
+                <MaterialCommunityIcons name="microphone-outline" size={size} color={color} />
+              </View>
+            ),
+          }}
+        />
+      )} */}
       <Tabs.Screen
         name="stats"
         options={{

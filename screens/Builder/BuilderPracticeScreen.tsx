@@ -1,7 +1,7 @@
 import { ThemedText } from '@/components/typography/ThemedText';
 import { useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { View } from 'react-native';
+import { TouchableOpacity, View } from 'react-native';
 import { BuilderProgressSection } from './components/BuilderProgressSection';
 import { BuilderWordAreas } from './components/BuilderWordAreas';
 import { getSentencesForCategory } from './data/sentences';
@@ -9,14 +9,15 @@ import { getSentencesForCategory } from './data/sentences';
 interface Props {
   categoryKey?: string;
   subKey?: string;
+  onExit?: () => void;
 }
 
-export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
+export function BuilderPracticeScreen({ categoryKey, subKey, onExit }: Props) {
   const sentences = useMemo(
     () => (categoryKey ? getSentencesForCategory(categoryKey) : []),
     [categoryKey],
   );
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [idx, setIdx] = useState(0);
   const current = sentences[idx];
   const prompt = current
@@ -59,6 +60,11 @@ export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
 
   return (
     <View className="flex-1 px-4 py-4 bg-surfaceSecondary dark:bg-surfaceSecondary-dark">
+      {onExit && (
+        <TouchableOpacity onPress={() => onExit()} className="mb-3">
+          <ThemedText className="text-blue-600">{`← ${t('builder.backToCategories') || 'Categories'}`}</ThemedText>
+        </TouchableOpacity>
+      )}
       <BuilderProgressSection progress={{ current: 2, total: 10 }} />
 
       <BuilderWordAreas

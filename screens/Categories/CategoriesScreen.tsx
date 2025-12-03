@@ -13,8 +13,12 @@ export function CategoriesScreen() {
   const handleToggle = (key: string) => {
     setExpandedKey((prev) => (prev === key ? null : key));
   };
-  const handlePressSub = (catKey: string, subKey: string) => {
-    saveSelectedCategory(catKey).catch(console.error);
+  const handlePressSub = async (catKey: string, subKey: string) => {
+    try {
+      await saveSelectedCategory(catKey);
+    } catch (e) {
+      console.error('saveSelectedCategory failed in CategoriesScreen', e);
+    }
     router.push({ pathname: '/(content)/builder', params: { category: catKey } } as any);
   };
   return (
