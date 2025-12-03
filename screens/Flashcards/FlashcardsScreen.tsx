@@ -1,11 +1,12 @@
 import { mapToStudyCards, spanishFlashcards } from '@/api/database/flashcards';
 import { ProgressBar } from '@/components/progress/ProgressBar';
 import { ThemedText } from '@/components/typography/ThemedText';
-import { CategoryItem } from '@/screens/Categories/components/CategoryItem';
 import { categoryCards } from '@/screens/Categories/data/cards';
+import { getSelectedCategory, saveSelectedCategory } from '@/src/storage/category';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Dimensions, Modal, ScrollView, TouchableOpacity, View } from 'react-native';
+import { Dimensions, Modal, Platform, ScrollView, TouchableOpacity, View } from 'react-native';
 import Animated, { FadeInDown, FadeOutDown } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Flashcard } from './components/Flashcard';
@@ -26,8 +27,6 @@ export function FlashcardsScreen() {
   const { i18n, t } = useTranslation();
   const [pickerOpen, setPickerOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [selectedSub, setSelectedSub] = useState<string | null>(null);
-  const [expandedKey, setExpandedKey] = useState<string | null>(null);
   const [deck, setDeck] = useState(() => {
     const source = spanishFlashcards;
     const selection = pickRandomEntries(source, 10);
@@ -42,6 +41,7 @@ export function FlashcardsScreen() {
   const insets = useSafeAreaInsets();
   const paddingTop = insets.top + 2;
   const paddingBottom = insets.bottom + 10;
+  const pickerButtonMarginTop = Platform.OS === 'android' ? -height * 0.01 : -height * 0.05;
 
   const card = deck[index];
 
@@ -94,11 +94,14 @@ export function FlashcardsScreen() {
     setKnownIds(new Set());
   };
 
-  const applyCategorySelection = (catKey: string | null, subKey: string | null) => {
+  const applyCategorySelection = async (catKey: string | null) => {
     setSelectedCategory(catKey);
-    setSelectedSub(subKey);
     setPickerOpen(false);
-    // build new deck filtered by category (if any)
+    try {
+      await saveSelectedCategory(catKey);
+    } catch (e) {
+      console.error('saveSelectedCategory failed', e);
+    }
     const source = spanishFlashcards.filter((e) => (catKey ? e.category === catKey : true));
     const selection = pickRandomEntries(source, 10);
     const base = mapToStudyCards(selection);
@@ -116,6 +119,23 @@ export function FlashcardsScreen() {
     return () => clearTimeout(t);
   }, [done]);
 
+  useEffect(() => {
+    let mounted = true;
+    getSelectedCategory()
+      .then((v) => {
+        if (!mounted) return;
+        if (v) {
+          applyCategorySelection(v);
+        }
+      })
+      .catch((e) => {
+        console.error('[flashcards] getSelectedCategory error', e);
+      });
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
   return (
     <View
       className="flex-1 px-4 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
@@ -128,15 +148,22 @@ export function FlashcardsScreen() {
         >
           <View className="gap-3 mt-2">
             {categoryCards.map((c) => (
-              <CategoryItem
+              <TouchableOpacity
                 key={c.key}
-                card={c}
-                expanded={expandedKey === c.key}
-                onToggle={() => setExpandedKey((prev) => (prev === c.key ? null : c.key))}
-                onPressSubcategory={(catKey: string, subKey: string) =>
-                  applyCategorySelection(catKey, subKey)
-                }
-              />
+                onPress={() => applyCategorySelection(c.key)}
+                className="rounded-2xl bg-surfacePrimary dark:bg-surfacePrimary-dark"
+              >
+                <View className="flex-row justify-between items-center p-4">
+                  <View className="flex-row gap-4 items-center">
+                    <View className="p-3 rounded-xl" style={{ backgroundColor: c.color }}>
+                      <MaterialCommunityIcons name={c.icon as any} size={22} color={c.iconColor} />
+                    </View>
+                    <View>
+                      <ThemedText weight="bold">{t(`builder.categories.${c.key}`)}</ThemedText>
+                    </View>
+                  </View>
+                </View>
+              </TouchableOpacity>
             ))}
           </View>
           <View>
@@ -156,17 +183,15 @@ export function FlashcardsScreen() {
       <View className="mb-4 w-full">
         <TouchableOpacity
           onPress={() => {
-            setExpandedKey(null);
             setPickerOpen(true);
           }}
           className="px-3 py-2 bg-surfacePrimary dark:bg-surfacePrimary-dark rounded mb-3"
-          style={{ marginTop: -height * 0.05 }}
+          style={{ marginTop: pickerButtonMarginTop }}
         >
           <ThemedText>
             {selectedCategory
               ? t(`builder.categories.${selectedCategory}`)
               : t('flashcards.selectCategory') || 'Select category'}
-            {selectedSub ? ` • ${t(`builder.subcategories.${selectedSub}`)}` : ''}
           </ThemedText>
         </TouchableOpacity>
         <ProgressBar progress={progress} height={8} />

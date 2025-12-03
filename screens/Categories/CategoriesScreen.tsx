@@ -1,3 +1,4 @@
+import { saveSelectedCategory } from '@/src/storage/category';
 import { useRouter } from 'expo-router';
 import { useState } from 'react';
 import { Dimensions, Platform, ScrollView, View } from 'react-native';
@@ -12,11 +13,13 @@ export function CategoriesScreen() {
   const handleToggle = (key: string) => {
     setExpandedKey((prev) => (prev === key ? null : key));
   };
-  const handlePressSub = (catKey: string, subKey: string) => {
-    router.push({
-      pathname: '/(content)/builder',
-      params: { category: catKey, sub: subKey },
-    } as any);
+  const handlePressSub = async (catKey: string, subKey: string) => {
+    try {
+      await saveSelectedCategory(catKey);
+    } catch (e) {
+      console.error('saveSelectedCategory failed in CategoriesScreen', e);
+    }
+    router.push({ pathname: '/(content)/builder', params: { category: catKey } } as any);
   };
   return (
     <ScrollView

@@ -51,6 +51,7 @@ export default {
   },
   builder: {
     check: 'Sprawdź',
+    backToCategories: 'Powrót do kategorii',
     translate: 'Przetłumacz zdanie',
     examplePrompt: 'Ułóż zdanie',
     tryAgain: 'Prawie! Sprawdź szyk wyrazów i spróbuj ponownie.',
