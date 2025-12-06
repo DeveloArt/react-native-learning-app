@@ -51,8 +51,13 @@ export default function TabLayout() {
           const state = navigation.getState?.();
           const currentRouteName = state?.routes?.[state.index]?.name;
           const isHome = currentRouteName === 'index';
-          const isSpeaking = currentRouteName === 'speaking';
-          const showBack = navigation.canGoBack() || isSpeaking;
+          {
+            /*const isSpeaking = currentRouteName === 'speaking';*/
+          }
+          const showBack = navigation.canGoBack();
+          {
+            /*|| isSpeaking;*/
+          }
           return (
             <AppHeader
               title={isHome ? t('home.heading.helloTitle') : (options?.title as string) || ''}
@@ -111,7 +116,7 @@ export default function TabLayout() {
           ),
         }}
       />
-      <Tabs.Screen
+      {/*<Tabs.Screen
         name="speaking"
         options={{
           title: t('common.tabs.speaking'),
@@ -121,7 +126,8 @@ export default function TabLayout() {
             </View>
           ),
         }}
-      />
+      />*/}
+      {/*
       <Tabs.Screen
         name="stats"
         options={{
@@ -133,7 +139,7 @@ export default function TabLayout() {
             </View>
           ),
         }}
-      />
+      />*/}
     </Tabs>
   );
 }

@@ -18,11 +18,11 @@ export function HomeScreenButtons() {
         variant="secondaryBlueLight"
         onPress={() => router.push('/(tabs)/builder')}
       />
-      <ButtonPrimary
+      {/*<ButtonPrimary
         title={t('common.buttons.speakingMode')}
         variant="secondaryBlueLight"
         onPress={() => router.push('/(tabs)/speaking')}
-      />
+      />*/}
     </View>
   );
 }
