@@ -1,10 +1,15 @@
 import { ProgressBar } from '@/components/progress/ProgressBar';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { useEffect, useState } from 'react';
-import { Dimensions, Image, StyleSheet, View } from 'react-native';
+import { Image, StyleSheet, View, useWindowDimensions } from 'react-native';
 
 export default function Splash({ onFinish }: { onFinish?: () => void }) {
   const [progress, setProgress] = useState(0);
+  const { width } = useWindowDimensions();
+  const size = Math.round(width * 0.6);
+  const scheme = useColorScheme();
+  const backgroundColor = scheme === 'dark' ? '#000000' : '#ffffff';
+
   useEffect(() => {
     const min = 750;
     const max = 1500;
@@ -21,11 +26,6 @@ export default function Splash({ onFinish }: { onFinish?: () => void }) {
     }, 16);
     return () => clearInterval(id);
   }, [onFinish]);
-
-  const { width } = Dimensions.get('window');
-  const size = Math.round(width * 0.6);
-  const scheme = useColorScheme();
-  const backgroundColor = scheme === 'dark' ? '#000000' : '#ffffff';
 
   return (
     <View style={[styles.container, { backgroundColor }]}>

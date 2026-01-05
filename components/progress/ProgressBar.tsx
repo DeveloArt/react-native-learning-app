@@ -1,7 +1,9 @@
 import { ThemedText } from '@/components/typography/ThemedText';
 import type { ProgressBarProps } from '@/types/types';
+import { memo } from 'react';
 import { View } from 'react-native';
-export function ProgressBar({
+
+export const ProgressBar = memo(function ProgressBar({
   progress,
   height = 6,
   trackClassName,
@@ -43,4 +45,4 @@ export function ProgressBar({
       </ThemedText>
     </View>
   );
-}
+});

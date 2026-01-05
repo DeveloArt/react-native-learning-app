@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { memo, useState } from 'react';
 import { AccessibilityRole, Pressable, Text, View } from 'react-native';
 import { twMerge } from 'tailwind-merge';
 
@@ -78,7 +78,7 @@ const getTextClasses = (variant: ButtonVariant, disabled: boolean, pressed: bool
 
 const getSizeClasses = () => 'h-16';
 
-export const ButtonPrimary = ({
+export const ButtonPrimary = memo(function ButtonPrimary({
   title,
   onPress,
   className,
@@ -87,7 +87,7 @@ export const ButtonPrimary = ({
   variant = 'secondaryBlue',
   accessibilityLabel,
   accessibilityRole = 'button',
-}: Props) => {
+}: Props) {
   const [pressed, setPressed] = useState(false);
 
   const handlePressIn = () => {
@@ -117,4 +117,4 @@ export const ButtonPrimary = ({
       </View>
     </Pressable>
   );
-};
+});

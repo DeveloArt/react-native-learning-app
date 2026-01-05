@@ -1,9 +1,10 @@
 import { ThemedText } from '@/components/typography/ThemedText';
+import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import type { SummaryStat } from '../types/types';
 
-export function SummaryCards({ stats }: { stats: SummaryStat[] }) {
+export const SummaryCards = memo(function SummaryCards({ stats }: { stats: SummaryStat[] }) {
   const { t } = useTranslation();
   return (
     <View className="flex-row gap-3 mt-2">
@@ -22,4 +23,4 @@ export function SummaryCards({ stats }: { stats: SummaryStat[] }) {
       ))}
     </View>
   );
-}
+});

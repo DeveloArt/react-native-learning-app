@@ -1,12 +1,13 @@
 import { mapToStudyCards, spanishFlashcards } from '@/api/database/flashcards';
 import { ProgressBar } from '@/components/progress/ProgressBar';
 import { ThemedText } from '@/components/typography/ThemedText';
+import { flashcardsReducer, initialFlashcardsState } from '@/hooks/useFlashcardsReducer';
 import { categoryCards } from '@/screens/Categories/data/cards';
 import { getSelectedCategory, saveSelectedCategory } from '@/src/storage/category';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { useEffect, useState } from 'react';
+import { useEffect, useReducer } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Dimensions, Modal, Platform, ScrollView, TouchableOpacity, View } from 'react-native';
+import { Modal, Platform, ScrollView, TouchableOpacity, View, useWindowDimensions } from 'react-native';
 import Animated, { FadeInDown, FadeOutDown } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Flashcard } from './components/Flashcard';
@@ -25,90 +26,67 @@ function pickRandomEntries<T>(items: T[], desiredCount: number): T[] {
 
 export function FlashcardsScreen() {
   const { i18n, t } = useTranslation();
-  const [pickerOpen, setPickerOpen] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [deck, setDeck] = useState(() => {
-    const source = spanishFlashcards;
-    const selection = pickRandomEntries(source, 10);
-    const base = mapToStudyCards(selection);
-    return [...base].sort(() => Math.random() - 0.5);
-  });
-  const [index, setIndex] = useState(0);
-  const [incorrectQueue, setIncorrectQueue] = useState<number[]>([]);
-  const [knownIds, setKnownIds] = useState<Set<string>>(new Set());
-
-  const { height } = Dimensions.get('window');
+  const [state, dispatch] = useReducer(flashcardsReducer, initialFlashcardsState);
+  const { height } = useWindowDimensions();
   const insets = useSafeAreaInsets();
   const paddingTop = insets.top + 2;
   const paddingBottom = insets.bottom + 10;
   const pickerButtonMarginTop = Platform.OS === 'android' ? -height * 0.01 : -height * 0.05;
 
-  const card = deck[index];
+  // Initialize deck on mount
+  useEffect(() => {
+    const source = spanishFlashcards;
+    const selection = pickRandomEntries(source, 10);
+    const base = mapToStudyCards(selection);
+    const shuffled = [...base].sort(() => Math.random() - 0.5);
+    dispatch({ type: 'SET_DECK', deck: shuffled });
+  }, []);
 
-  const goNext = () => {
-    if (index < deck.length - 1) {
-      setIndex(index + 1);
-      return;
-    }
-    if (incorrectQueue.length > 0) {
-      const [next, ...rest] = incorrectQueue;
-      setIndex(next);
-      setIncorrectQueue(rest);
-    }
-  };
+  const card = state.deck[state.index];
+  const progress = state.deck.length > 0 ? state.knownIds.size / state.deck.length : 0;
+  const done = state.deck.length > 0 && state.knownIds.size === state.deck.length;
 
   const handleUnknown = () => {
-    if (!incorrectQueue.includes(index)) setIncorrectQueue([...incorrectQueue, index]);
-    goNext();
+    dispatch({ type: 'HANDLE_UNKNOWN' });
+    dispatch({ type: 'GO_NEXT' });
   };
 
   const handleKnown = () => {
-    const current = deck[index];
-    if (current && !knownIds.has(current.id)) {
-      const next = new Set(knownIds);
-      next.add(current.id);
-      setKnownIds(next);
+    if (card) {
+      dispatch({ type: 'HANDLE_KNOWN', cardId: card.id });
     }
-    goNext();
+    dispatch({ type: 'GO_NEXT' });
   };
 
   useEffect(() => {
-    if (knownIds.size === 1) {
-      import('@/screens/Stats/storage').then((m) => m.addLearnedToday()).catch(console.error);
+    if (state.knownIds.size === 1) {
+      import('@/screens/Stats/storage').then((m) => m.addLearnedToday()).catch(() => {});
     }
-  }, [knownIds.size]);
-
-  const progress = deck.length > 0 ? knownIds.size / deck.length : 0;
-  const done = deck.length > 0 && knownIds.size === deck.length;
+  }, [state.knownIds.size]);
 
   const reshuffleDeck = () => {
     const source = spanishFlashcards.filter((e) =>
-      selectedCategory ? e.category === selectedCategory : true,
+      state.selectedCategory ? e.category === state.selectedCategory : true,
     );
     const selection = pickRandomEntries(source, 10);
     const base = mapToStudyCards(selection);
     const shuffled = [...base].sort(() => Math.random() - 0.5);
-    setDeck(shuffled);
-    setIndex(0);
-    setIncorrectQueue([]);
-    setKnownIds(new Set());
+    dispatch({ type: 'SET_DECK', deck: shuffled });
   };
 
   const applyCategorySelection = async (catKey: string | null) => {
-    setSelectedCategory(catKey);
-    setPickerOpen(false);
+    dispatch({ type: 'SET_CATEGORY', category: catKey });
+    dispatch({ type: 'TOGGLE_PICKER' });
     try {
       await saveSelectedCategory(catKey);
     } catch (e) {
-      console.error('saveSelectedCategory failed', e);
+      // Error saving category - silently continue
     }
     const source = spanishFlashcards.filter((e) => (catKey ? e.category === catKey : true));
     const selection = pickRandomEntries(source, 10);
     const base = mapToStudyCards(selection);
-    setDeck([...base].sort(() => Math.random() - 0.5));
-    setIndex(0);
-    setIncorrectQueue([]);
-    setKnownIds(new Set());
+    const shuffled = [...base].sort(() => Math.random() - 0.5);
+    dispatch({ type: 'SET_DECK', deck: shuffled });
   };
 
   useEffect(() => {
@@ -117,7 +95,7 @@ export function FlashcardsScreen() {
       reshuffleDeck();
     }, 2500);
     return () => clearTimeout(t);
-  }, [done]);
+  }, [done, state.selectedCategory]);
 
   useEffect(() => {
     let mounted = true;
@@ -125,11 +103,16 @@ export function FlashcardsScreen() {
       .then((v) => {
         if (!mounted) return;
         if (v) {
-          applyCategorySelection(v);
+          dispatch({ type: 'SET_CATEGORY', category: v });
+          const source = spanishFlashcards.filter((e) => e.category === v);
+          const selection = pickRandomEntries(source, 10);
+          const base = mapToStudyCards(selection);
+          const shuffled = [...base].sort(() => Math.random() - 0.5);
+          dispatch({ type: 'SET_DECK', deck: shuffled });
         }
       })
-      .catch((e) => {
-        console.error('[flashcards] getSelectedCategory error', e);
+      .catch(() => {
+        // Error loading selected category - silently continue
       });
     return () => {
       mounted = false;
@@ -141,7 +124,7 @@ export function FlashcardsScreen() {
       className="flex-1 px-4 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
       style={{ paddingTop, paddingBottom }}
     >
-      <Modal visible={pickerOpen} animationType="slide" onRequestClose={() => setPickerOpen(false)}>
+      <Modal visible={state.pickerOpen} animationType="slide" onRequestClose={() => dispatch({ type: 'TOGGLE_PICKER' })}>
         <ScrollView
           className="flex-1 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
           contentContainerStyle={{ padding: 16, paddingTop, paddingBottom }}
@@ -183,14 +166,14 @@ export function FlashcardsScreen() {
       <View className="mb-4 w-full">
         <TouchableOpacity
           onPress={() => {
-            setPickerOpen(true);
+            dispatch({ type: 'TOGGLE_PICKER' });
           }}
           className="px-3 py-2 bg-surfacePrimary dark:bg-surfacePrimary-dark rounded mb-3"
           style={{ marginTop: pickerButtonMarginTop }}
         >
           <ThemedText>
-            {selectedCategory
-              ? t(`builder.categories.${selectedCategory}`)
+            {state.selectedCategory
+              ? t(`builder.categories.${state.selectedCategory}`)
               : t('flashcards.selectCategory') || 'Select category'}
           </ThemedText>
         </TouchableOpacity>
@@ -198,7 +181,7 @@ export function FlashcardsScreen() {
       </View>
       <View className="items-center">
         <ThemedText size="small" className="opacity-70">
-          {knownIds.size}/{deck.length}
+          {state.knownIds.size}/{state.deck.length}
         </ThemedText>
       </View>
       <View

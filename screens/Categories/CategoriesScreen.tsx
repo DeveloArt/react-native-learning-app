@@ -1,13 +1,13 @@
 import { saveSelectedCategory } from '@/src/storage/category';
 import { useRouter } from 'expo-router';
 import { useState } from 'react';
-import { Dimensions, Platform, ScrollView, View } from 'react-native';
+import { Platform, ScrollView, View, useWindowDimensions } from 'react-native';
 import { CategoryItem } from './components/CategoryItem';
 import { categoryCards } from './data/cards';
 
-const { height } = Dimensions.get('window');
 export function CategoriesScreen() {
   const router = useRouter();
+  const { height } = useWindowDimensions();
   const paddingBottom = Platform.OS === 'ios' ? height * 0.125 : height * 0.16;
   const [expandedKey, setExpandedKey] = useState<string | null>(null);
   const handleToggle = (key: string) => {
@@ -17,7 +17,7 @@ export function CategoriesScreen() {
     try {
       await saveSelectedCategory(catKey);
     } catch (e) {
-      console.error('saveSelectedCategory failed in CategoriesScreen', e);
+      // Error saving category - silently continue
     }
     router.push({ pathname: '/(content)/builder', params: { category: catKey } } as any);
   };
