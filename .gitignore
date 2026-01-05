@@ -9,14 +9,32 @@ dist/
 web-build/
 expo-env.d.ts
 
-# Native
-.kotlin/
+# Native build artifacts
 *.orig.*
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
+
+# Android
+android/.gradle/
+android/app/build/
+android/app/src/main/assets/index.android.bundle
+android/app/release/
+android/.idea/
+android/local.properties
+android/*.iml
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+!ios/*.xcworkspace/contents.xcworkspacedata
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/DerivedData/
+ios/Podfile.lock
 
 # Metro
 .metro-health-check*
@@ -37,3 +55,4 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+android/app/debug.keystore

@@ -138,5 +138,15 @@ export default {
   speaking: {
     howDoYouSay: 'Jak powiesz...',
     tapMic: 'Przytrzymaj ikonę mikrofonu',
+    recording: 'Nagrywanie...',
+    processing: 'Sprawdzanie...',
+    correct: 'Doskonale! ✅',
+    tryAgain: 'Spróbuj ponownie 🔄',
+    correctAnswer: 'Prawidłowa odpowiedź:',
+    next: 'Dalej',
+    noPermission: 'Brak uprawnień do mikrofonu',
+    error: 'Wystąpił błąd',
+    notAvailable: 'Rozpoznawanie mowy nie jest dostępne',
+    youSaid: 'Powiedziałeś',
   },
 };

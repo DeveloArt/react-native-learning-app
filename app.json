@@ -11,8 +11,11 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.develoart.reactnativelearningapp",
-      "buildNumber": "4"
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Potrzebujemy dostępu do mikrofonu, aby sprawdzić Twoją wymowę hiszpańskich słówek.",
+        "NSSpeechRecognitionUsageDescription": "Potrzebujemy dostępu do rozpoznawania mowy, aby sprawdzić Twoją wymowę hiszpańskich słówek."
+      },
+      "bundleIdentifier": "com.nemeyeth.reactnativelearningapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -20,6 +23,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
+      "permissions": ["android.permission.RECORD_AUDIO"]
       "package": "com.develoart.reactnativelearningapp"
     },
     "web": {
