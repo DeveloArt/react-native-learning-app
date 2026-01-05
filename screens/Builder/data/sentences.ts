@@ -352,3 +352,20 @@ export function getSentences(categoryKey: string, subKey: string): BuilderSenten
   }
   return padToTen(seed);
 }
+
+export function getSentencesForCategory(categoryKey: string): BuilderSentenceItem[] {
+  const map = builderSentences[categoryKey] ?? {};
+  const all: BuilderSentenceItem[] = Object.values(map).flat();
+  if (all.length >= 10) return all.slice(0, 10);
+  if (all.length === 0) {
+    return padToTen([
+      {
+        id: `${categoryKey}-seed`,
+        promptEn: 'This is a simple sentence.',
+        promptPl: 'To jest proste zdanie.',
+        targetEs: 'Esta es una frase sencilla.',
+      },
+    ]);
+  }
+  return padToTen(all);
+}

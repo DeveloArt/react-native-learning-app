@@ -7,6 +7,8 @@ export default {
       settings: 'Settings',
       back: 'Back',
       apply: 'Apply',
+      allCategories: 'All categories',
+      close: 'Close',
     },
     tabs: {
       home: 'Home',
@@ -45,9 +47,11 @@ export default {
     tapToSeeTranslation: 'Tap to see translation',
     tapToSeeOriginal: 'Tap to see original',
     swipeForNext: 'Swipe to see next example',
+    selectCategory: 'Select category',
   },
   builder: {
     check: 'Check',
+    backToCategories: 'Back to categories',
     translate: 'Translate the sentence',
     examplePrompt: 'Build the sentence',
     tryAgain: 'Almost! Check the word order and try again.',
@@ -113,6 +117,8 @@ export default {
     last7Days: 'Last 7 Days',
     newWordsLearned: 'New words learned',
     currentStreak: 'Current Streak',
+    keepItUp: "Keep it up — don't break the streak!",
+    startLearning: 'Start learning today!',
     days: 'Days',
     summary: {
       learned: 'Learned',

@@ -27,4 +27,5 @@ export interface ProgressBarProps {
   height?: number;
   trackClassName?: string;
   fillClassName?: string;
+  showPercent?: boolean;
 }

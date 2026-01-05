@@ -7,6 +7,8 @@ export default {
       settings: 'Ustawienia',
       back: 'Wstecz',
       apply: 'Zastosuj',
+      allCategories: 'Wszystkie kategorie',
+      close: 'Zamknij',
     },
     tabs: {
       home: 'Start',
@@ -45,9 +47,11 @@ export default {
     tapToSeeTranslation: 'Dotknij, aby zobaczyć tłumaczenie',
     tapToSeeOriginal: 'Dotknij, aby zobaczyć oryginał',
     swipeForNext: 'Przesuń, aby zobaczyć kolejny przykład',
+    selectCategory: 'Wybierz kategorię',
   },
   builder: {
     check: 'Sprawdź',
+    backToCategories: 'Powrót do kategorii',
     translate: 'Przetłumacz zdanie',
     examplePrompt: 'Ułóż zdanie',
     tryAgain: 'Prawie! Sprawdź szyk wyrazów i spróbuj ponownie.',
@@ -113,6 +117,8 @@ export default {
     last7Days: 'Ostatnie 7 dni',
     newWordsLearned: 'Nowe słowa',
     currentStreak: 'Aktualna passa',
+    keepItUp: 'Świetnie idzie — nie przerywaj passy!',
+    startLearning: 'Zacznij uczyć się już dziś!',
     days: 'dni',
     summary: {
       learned: 'Nauczone',
