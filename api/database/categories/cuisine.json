@@ -1,0 +1,296 @@
+[
+  {
+    "id": "9",
+    "word": "después",
+    "translationEn": "after;afterwards",
+    "translationPl": "po;potem",
+    "examples": [
+      {
+        "sentence": "Después de la cena.",
+        "translationEn": "After dinner.",
+        "translationPl": "Po kolacji."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "122",
+    "word": "mitad",
+    "translationEn": "half",
+    "translationPl": "połowa",
+    "examples": [
+      {
+        "sentence": "La mitad de la tarta.",
+        "translationEn": "Half of the cake.",
+        "translationPl": "Połowa ciasta."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "179",
+    "word": "doble",
+    "translationEn": "double",
+    "translationPl": "podwójny",
+    "examples": [
+      {
+        "sentence": "Doble ración.",
+        "translationEn": "Double portion.",
+        "translationPl": "Podwójna porcja."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "285",
+    "word": "normalmente",
+    "translationEn": "normally;usually",
+    "translationPl": "normalnie;zazwyczaj",
+    "examples": [
+      {
+        "sentence": "Normalmente como fruta.",
+        "translationEn": "Normally I eat fruit.",
+        "translationPl": "Zazwyczaj jem owoce."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "293",
+    "word": "contener",
+    "translationEn": "to contain",
+    "translationPl": "zawierać",
+    "examples": [
+      {
+        "sentence": "Contiene azúcar.",
+        "translationEn": "It contains sugar.",
+        "translationPl": "Zawiera cukier."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "456",
+    "word": "chocolate",
+    "translationEn": "chocolate",
+    "translationPl": "czekolada",
+    "examples": [
+      {
+        "sentence": "Me encanta el chocolate.",
+        "translationEn": "I love chocolate.",
+        "translationPl": "Uwielbiam czekoladę."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "460",
+    "word": "indio",
+    "translationEn": "Indian",
+    "translationPl": "indyjski",
+    "examples": [
+      {
+        "sentence": "Comida india.",
+        "translationEn": "Indian food.",
+        "translationPl": "Indyjskie jedzenie."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "552",
+    "word": "rico",
+    "translationEn": "rich;delicious",
+    "translationPl": "bogaty;pyszny",
+    "examples": [
+      {
+        "sentence": "Es muy rico.",
+        "translationEn": "It's very delicious (or he's very rich).",
+        "translationPl": "To jest bardzo smaczne (lub on jest bardzo bogaty)."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "591",
+    "word": "gusto",
+    "translationEn": "taste;pleasure",
+    "translationPl": "smak;przyjemność",
+    "examples": [
+      {
+        "sentence": "Con mucho gusto.",
+        "translationEn": "With pleasure.",
+        "translationPl": "Z przyjemnością."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "695",
+    "word": "preparar",
+    "translationEn": "to prepare",
+    "translationPl": "przygotowywać",
+    "examples": [
+      {
+        "sentence": "Vamos a preparar la cena.",
+        "translationEn": "We are going to prepare dinner.",
+        "translationPl": "Przygotujemy kolację."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "709",
+    "word": "tomar",
+    "translationEn": "to take;to drink",
+    "translationPl": "brać;pić",
+    "examples": [
+      {
+        "sentence": "Voy a tomar un café.",
+        "translationEn": "I'm going to drink a coffee.",
+        "translationPl": "Wypiję kawę."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "746",
+    "word": "carne",
+    "translationEn": "meat",
+    "translationPl": "mięso",
+    "examples": [
+      {
+        "sentence": "Me gusta la carne.",
+        "translationEn": "I like meat.",
+        "translationPl": "Lubię mięso."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "864",
+    "word": "preferir",
+    "translationEn": "to prefer",
+    "translationPl": "preferować",
+    "examples": [
+      {
+        "sentence": "Prefiero café.",
+        "translationEn": "I prefer coffee.",
+        "translationPl": "Wolę kawę."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "894",
+    "word": "rico",
+    "translationEn": "rich;delicious",
+    "translationPl": "bogaty;smaczny",
+    "examples": [
+      {
+        "sentence": "Esta comida es muy rica.",
+        "translationEn": "This food is very delicious.",
+        "translationPl": "To jedzenie jest bardzo smaczne."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "1034",
+    "word": "dividir",
+    "translationEn": "to divide",
+    "translationPl": "dzielić",
+    "examples": [
+      {
+        "sentence": "Vamos a dividir la pizza.",
+        "translationEn": "We are going to divide the pizza.",
+        "translationPl": "Podzielimy pizzę."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "1107",
+    "word": "incluir",
+    "translationEn": "to include",
+    "translationPl": "zawierać",
+    "examples": [
+      {
+        "sentence": "Incluye el desayuno.",
+        "translationEn": "Breakfast is included.",
+        "translationPl": "Zawiera śniadanie."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "1131",
+    "word": "local",
+    "translationEn": "local;premises",
+    "translationPl": "lokalny;lokal",
+    "examples": [
+      {
+        "sentence": "Comida local.",
+        "translationEn": "Local food.",
+        "translationPl": "Lokalne jedzenie."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "1177",
+    "word": "pedir",
+    "translationEn": "to ask for;to order",
+    "translationPl": "prosić;zamawiać",
+    "examples": [
+      {
+        "sentence": "Voy a pedir una pizza.",
+        "translationEn": "I'm going to order a pizza.",
+        "translationPl": "Zamówię pizzę."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "1191",
+    "word": "preferir",
+    "translationEn": "to prefer",
+    "translationPl": "woleć",
+    "examples": [
+      {
+        "sentence": "Prefiero café.",
+        "translationEn": "I prefer coffee.",
+        "translationPl": "Wolę kawę."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "1192",
+    "word": "preparar",
+    "translationEn": "to prepare",
+    "translationPl": "przygotowywać",
+    "examples": [
+      {
+        "sentence": "Voy a preparar la cena.",
+        "translationEn": "I'm going to prepare dinner.",
+        "translationPl": "Przygotuję kolację."
+      }
+    ],
+    "category": "cuisine"
+  },
+  {
+    "id": "1290",
+    "word": "vegetal",
+    "translationEn": "vegetable",
+    "translationPl": "warzywo",
+    "examples": [
+      {
+        "sentence": "Compro vegetales frescos.",
+        "translationEn": "I buy fresh vegetables.",
+        "translationPl": "Kupuję świeże warzywa."
+      }
+    ],
+    "category": "cuisine"
+  }
+]

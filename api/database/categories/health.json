@@ -1,0 +1,800 @@
+[
+  {
+    "id": "22",
+    "word": "mal",
+    "translationEn": "badly;poorly",
+    "translationPl": "źle;słabo",
+    "examples": [
+      {
+        "sentence": "Me siento mal.",
+        "translationEn": "I feel bad.",
+        "translationPl": "Czuję się źle."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "47",
+    "word": "cuerpo",
+    "translationEn": "body",
+    "translationPl": "ciało",
+    "examples": [
+      {
+        "sentence": "Mi cuerpo duele.",
+        "translationEn": "My body hurts.",
+        "translationPl": "Boli mnie ciało."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "64",
+    "word": "ojo",
+    "translationEn": "eye",
+    "translationPl": "oko",
+    "examples": [
+      {
+        "sentence": "Cierra los ojos.",
+        "translationEn": "Close your eyes.",
+        "translationPl": "Zamknij oczy."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "126",
+    "word": "boca",
+    "translationEn": "mouth",
+    "translationPl": "usta",
+    "examples": [
+      {
+        "sentence": "Cierra la boca.",
+        "translationEn": "Close your mouth.",
+        "translationPl": "Zamknij usta."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "127",
+    "word": "energía",
+    "translationEn": "energy",
+    "translationPl": "energia",
+    "examples": [
+      {
+        "sentence": "Necesito más energía.",
+        "translationEn": "I need more energy.",
+        "translationPl": "Potrzebuję więcej energii."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "135",
+    "word": "sangre",
+    "translationEn": "blood",
+    "translationPl": "krew",
+    "examples": [
+      {
+        "sentence": "Donar sangre.",
+        "translationEn": "Donate blood.",
+        "translationPl": "Oddać krew."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "148",
+    "word": "mente",
+    "translationEn": "mind",
+    "translationPl": "umysł",
+    "examples": [
+      {
+        "sentence": "Tengo la mente clara.",
+        "translationEn": "I have a clear mind.",
+        "translationPl": "Mam jasny umysł."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "158",
+    "word": "peso",
+    "translationEn": "weight;currency unit",
+    "translationPl": "waga;jednostka waluty",
+    "examples": [
+      {
+        "sentence": "Perder peso.",
+        "translationEn": "Lose weight.",
+        "translationPl": "Schudnąć."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "211",
+    "word": "operación",
+    "translationEn": "operation",
+    "translationPl": "operacja",
+    "examples": [
+      {
+        "sentence": "Una operación exitosa.",
+        "translationEn": "A successful operation.",
+        "translationPl": "Udana operacja."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "215",
+    "word": "piel",
+    "translationEn": "skin",
+    "translationPl": "skóra",
+    "examples": [
+      {
+        "sentence": "Tengo la piel suave.",
+        "translationEn": "I have soft skin.",
+        "translationPl": "Mam miękką skórę."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "268",
+    "word": "droga",
+    "translationEn": "drug",
+    "translationPl": "narkotyk",
+    "examples": [
+      {
+        "sentence": "No uses drogas.",
+        "translationEn": "Don't use drugs.",
+        "translationPl": "Nie używaj narkotyków."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "290",
+    "word": "sensación",
+    "translationEn": "sensation;feeling",
+    "translationPl": "wrażenie;uczucie",
+    "examples": [
+      {
+        "sentence": "Una extraña sensación.",
+        "translationEn": "A strange sensation.",
+        "translationPl": "Dziwne uczucie."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "333",
+    "word": "reacción",
+    "translationEn": "reaction",
+    "translationPl": "reakcja",
+    "examples": [
+      {
+        "sentence": "Una reacción alérgica.",
+        "translationEn": "An allergic reaction.",
+        "translationPl": "Reakcja alergiczna."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "339",
+    "word": "alcohol",
+    "translationEn": "alcohol",
+    "translationPl": "alkohol",
+    "examples": [
+      {
+        "sentence": "No bebo alcohol.",
+        "translationEn": "I don't drink alcohol.",
+        "translationPl": "Nie piję alkoholu."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "352",
+    "word": "mental",
+    "translationEn": "mental",
+    "translationPl": "umysłowy",
+    "examples": [
+      {
+        "sentence": "Salud mental.",
+        "translationEn": "Mental health.",
+        "translationPl": "Zdrowie psychiczne."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "359",
+    "word": "temperatura",
+    "translationEn": "temperature",
+    "translationPl": "temperatura",
+    "examples": [
+      {
+        "sentence": "Baja temperatura.",
+        "translationEn": "Low temperature.",
+        "translationPl": "Niska temperatura."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "362",
+    "word": "activo",
+    "translationEn": "active",
+    "translationPl": "aktywny",
+    "examples": [
+      {
+        "sentence": "Mantenerse activo.",
+        "translationEn": "Stay active.",
+        "translationPl": "Pozostać aktywnym."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "420",
+    "word": "columna",
+    "translationEn": "column",
+    "translationPl": "kolumna",
+    "examples": [
+      {
+        "sentence": "La columna vertebral.",
+        "translationEn": "The spinal column.",
+        "translationPl": "Kręgosłup."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "436",
+    "word": "baja",
+    "translationEn": "casualty;discharge;decrease",
+    "translationPl": "ofiara;zwolnienie;spadek",
+    "examples": [
+      {
+        "sentence": "Hubo una baja de temperatura.",
+        "translationEn": "There was a drop in temperature.",
+        "translationPl": "Nastąpił spadek temperatury."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "440",
+    "word": "labio",
+    "translationEn": "lip",
+    "translationPl": "warga",
+    "examples": [
+      {
+        "sentence": "Tenía los labios secos.",
+        "translationEn": "His lips were dry.",
+        "translationPl": "Miał suche usta."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "443",
+    "word": "mejora",
+    "translationEn": "improvement",
+    "translationPl": "poprawa",
+    "examples": [
+      {
+        "sentence": "Hay una mejora en su salud.",
+        "translationEn": "There is an improvement in his health.",
+        "translationPl": "Nastąpiła poprawa jego zdrowia."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "507",
+    "word": "aborto",
+    "translationEn": "abortion",
+    "translationPl": "aborcja",
+    "examples": [
+      {
+        "sentence": "El debate sobre el aborto.",
+        "translationEn": "The debate about abortion.",
+        "translationPl": "Debata na temat aborcji."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "523",
+    "word": "equilibrio",
+    "translationEn": "balance;equilibrium",
+    "translationPl": "równowaga",
+    "examples": [
+      {
+        "sentence": "Perdió el equilibrio.",
+        "translationEn": "He lost his balance.",
+        "translationPl": "Stracił równowagę."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "533",
+    "word": "eficacia",
+    "translationEn": "effectiveness;efficiency",
+    "translationPl": "skuteczność;wydajność",
+    "examples": [
+      {
+        "sentence": "La eficacia del medicamento.",
+        "translationEn": "The effectiveness of the medicine.",
+        "translationPl": "Skuteczność leku."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "539",
+    "word": "garganta",
+    "translationEn": "throat",
+    "translationPl": "gardło",
+    "examples": [
+      {
+        "sentence": "Me duele la garganta.",
+        "translationEn": "My throat hurts.",
+        "translationPl": "Boli mnie gardło."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "636",
+    "word": "temperatura",
+    "translationEn": "temperature",
+    "translationPl": "temperatura",
+    "examples": [
+      {
+        "sentence": "La temperatura subió.",
+        "translationEn": "The temperature rose.",
+        "translationPl": "Temperatura wzrosła."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "640",
+    "word": "tratamiento",
+    "translationEn": "treatment",
+    "translationPl": "leczenie;traktowanie",
+    "examples": [
+      {
+        "sentence": "Recibió un buen tratamiento.",
+        "translationEn": "He received good treatment.",
+        "translationPl": "Otrzymał dobre leczenie."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "664",
+    "word": "embarazada",
+    "translationEn": "pregnant",
+    "translationPl": "w ciąży",
+    "examples": [
+      {
+        "sentence": "Está embarazada de cinco meses.",
+        "translationEn": "She is five months pregnant.",
+        "translationPl": "Jest w piątym miesiącu ciąży."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "691",
+    "word": "pecho",
+    "translationEn": "chest;breast",
+    "translationPl": "klatka piersiowa;pierś",
+    "examples": [
+      {
+        "sentence": "Le dolía el pecho.",
+        "translationEn": "His chest hurt.",
+        "translationPl": "Bolała go klatka piersiowa."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "719",
+    "word": "accidente",
+    "translationEn": "accident",
+    "translationPl": "wypadek",
+    "examples": [
+      {
+        "sentence": "Tuvo un accidente de coche.",
+        "translationEn": "He had a car accident.",
+        "translationPl": "Miał wypadek samochodowy."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "730",
+    "word": "análisis",
+    "translationEn": "analysis",
+    "translationPl": "analiza",
+    "examples": [
+      {
+        "sentence": "Necesito un análisis de sangre.",
+        "translationEn": "I need a blood test (analysis).",
+        "translationPl": "Potrzebuję analizy krwi."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "747",
+    "word": "clínico",
+    "translationEn": "clinical",
+    "translationPl": "kliniczny",
+    "examples": [
+      {
+        "sentence": "Un estudio clínico.",
+        "translationEn": "A clinical study.",
+        "translationPl": "Badanie kliniczne."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "761",
+    "word": "débil",
+    "translationEn": "weak",
+    "translationPl": "słaby",
+    "examples": [
+      {
+        "sentence": "Se siente débil.",
+        "translationEn": "He feels weak.",
+        "translationPl": "Czuje się słabo."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "777",
+    "word": "energía",
+    "translationEn": "energy",
+    "translationPl": "energia",
+    "examples": [
+      {
+        "sentence": "Tengo mucha energía.",
+        "translationEn": "I have a lot of energy.",
+        "translationPl": "Mam dużo energii."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "799",
+    "word": "herida",
+    "translationEn": "wound;injury",
+    "translationPl": "rana;uraz",
+    "examples": [
+      {
+        "sentence": "Tenía una herida en el brazo.",
+        "translationEn": "He had a wound on his arm.",
+        "translationPl": "Miał ranę na ramieniu."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "821",
+    "word": "médico",
+    "translationEn": "doctor;medical",
+    "translationPl": "lekarz;medyczny",
+    "examples": [
+      {
+        "sentence": "Necesito ver a un médico.",
+        "translationEn": "I need to see a doctor.",
+        "translationPl": "Muszę iść do lekarza."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "822",
+    "word": "mente",
+    "translationEn": "mind",
+    "translationPl": "umysł",
+    "examples": [
+      {
+        "sentence": "Mente sana en cuerpo sano.",
+        "translationEn": "Healthy mind in a healthy body.",
+        "translationPl": "W zdrowym ciele zdrowy duch."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "842",
+    "word": "paciente",
+    "translationEn": "patient",
+    "translationPl": "cierpliwy;pacjent",
+    "examples": [
+      {
+        "sentence": "Ten paciencia.",
+        "translationEn": "Be patient.",
+        "translationPl": "Bądź cierpliwy."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "868",
+    "word": "prevención",
+    "translationEn": "prevention",
+    "translationPl": "zapobieganie",
+    "examples": [
+      {
+        "sentence": "La prevención es clave.",
+        "translationEn": "Prevention is key.",
+        "translationPl": "Zapobieganie jest kluczem."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "884",
+    "word": "reacción",
+    "translationEn": "reaction",
+    "translationPl": "reakcja",
+    "examples": [
+      {
+        "sentence": "Tuvo una reacción alérgica.",
+        "translationEn": "He had an allergic reaction.",
+        "translationPl": "Miał reakcję alergiczną."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "896",
+    "word": "saludable",
+    "translationEn": "healthy",
+    "translationPl": "zdrowy",
+    "examples": [
+      {
+        "sentence": "Comer saludable.",
+        "translationEn": "To eat healthy.",
+        "translationPl": "Jeść zdrowo."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "917",
+    "word": "urgencia",
+    "translationEn": "urgency;emergency",
+    "translationPl": "pilność;nagły wypadek",
+    "examples": [
+      {
+        "sentence": "Es una urgencia.",
+        "translationEn": "It's an emergency.",
+        "translationPl": "To nagły wypadek."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "960",
+    "word": "cabeza",
+    "translationEn": "head",
+    "translationPl": "głowa",
+    "examples": [
+      {
+        "sentence": "Me duele la cabeza.",
+        "translationEn": "My head hurts.",
+        "translationPl": "Boli mnie głowa."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1049",
+    "word": "energía",
+    "translationEn": "energy",
+    "translationPl": "energia",
+    "examples": [
+      {
+        "sentence": "Necesito más energía.",
+        "translationEn": "I need more energy.",
+        "translationPl": "Potrzebuję więcej energii."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1164",
+    "word": "operación",
+    "translationEn": "operation",
+    "translationPl": "operacja",
+    "examples": [
+      {
+        "sentence": "Una operación exitosa.",
+        "translationEn": "A successful operation.",
+        "translationPl": "Udane działanie."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1183",
+    "word": "peso",
+    "translationEn": "weight",
+    "translationPl": "waga",
+    "examples": [
+      {
+        "sentence": "Tengo que bajar de peso.",
+        "translationEn": "I have to lose weight.",
+        "translationPl": "Muszę schudnąć."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1222",
+    "word": "regular",
+    "translationEn": "regular;to regulate",
+    "translationPl": "regularny;regulować",
+    "examples": [
+      {
+        "sentence": "Hago ejercicio regular.",
+        "translationEn": "I exercise regularly.",
+        "translationPl": "Ćwiczę regularnie."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1238",
+    "word": "salud",
+    "translationEn": "health",
+    "translationPl": "zdrowie",
+    "examples": [
+      {
+        "sentence": "Cuida tu salud.",
+        "translationEn": "Take care of your health.",
+        "translationPl": "Dbaj o swoje zdrowie."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1317",
+    "word": "alimentación",
+    "translationEn": "nutrition;feeding",
+    "translationPl": "żywienie",
+    "examples": [
+      {
+        "sentence": "Una buena alimentación.",
+        "translationEn": "Good nutrition.",
+        "translationPl": "Dobre odżywianie."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1351",
+    "word": "circular",
+    "translationEn": "circular;to circulate",
+    "translationPl": "okrągły;krążyć",
+    "examples": [
+      {
+        "sentence": "La sangre circula.",
+        "translationEn": "Blood circulates.",
+        "translationPl": "Krew krąży."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1410",
+    "word": "dolor",
+    "translationEn": "pain",
+    "translationPl": "ból",
+    "examples": [
+      {
+        "sentence": "Siento dolor.",
+        "translationEn": "I feel pain.",
+        "translationPl": "Czuję ból."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1420",
+    "word": "energía",
+    "translationEn": "energy",
+    "translationPl": "energia",
+    "examples": [
+      {
+        "sentence": "Tengo mucha energía.",
+        "translationEn": "I have a lot of energy.",
+        "translationPl": "Mam dużo energii."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1421",
+    "word": "enfermedad",
+    "translationEn": "illness;disease",
+    "translationPl": "choroba",
+    "examples": [
+      {
+        "sentence": "Una enfermedad grave.",
+        "translationEn": "A serious illness.",
+        "translationPl": "Poważna choroba."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1528",
+    "word": "operación",
+    "translationEn": "operation",
+    "translationPl": "operacja",
+    "examples": [
+      {
+        "sentence": "Una operación exitosa.",
+        "translationEn": "A successful operation.",
+        "translationPl": "Udany zabieg."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1612",
+    "word": "sufrir",
+    "translationEn": "to suffer",
+    "translationPl": "cierpieć",
+    "examples": [
+      {
+        "sentence": "Sufro de dolor.",
+        "translationEn": "I suffer from pain.",
+        "translationPl": "Cierpię z bólu."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1706",
+    "word": "circular",
+    "translationEn": "to circulate;circular",
+    "translationPl": "krążyć;okrągły",
+    "examples": [
+      {
+        "sentence": "La sangre circula por el cuerpo.",
+        "translationEn": "Blood circulates through the body.",
+        "translationPl": "Krew krąży w ciele."
+      }
+    ],
+    "category": "health"
+  },
+  {
+    "id": "1722",
+    "word": "condición",
+    "translationEn": "condition",
+    "translationPl": "warunek",
+    "examples": [
+      {
+        "sentence": "Una buena condición.",
+        "translationEn": "A good condition.",
+        "translationPl": "Dobra kondycja."
+      }
+    ],
+    "category": "health"
+  }
+]

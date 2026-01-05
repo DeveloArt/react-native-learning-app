@@ -1,0 +1,632 @@
+[
+  {
+    "id": "78",
+    "word": "vista",
+    "translationEn": "view;sight",
+    "translationPl": "widok;wzrok",
+    "examples": [
+      {
+        "sentence": "Una vista hermosa.",
+        "translationEn": "A beautiful view.",
+        "translationPl": "Piękny widok."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "81",
+    "word": "abril",
+    "translationEn": "April",
+    "translationPl": "kwiecień",
+    "examples": [
+      {
+        "sentence": "En abril, aguas mil.",
+        "translationEn": "In April, a thousand waters (meaning: a lot of rain).",
+        "translationPl": "W kwietniu, tysiąc wód (dużo deszczu)."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "88",
+    "word": "enero",
+    "translationEn": "January",
+    "translationPl": "styczeń",
+    "examples": [
+      {
+        "sentence": "En enero hace frío.",
+        "translationEn": "It's cold in January.",
+        "translationPl": "W styczniu jest zimno."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "129",
+    "word": "natural",
+    "translationEn": "natural",
+    "translationPl": "naturalny",
+    "examples": [
+      {
+        "sentence": "Un producto natural.",
+        "translationEn": "A natural product.",
+        "translationPl": "Naturalny produkt."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "153",
+    "word": "origen",
+    "translationEn": "origin",
+    "translationPl": "pochodzenie",
+    "examples": [
+      {
+        "sentence": "El origen del universo.",
+        "translationEn": "The origin of the universe.",
+        "translationPl": "Pochodzenie wszechświata."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "164",
+    "word": "verano",
+    "translationEn": "summer",
+    "translationPl": "lato",
+    "examples": [
+      {
+        "sentence": "Me gusta el verano.",
+        "translationEn": "I like summer.",
+        "translationPl": "Lubię lato."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "242",
+    "word": "león",
+    "translationEn": "lion",
+    "translationPl": "lew",
+    "examples": [
+      {
+        "sentence": "El rey de la selva es el león.",
+        "translationEn": "The king of the jungle is the lion.",
+        "translationPl": "Królem dżungli jest lew."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "266",
+    "word": "hermoso",
+    "translationEn": "beautiful",
+    "translationPl": "piękny",
+    "examples": [
+      {
+        "sentence": "Un día hermoso.",
+        "translationEn": "A beautiful day.",
+        "translationPl": "Piękny dzień."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "282",
+    "word": "universo",
+    "translationEn": "universe",
+    "translationPl": "wszechświat",
+    "examples": [
+      {
+        "sentence": "El vasto universo.",
+        "translationEn": "The vast universe.",
+        "translationPl": "Ogromny wszechświat."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "313",
+    "word": "evolución",
+    "translationEn": "evolution",
+    "translationPl": "ewolucja",
+    "examples": [
+      {
+        "sentence": "La evolución de las especies.",
+        "translationEn": "The evolution of species.",
+        "translationPl": "Ewolucja gatunków."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "341",
+    "word": "desastre",
+    "translationEn": "disaster",
+    "translationPl": "katastrofa",
+    "examples": [
+      {
+        "sentence": "Un desastre natural.",
+        "translationEn": "A natural disaster.",
+        "translationPl": "Klęska żywiołowa."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "364",
+    "word": "rural",
+    "translationEn": "rural",
+    "translationPl": "wiejski",
+    "examples": [
+      {
+        "sentence": "Zona rural.",
+        "translationEn": "Rural area.",
+        "translationPl": "Obszar wiejski."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "421",
+    "word": "organismo",
+    "translationEn": "organism;body (organization)",
+    "translationPl": "organizm;ciało (organizacja)",
+    "examples": [
+      {
+        "sentence": "Un organismo vivo.",
+        "translationEn": "A living organism.",
+        "translationPl": "Żywy organizm."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "435",
+    "word": "tormenta",
+    "translationEn": "storm",
+    "translationPl": "burza",
+    "examples": [
+      {
+        "sentence": "Se avecina una tormenta.",
+        "translationEn": "A storm is coming.",
+        "translationPl": "Nadchodzi burza."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "477",
+    "word": "observar",
+    "translationEn": "to observe",
+    "translationPl": "obserwować",
+    "examples": [
+      {
+        "sentence": "Observó el cielo estrellado.",
+        "translationEn": "He observed the starry sky.",
+        "translationPl": "Obserwował rozgwieżdżone niebo."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "480",
+    "word": "profundidad",
+    "translationEn": "depth",
+    "translationPl": "głębokość",
+    "examples": [
+      {
+        "sentence": "La profundidad del océano.",
+        "translationEn": "The depth of the ocean.",
+        "translationPl": "Głębokość oceanu."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "490",
+    "word": "originalmente",
+    "translationEn": "originally",
+    "translationPl": "pierwotnie",
+    "examples": [
+      {
+        "sentence": "Originalmente era un bosque.",
+        "translationEn": "It was originally a forest.",
+        "translationPl": "Pierwotnie był to las."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "504",
+    "word": "pacífico",
+    "translationEn": "peaceful",
+    "translationPl": "spokojny;pacyficzny",
+    "examples": [
+      {
+        "sentence": "Un lugar pacífico.",
+        "translationEn": "A peaceful place.",
+        "translationPl": "Spokojne miejsce."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "536",
+    "word": "explorar",
+    "translationEn": "to explore",
+    "translationPl": "badać;eksplorować",
+    "examples": [
+      {
+        "sentence": "Vamos a explorar el bosque.",
+        "translationEn": "Let's explore the forest.",
+        "translationPl": "Chodźmy eksplorować las."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "550",
+    "word": "pureza",
+    "translationEn": "purity",
+    "translationPl": "czystość",
+    "examples": [
+      {
+        "sentence": "La pureza del agua.",
+        "translationEn": "The purity of the water.",
+        "translationPl": "Czystość wody."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "581",
+    "word": "enorme",
+    "translationEn": "enormous",
+    "translationPl": "ogromny",
+    "examples": [
+      {
+        "sentence": "Un enorme árbol.",
+        "translationEn": "An enormous tree.",
+        "translationPl": "Ogromne drzewo."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "600",
+    "word": "marzo",
+    "translationEn": "March",
+    "translationPl": "marzec",
+    "examples": [
+      {
+        "sentence": "En marzo empieza la primavera.",
+        "translationEn": "Spring begins in March.",
+        "translationPl": "W marcu zaczyna się wiosna."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "603",
+    "word": "montaña",
+    "translationEn": "mountain",
+    "translationPl": "góra",
+    "examples": [
+      {
+        "sentence": "Nos gusta ir a la montaña.",
+        "translationEn": "We like to go to the mountains.",
+        "translationPl": "Lubimy jeździć w góry."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "647",
+    "word": "visible",
+    "translationEn": "visible",
+    "translationPl": "widoczny",
+    "examples": [
+      {
+        "sentence": "La estrella es visible desde aquí.",
+        "translationEn": "The star is visible from here.",
+        "translationPl": "Gwiazda jest widoczna stąd."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "781",
+    "word": "espacio",
+    "translationEn": "space",
+    "translationPl": "przestrzeń",
+    "examples": [
+      {
+        "sentence": "El espacio exterior.",
+        "translationEn": "Outer space.",
+        "translationPl": "Przestrzeń kosmiczna."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "788",
+    "word": "fenómeno",
+    "translationEn": "phenomenon",
+    "translationPl": "zjawisko",
+    "examples": [
+      {
+        "sentence": "Un fenómeno natural.",
+        "translationEn": "A natural phenomenon.",
+        "translationPl": "Zjawisko naturalne."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "791",
+    "word": "flotar",
+    "translationEn": "to float",
+    "translationPl": "unosić się na wodzie;pływać",
+    "examples": [
+      {
+        "sentence": "El barco flota en el agua.",
+        "translationEn": "The boat floats on the water.",
+        "translationPl": "Łódź unosi się na wodzie."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "809",
+    "word": "inmenso",
+    "translationEn": "immense",
+    "translationPl": "ogromny",
+    "examples": [
+      {
+        "sentence": "Un inmenso océano.",
+        "translationEn": "An immense ocean.",
+        "translationPl": "Ogromny ocean."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "814",
+    "word": "invierno",
+    "translationEn": "winter",
+    "translationPl": "zima",
+    "examples": [
+      {
+        "sentence": "Me gusta el invierno.",
+        "translationEn": "I like winter.",
+        "translationPl": "Lubię zimę."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "831",
+    "word": "naturaleza",
+    "translationEn": "nature",
+    "translationPl": "natura",
+    "examples": [
+      {
+        "sentence": "Me gusta la naturaleza.",
+        "translationEn": "I like nature.",
+        "translationPl": "Lubię naturę."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "836",
+    "word": "observar",
+    "translationEn": "to observe",
+    "translationPl": "obserwować",
+    "examples": [
+      {
+        "sentence": "Vamos a observar las estrellas.",
+        "translationEn": "We are going to observe the stars.",
+        "translationPl": "Będziemy obserwować gwiazdy."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "898",
+    "word": "seco",
+    "translationEn": "dry",
+    "translationPl": "suchy",
+    "examples": [
+      {
+        "sentence": "El clima es muy seco aquí.",
+        "translationEn": "The climate is very dry here.",
+        "translationPl": "Klimat jest tu bardzo suchy."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "904",
+    "word": "sol",
+    "translationEn": "sun",
+    "translationPl": "słońce",
+    "examples": [
+      {
+        "sentence": "El sol brilla.",
+        "translationEn": "The sun shines.",
+        "translationPl": "Słońce świeci."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "918",
+    "word": "verano",
+    "translationEn": "summer",
+    "translationPl": "lato",
+    "examples": [
+      {
+        "sentence": "Me encanta el verano.",
+        "translationEn": "I love summer.",
+        "translationPl": "Uwielbiam lato."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "938",
+    "word": "aire",
+    "translationEn": "air",
+    "translationPl": "powietrze",
+    "examples": [
+      {
+        "sentence": "Respira aire fresco.",
+        "translationEn": "Breathe fresh air.",
+        "translationPl": "Oddychaj świeżym powietrzem."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "969",
+    "word": "cielo",
+    "translationEn": "sky;heaven",
+    "translationPl": "niebo",
+    "examples": [
+      {
+        "sentence": "El cielo está despejado.",
+        "translationEn": "The sky is clear.",
+        "translationPl": "Niebo jest bezchmurne."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "1080",
+    "word": "fenómeno",
+    "translationEn": "phenomenon",
+    "translationPl": "zjawisko",
+    "examples": [
+      {
+        "sentence": "Un fenómeno natural.",
+        "translationEn": "A natural phenomenon.",
+        "translationPl": "Zjawisko naturalne."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "1184",
+    "word": "planeta",
+    "translationEn": "planet",
+    "translationPl": "planeta",
+    "examples": [
+      {
+        "sentence": "La Tierra es un planeta.",
+        "translationEn": "Earth is a planet.",
+        "translationPl": "Ziemia to planeta."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "1314",
+    "word": "aire",
+    "translationEn": "air",
+    "translationPl": "powietrze",
+    "examples": [
+      {
+        "sentence": "Respira aire fresco.",
+        "translationEn": "Breathe fresh air.",
+        "translationPl": "Oddychaj świeżym powietrzem."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "1366",
+    "word": "conservar",
+    "translationEn": "to conserve;to preserve",
+    "translationPl": "zachowywać",
+    "examples": [
+      {
+        "sentence": "Debemos conservar el medio ambiente.",
+        "translationEn": "We must conserve the environment.",
+        "translationPl": "Musimy chronić środowisko."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "1446",
+    "word": "fenómeno",
+    "translationEn": "phenomenon",
+    "translationPl": "zjawisko",
+    "examples": [
+      {
+        "sentence": "Un fenómeno natural.",
+        "translationEn": "A natural phenomenon.",
+        "translationPl": "Zjawisko naturalne."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "1515",
+    "word": "natural",
+    "translationEn": "natural",
+    "translationPl": "naturalny",
+    "examples": [
+      {
+        "sentence": "Un desastre natural.",
+        "translationEn": "A natural disaster.",
+        "translationPl": "Klęska żywiołowa."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "1645",
+    "word": "viento",
+    "translationEn": "wind",
+    "translationPl": "wiatr",
+    "examples": [
+      {
+        "sentence": "Hace viento.",
+        "translationEn": "It's windy.",
+        "translationPl": "Jest wietrznie."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "1665",
+    "word": "ambiente",
+    "translationEn": "environment;atmosphere",
+    "translationPl": "środowisko;atmosfera",
+    "examples": [
+      {
+        "sentence": "Un ambiente agradable.",
+        "translationEn": "A pleasant atmosphere.",
+        "translationPl": "Przyjemna atmosfera."
+      }
+    ],
+    "category": "nature"
+  },
+  {
+    "id": "1730",
+    "word": "conservar",
+    "translationEn": "to conserve;to preserve",
+    "translationPl": "zachowywać;konserwować",
+    "examples": [
+      {
+        "sentence": "Debemos conservar la naturaleza.",
+        "translationEn": "We must conserve nature.",
+        "translationPl": "Musimy chronić naturę."
+      }
+    ],
+    "category": "nature"
+  }
+]

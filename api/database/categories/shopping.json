@@ -1,0 +1,562 @@
+[
+  {
+    "id": "68",
+    "word": "demasiado",
+    "translationEn": "too much",
+    "translationPl": "za dużo",
+    "examples": [
+      {
+        "sentence": "Es demasiado caro.",
+        "translationEn": "It's too expensive.",
+        "translationPl": "Jest za drogo."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "112",
+    "word": "dólar",
+    "translationEn": "dollar",
+    "translationPl": "dolar",
+    "examples": [
+      {
+        "sentence": "Cuesta diez dólares.",
+        "translationEn": "It costs ten dollars.",
+        "translationPl": "Kosztuje dziesięć dolarów."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "165",
+    "word": "conjunto",
+    "translationEn": "set;group",
+    "translationPl": "zestaw;grupa",
+    "examples": [
+      {
+        "sentence": "Un conjunto de ropa.",
+        "translationEn": "An outfit.",
+        "translationPl": "Komplet ubrań."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "233",
+    "word": "cadena",
+    "translationEn": "chain",
+    "translationPl": "łańcuch",
+    "examples": [
+      {
+        "sentence": "Una cadena de oro.",
+        "translationEn": "A gold chain.",
+        "translationPl": "Złoty łańcuszek."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "277",
+    "word": "bonito",
+    "translationEn": "pretty;beautiful",
+    "translationPl": "ładny;piękny",
+    "examples": [
+      {
+        "sentence": "Un vestido bonito.",
+        "translationEn": "A pretty dress.",
+        "translationPl": "Ładna sukienka."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "294",
+    "word": "euro",
+    "translationEn": "euro",
+    "translationPl": "euro",
+    "examples": [
+      {
+        "sentence": "Cuesta cinco euros.",
+        "translationEn": "It costs five euros.",
+        "translationPl": "Kosztuje pięć euro."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "340",
+    "word": "cierre",
+    "translationEn": "closing;closure",
+    "translationPl": "zamknięcie",
+    "examples": [
+      {
+        "sentence": "El cierre de la tienda.",
+        "translationEn": "The closing of the store.",
+        "translationPl": "Zamknięcie sklepu."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "433",
+    "word": "reducción",
+    "translationEn": "reduction",
+    "translationPl": "redukcja;zmniejszenie",
+    "examples": [
+      {
+        "sentence": "Hubo una reducción de precios.",
+        "translationEn": "There was a price reduction.",
+        "translationPl": "Nastąpiła redukcja cen."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "462",
+    "word": "paquete",
+    "translationEn": "package",
+    "translationPl": "paczka;pakiet",
+    "examples": [
+      {
+        "sentence": "Recibí un paquete.",
+        "translationEn": "I received a package.",
+        "translationPl": "Odebrałem paczkę."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "496",
+    "word": "traje",
+    "translationEn": "suit",
+    "translationPl": "garnitur",
+    "examples": [
+      {
+        "sentence": "Compró un nuevo traje.",
+        "translationEn": "He bought a new suit.",
+        "translationPl": "Kupił nowy garnitur."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "513",
+    "word": "equivalente",
+    "translationEn": "equivalent",
+    "translationPl": "równoważny",
+    "examples": [
+      {
+        "sentence": "Es el equivalente a mil dólares.",
+        "translationEn": "It's the equivalent of a thousand dollars.",
+        "translationPl": "To jest równowartość tysiąca dolarów."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "534",
+    "word": "entrega",
+    "translationEn": "delivery",
+    "translationPl": "dostawa",
+    "examples": [
+      {
+        "sentence": "La entrega del paquete.",
+        "translationEn": "The package delivery.",
+        "translationPl": "Dostawa paczki."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "554",
+    "word": "superior",
+    "translationEn": "superior",
+    "translationPl": "lepszy;wyższy",
+    "examples": [
+      {
+        "sentence": "Un producto de calidad superior.",
+        "translationEn": "A superior quality product.",
+        "translationPl": "Produkt najwyższej jakości."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "565",
+    "word": "aproximadamente",
+    "translationEn": "approximately",
+    "translationPl": "około;mniej więcej",
+    "examples": [
+      {
+        "sentence": "Cuesta aproximadamente diez euros.",
+        "translationEn": "It costs approximately ten euros.",
+        "translationPl": "Kosztuje około dziesięciu euro."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "639",
+    "word": "total",
+    "translationEn": "total",
+    "translationPl": "całkowity",
+    "examples": [
+      {
+        "sentence": "El coste total.",
+        "translationEn": "The total cost.",
+        "translationPl": "Całkowity koszt."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "643",
+    "word": "valor",
+    "translationEn": "value;courage",
+    "translationPl": "wartość;odwaga",
+    "examples": [
+      {
+        "sentence": "El valor del oro.",
+        "translationEn": "The value of gold.",
+        "translationPl": "Wartość złota."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "686",
+    "word": "moda",
+    "translationEn": "fashion",
+    "translationPl": "moda",
+    "examples": [
+      {
+        "sentence": "Está de moda.",
+        "translationEn": "It's in fashion.",
+        "translationPl": "To jest w modzie."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "693",
+    "word": "plata",
+    "translationEn": "silver",
+    "translationPl": "srebro",
+    "examples": [
+      {
+        "sentence": "Anillo de plata.",
+        "translationEn": "Silver ring.",
+        "translationPl": "Srebrny pierścionek."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "741",
+    "word": "bazar",
+    "translationEn": "bazaar;market",
+    "translationPl": "bazar;targ",
+    "examples": [
+      {
+        "sentence": "Compré esto en el bazar.",
+        "translationEn": "I bought this at the bazaar.",
+        "translationPl": "Kupiłem to na bazarze."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "826",
+    "word": "moda",
+    "translationEn": "fashion",
+    "translationPl": "moda",
+    "examples": [
+      {
+        "sentence": "La moda actual.",
+        "translationEn": "Current fashion.",
+        "translationPl": "Obecna moda."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "844",
+    "word": "pantalones",
+    "translationEn": "pants;trousers",
+    "translationPl": "spodnie",
+    "examples": [
+      {
+        "sentence": "Compré unos pantalones nuevos.",
+        "translationEn": "I bought new pants.",
+        "translationPl": "Kupiłem nowe spodnie."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "862",
+    "word": "precio",
+    "translationEn": "price",
+    "translationPl": "cena",
+    "examples": [
+      {
+        "sentence": "¿Cuál es el precio?",
+        "translationEn": "What is the price?",
+        "translationPl": "Jaka jest cena?"
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "875",
+    "word": "promoción",
+    "translationEn": "promotion",
+    "translationPl": "promocja",
+    "examples": [
+      {
+        "sentence": "Una promoción especial.",
+        "translationEn": "A special promotion.",
+        "translationPl": "Specjalna promocja."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "933",
+    "word": "adquirir",
+    "translationEn": "to acquire",
+    "translationPl": "nabywać",
+    "examples": [
+      {
+        "sentence": "Deseo adquirir un coche nuevo.",
+        "translationEn": "I wish to acquire a new car.",
+        "translationPl": "Chcę nabyć nowy samochód."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "963",
+    "word": "cantidad",
+    "translationEn": "quantity",
+    "translationPl": "ilość",
+    "examples": [
+      {
+        "sentence": "Una gran cantidad.",
+        "translationEn": "A large quantity.",
+        "translationPl": "Duża ilość."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "974",
+    "word": "cobrar",
+    "translationEn": "to charge;to collect (money)",
+    "translationPl": "pobierać opłatę;inkasować",
+    "examples": [
+      {
+        "sentence": "Voy a cobrar el cheque.",
+        "translationEn": "I'm going to cash the check.",
+        "translationPl": "Zrealizuję czek."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "994",
+    "word": "consumidor",
+    "translationEn": "consumer",
+    "translationPl": "konsument",
+    "examples": [
+      {
+        "sentence": "El consumidor final.",
+        "translationEn": "The end consumer.",
+        "translationPl": "Ostateczny konsument."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1040",
+    "word": "efectivo",
+    "translationEn": "effective;cash",
+    "translationPl": "skuteczny;gotówka",
+    "examples": [
+      {
+        "sentence": "Es un método efectivo.",
+        "translationEn": "It's an effective method.",
+        "translationPl": "To skuteczna metoda."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1053",
+    "word": "entrada",
+    "translationEn": "entrance;ticket",
+    "translationPl": "wejście;bilet",
+    "examples": [
+      {
+        "sentence": "La entrada al cine.",
+        "translationEn": "The entrance to the cinema.",
+        "translationPl": "Wejście do kina."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1137",
+    "word": "material",
+    "translationEn": "material",
+    "translationPl": "materiał",
+    "examples": [
+      {
+        "sentence": "El material de la camisa.",
+        "translationEn": "The material of the shirt.",
+        "translationPl": "Materiał koszuli."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1200",
+    "word": "producto",
+    "translationEn": "product",
+    "translationPl": "produkt",
+    "examples": [
+      {
+        "sentence": "Un nuevo producto.",
+        "translationEn": "A new product.",
+        "translationPl": "Nowy produkt."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1266",
+    "word": "tamaño",
+    "translationEn": "size",
+    "translationPl": "rozmiar",
+    "examples": [
+      {
+        "sentence": "Qué tamaño quieres?",
+        "translationEn": "What size do you want?",
+        "translationPl": "Jaki rozmiar chcesz?"
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1275",
+    "word": "total",
+    "translationEn": "total",
+    "translationPl": "całkowity",
+    "examples": [
+      {
+        "sentence": "El precio total.",
+        "translationEn": "The total price.",
+        "translationPl": "Całkowita cena."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1293",
+    "word": "vender",
+    "translationEn": "to sell",
+    "translationPl": "sprzedawać",
+    "examples": [
+      {
+        "sentence": "Quiero vender mi casa.",
+        "translationEn": "I want to sell my house.",
+        "translationPl": "Chcę sprzedać swój dom."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1358",
+    "word": "comercial",
+    "translationEn": "commercial",
+    "translationPl": "komercyjny",
+    "examples": [
+      {
+        "sentence": "Un centro comercial.",
+        "translationEn": "A shopping center.",
+        "translationPl": "Centrum handlowe."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1369",
+    "word": "consumidor",
+    "translationEn": "consumer",
+    "translationPl": "konsument",
+    "examples": [
+      {
+        "sentence": "Los derechos del consumidor.",
+        "translationEn": "Consumer rights.",
+        "translationPl": "Prawa konsumenta."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1566",
+    "word": "producto",
+    "translationEn": "product",
+    "translationPl": "produkt",
+    "examples": [
+      {
+        "sentence": "Un nuevo producto.",
+        "translationEn": "A new product.",
+        "translationPl": "Nowy produkt."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1599",
+    "word": "ropa",
+    "translationEn": "clothes",
+    "translationPl": "ubranie",
+    "examples": [
+      {
+        "sentence": "Comprar ropa nueva.",
+        "translationEn": "To buy new clothes.",
+        "translationPl": "Kupować nowe ubrania."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1640",
+    "word": "vestido",
+    "translationEn": "dress",
+    "translationPl": "sukienka",
+    "examples": [
+      {
+        "sentence": "Un hermoso vestido.",
+        "translationEn": "A beautiful dress.",
+        "translationPl": "Piękna sukienka."
+      }
+    ],
+    "category": "shopping"
+  },
+  {
+    "id": "1711",
+    "word": "comercial",
+    "translationEn": "commercial",
+    "translationPl": "handlowy",
+    "examples": [
+      {
+        "sentence": "Un centro comercial.",
+        "translationEn": "A shopping center.",
+        "translationPl": "Centrum handlowe."
+      }
+    ],
+    "category": "shopping"
+  }
+]

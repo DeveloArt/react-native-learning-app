@@ -1,0 +1,926 @@
+[
+  {
+    "id": "49",
+    "word": "internacional",
+    "translationEn": "international",
+    "translationPl": "międzynarodowy",
+    "examples": [
+      {
+        "sentence": "Un acuerdo internacional.",
+        "translationEn": "An international agreement.",
+        "translationPl": "Międzynarodowe porozumienie."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "96",
+    "word": "plaza",
+    "translationEn": "square",
+    "translationPl": "plac",
+    "examples": [
+      {
+        "sentence": "En la plaza mayor.",
+        "translationEn": "In the main square.",
+        "translationPl": "Na głównym placu."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "106",
+    "word": "provincia",
+    "translationEn": "province",
+    "translationPl": "prowincja",
+    "examples": [
+      {
+        "sentence": "La provincia de Córdoba.",
+        "translationEn": "The province of Cordoba.",
+        "translationPl": "Prowincja Kordoba."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "132",
+    "word": "costa",
+    "translationEn": "coast;cost",
+    "translationPl": "wybrzeże;koszt",
+    "examples": [
+      {
+        "sentence": "La costa es hermosa.",
+        "translationEn": "The coast is beautiful.",
+        "translationPl": "Wybrzeże jest piękne."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "147",
+    "word": "isla",
+    "translationEn": "island",
+    "translationPl": "wyspa",
+    "examples": [
+      {
+        "sentence": "Vivir en una isla.",
+        "translationEn": "Live on an island.",
+        "translationPl": "Mieszkać na wyspie."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "173",
+    "word": "destino",
+    "translationEn": "destiny;destination",
+    "translationPl": "przeznaczenie;cel podróży",
+    "examples": [
+      {
+        "sentence": "El destino final.",
+        "translationEn": "The final destination.",
+        "translationPl": "Ostateczny cel podróży."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "182",
+    "word": "pase",
+    "translationEn": "pass",
+    "translationPl": "przepustka",
+    "examples": [
+      {
+        "sentence": "Dame el pase.",
+        "translationEn": "Give me the pass.",
+        "translationPl": "Daj mi przepustkę."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "234",
+    "word": "capitán",
+    "translationEn": "captain",
+    "translationPl": "kapitan",
+    "examples": [
+      {
+        "sentence": "El capitán del barco.",
+        "translationEn": "The captain of the ship.",
+        "translationPl": "Kapitan statku."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "236",
+    "word": "corto",
+    "translationEn": "short",
+    "translationPl": "krótki",
+    "examples": [
+      {
+        "sentence": "Un viaje corto.",
+        "translationEn": "A short trip.",
+        "translationPl": "Krótka podróż."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "237",
+    "word": "frontera",
+    "translationEn": "border;frontier",
+    "translationPl": "granica;kres",
+    "examples": [
+      {
+        "sentence": "Cruzando la frontera.",
+        "translationEn": "Crossing the border.",
+        "translationPl": "Przekraczając granicę."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "257",
+    "word": "regreso",
+    "translationEn": "return",
+    "translationPl": "powrót",
+    "examples": [
+      {
+        "sentence": "El regreso a casa.",
+        "translationEn": "The return home.",
+        "translationPl": "Powrót do domu."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "274",
+    "word": "museo",
+    "translationEn": "museum",
+    "translationPl": "muzeum",
+    "examples": [
+      {
+        "sentence": "Visitar el museo.",
+        "translationEn": "Visit the museum.",
+        "translationPl": "Zwiedzić muzeum."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "275",
+    "word": "palacio",
+    "translationEn": "palace",
+    "translationPl": "pałac",
+    "examples": [
+      {
+        "sentence": "El palacio real.",
+        "translationEn": "The royal palace.",
+        "translationPl": "Pałac królewski."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "374",
+    "word": "torre",
+    "translationEn": "tower",
+    "translationPl": "wieża",
+    "examples": [
+      {
+        "sentence": "La Torre Eiffel.",
+        "translationEn": "The Eiffel Tower.",
+        "translationPl": "Wieża Eiffla."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "375",
+    "word": "barco",
+    "translationEn": "boat;ship",
+    "translationPl": "łódź;statek",
+    "examples": [
+      {
+        "sentence": "Viajar en barco.",
+        "translationEn": "Travel by boat.",
+        "translationPl": "Podróżować statkiem."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "378",
+    "word": "oriental",
+    "translationEn": "oriental;eastern",
+    "translationPl": "orientalny;wschodni",
+    "examples": [
+      {
+        "sentence": "La cultura oriental es fascinante.",
+        "translationEn": "Oriental culture is fascinating.",
+        "translationPl": "Kultura orientalna jest fascynująca."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "430",
+    "word": "continente",
+    "translationEn": "continent",
+    "translationPl": "kontynent",
+    "examples": [
+      {
+        "sentence": "El continente americano.",
+        "translationEn": "The American continent.",
+        "translationPl": "Kontynent amerykański."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "442",
+    "word": "manejar",
+    "translationEn": "to drive;to handle;to manage",
+    "translationPl": "prowadzić;radzić sobie;zarządzać",
+    "examples": [
+      {
+        "sentence": "Él sabe manejar bien.",
+        "translationEn": "He knows how to drive well.",
+        "translationPl": "On umie dobrze prowadzić."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "454",
+    "word": "tránsito",
+    "translationEn": "traffic",
+    "translationPl": "ruch uliczny",
+    "examples": [
+      {
+        "sentence": "Mucho tránsito en la hora pico.",
+        "translationEn": "A lot of traffic at rush hour.",
+        "translationPl": "Duży ruch uliczny w godzinach szczytu."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "510",
+    "word": "desierto",
+    "translationEn": "desert",
+    "translationPl": "pustynia",
+    "examples": [
+      {
+        "sentence": "Viajamos por el desierto.",
+        "translationEn": "We traveled through the desert.",
+        "translationPl": "Podróżowaliśmy przez pustynię."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "531",
+    "word": "destino",
+    "translationEn": "destiny;destination",
+    "translationPl": "przeznaczenie;cel podróży",
+    "examples": [
+      {
+        "sentence": "Nuestro destino final.",
+        "translationEn": "Our final destination.",
+        "translationPl": "Nasz ostateczny cel podróży."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "568",
+    "word": "capital",
+    "translationEn": "capital",
+    "translationPl": "kapitał;stolica",
+    "examples": [
+      {
+        "sentence": "La capital de España es Madrid.",
+        "translationEn": "The capital of Spain is Madrid.",
+        "translationPl": "Stolicą Hiszpanii jest Madryt."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "585",
+    "word": "ferrocarril",
+    "translationEn": "railroad",
+    "translationPl": "kolej;linia kolejowa",
+    "examples": [
+      {
+        "sentence": "Viajamos en ferrocarril.",
+        "translationEn": "We traveled by train (railroad).",
+        "translationPl": "Podróżowaliśmy koleją."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "594",
+    "word": "ilusión",
+    "translationEn": "illusion;hope",
+    "translationPl": "iluzja;nadzieja",
+    "examples": [
+      {
+        "sentence": "Tengo la ilusión de viajar.",
+        "translationEn": "I have the hope of traveling.",
+        "translationPl": "Mam nadzieję na podróż."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "597",
+    "word": "llegada",
+    "translationEn": "arrival",
+    "translationPl": "przybycie",
+    "examples": [
+      {
+        "sentence": "La llegada del tren.",
+        "translationEn": "The train's arrival.",
+        "translationPl": "Przyjazd pociągu."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "623",
+    "word": "reserva",
+    "translationEn": "reservation;reserve",
+    "translationPl": "rezerwacja;rezerwa",
+    "examples": [
+      {
+        "sentence": "Hice una reserva de hotel.",
+        "translationEn": "I made a hotel reservation.",
+        "translationPl": "Zrobiłem rezerwację w hotelu."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "645",
+    "word": "velocidad",
+    "translationEn": "speed",
+    "translationPl": "prędkość",
+    "examples": [
+      {
+        "sentence": "Conduce a gran velocidad.",
+        "translationEn": "He drives at high speed.",
+        "translationPl": "Jedzie z dużą prędkością."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "666",
+    "word": "estrecho",
+    "translationEn": "narrow;tight",
+    "translationPl": "wąski;ciasny",
+    "examples": [
+      {
+        "sentence": "Un camino estrecho.",
+        "translationEn": "A narrow road.",
+        "translationPl": "Wąska droga."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "715",
+    "word": "vista",
+    "translationEn": "view;sight",
+    "translationPl": "widok;wzrok",
+    "examples": [
+      {
+        "sentence": "Una hermosa vista.",
+        "translationEn": "A beautiful view.",
+        "translationPl": "Piękny widok."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "725",
+    "word": "agencia",
+    "translationEn": "agency",
+    "translationPl": "agencja",
+    "examples": [
+      {
+        "sentence": "Una agencia de viajes.",
+        "translationEn": "A travel agency.",
+        "translationPl": "Agencja podróży."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "727",
+    "word": "aéreo",
+    "translationEn": "aerial;air",
+    "translationPl": "powietrzny",
+    "examples": [
+      {
+        "sentence": "Transporte aéreo.",
+        "translationEn": "Air transport.",
+        "translationPl": "Transport lotniczy."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "744",
+    "word": "camino",
+    "translationEn": "road;path;way",
+    "translationPl": "droga;ścieżka",
+    "examples": [
+      {
+        "sentence": "Vamos por el camino correcto.",
+        "translationEn": "We are on the right path.",
+        "translationPl": "Jesteśmy na właściwej drodze."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "767",
+    "word": "desconocido",
+    "translationEn": "unknown",
+    "translationPl": "nieznany",
+    "examples": [
+      {
+        "sentence": "Un lugar desconocido.",
+        "translationEn": "An unknown place.",
+        "translationPl": "Nieznane miejsce."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "771",
+    "word": "directo",
+    "translationEn": "direct",
+    "translationPl": "bezpośredni",
+    "examples": [
+      {
+        "sentence": "Un vuelo directo.",
+        "translationEn": "A direct flight.",
+        "translationPl": "Bezpośredni lot."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "785",
+    "word": "extranjero",
+    "translationEn": "foreign;foreigner",
+    "translationPl": "zagraniczny;cudzoziemiec",
+    "examples": [
+      {
+        "sentence": "Viajar al extranjero.",
+        "translationEn": "To travel abroad.",
+        "translationPl": "Podróżować za granicę."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "828",
+    "word": "monumento",
+    "translationEn": "monument",
+    "translationPl": "pomnik",
+    "examples": [
+      {
+        "sentence": "Visitamos el monumento.",
+        "translationEn": "We visited the monument.",
+        "translationPl": "Odwiedziliśmy pomnik."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "834",
+    "word": "norte",
+    "translationEn": "north",
+    "translationPl": "północ",
+    "examples": [
+      {
+        "sentence": "Vivimos en el norte.",
+        "translationEn": "We live in the north.",
+        "translationPl": "Mieszkamy na północy."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "889",
+    "word": "región",
+    "translationEn": "region",
+    "translationPl": "region",
+    "examples": [
+      {
+        "sentence": "Una hermosa región.",
+        "translationEn": "A beautiful region.",
+        "translationPl": "Piękny region."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "913",
+    "word": "tráfico",
+    "translationEn": "traffic",
+    "translationPl": "ruch uliczny",
+    "examples": [
+      {
+        "sentence": "Hay mucho tráfico.",
+        "translationEn": "There's a lot of traffic.",
+        "translationPl": "Jest duży ruch uliczny."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "920",
+    "word": "vía",
+    "translationEn": "way;route;via",
+    "translationPl": "droga;przez",
+    "examples": [
+      {
+        "sentence": "Voy por esta vía.",
+        "translationEn": "I'm going this way.",
+        "translationPl": "Idę tą drogą."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "921",
+    "word": "viajar",
+    "translationEn": "to travel",
+    "translationPl": "podróżować",
+    "examples": [
+      {
+        "sentence": "Me gusta viajar.",
+        "translationEn": "I like to travel.",
+        "translationPl": "Lubię podróżować."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "927",
+    "word": "vuelo",
+    "translationEn": "flight",
+    "translationPl": "lot",
+    "examples": [
+      {
+        "sentence": "Nuestro vuelo se retrasó.",
+        "translationEn": "Our flight was delayed.",
+        "translationPl": "Nasz lot został opóźniony."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "952",
+    "word": "atravesar",
+    "translationEn": "to cross;to go through",
+    "translationPl": "przechodzić;przecinać",
+    "examples": [
+      {
+        "sentence": "Vamos a atravesar el bosque.",
+        "translationEn": "We are going to cross the forest.",
+        "translationPl": "Przejdziemy przez las."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "965",
+    "word": "capital",
+    "translationEn": "capital",
+    "translationPl": "stolica;kapitał",
+    "examples": [
+      {
+        "sentence": "Madrid es la capital de España.",
+        "translationEn": "Madrid is the capital of Spain.",
+        "translationPl": "Madryt jest stolicą Hiszpanii."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1023",
+    "word": "destino",
+    "translationEn": "destiny;destination",
+    "translationPl": "przeznaczenie;cel podróży",
+    "examples": [
+      {
+        "sentence": "Es mi destino.",
+        "translationEn": "It's my destiny.",
+        "translationPl": "To moje przeznaczenie."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1032",
+    "word": "distancia",
+    "translationEn": "distance",
+    "translationPl": "odległość",
+    "examples": [
+      {
+        "sentence": "A qué distancia está?",
+        "translationEn": "How far is it?",
+        "translationPl": "Jak daleko to jest?"
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1035",
+    "word": "doble",
+    "translationEn": "double",
+    "translationPl": "podwójny",
+    "examples": [
+      {
+        "sentence": "Quiero una habitación doble.",
+        "translationEn": "I want a double room.",
+        "translationPl": "Chcę pokój dwuosobowy."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1069",
+    "word": "explorar",
+    "translationEn": "to explore",
+    "translationPl": "eksplorować",
+    "examples": [
+      {
+        "sentence": "Me gusta explorar nuevos lugares.",
+        "translationEn": "I like to explore new places.",
+        "translationPl": "Lubię odkrywać nowe miejsca."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1126",
+    "word": "lejos",
+    "translationEn": "far",
+    "translationPl": "daleko",
+    "examples": [
+      {
+        "sentence": "Está muy lejos.",
+        "translationEn": "It's very far.",
+        "translationPl": "Jest bardzo daleko."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1221",
+    "word": "región",
+    "translationEn": "region",
+    "translationPl": "region",
+    "examples": [
+      {
+        "sentence": "Una hermosa región.",
+        "translationEn": "A beautiful region.",
+        "translationPl": "Piękny region."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1236",
+    "word": "ruta",
+    "translationEn": "route",
+    "translationPl": "trasa",
+    "examples": [
+      {
+        "sentence": "Cuál es la ruta más rápida?",
+        "translationEn": "What is the fastest route?",
+        "translationPl": "Jaka jest najszybsza trasa?"
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1278",
+    "word": "tráfico",
+    "translationEn": "traffic",
+    "translationPl": "ruch uliczny",
+    "examples": [
+      {
+        "sentence": "Hay mucho tráfico.",
+        "translationEn": "There is a lot of traffic.",
+        "translationPl": "Jest duży ruch uliczny."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1291",
+    "word": "vehículo",
+    "translationEn": "vehicle",
+    "translationPl": "pojazd",
+    "examples": [
+      {
+        "sentence": "Un vehículo nuevo.",
+        "translationEn": "A new vehicle.",
+        "translationPl": "Nowy pojazd."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1341",
+    "word": "capital",
+    "translationEn": "capital",
+    "translationPl": "kapitał;stolica",
+    "examples": [
+      {
+        "sentence": "La capital de España.",
+        "translationEn": "The capital of Spain.",
+        "translationPl": "Stolica Hiszpanii."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1347",
+    "word": "central",
+    "translationEn": "central",
+    "translationPl": "centralny",
+    "examples": [
+      {
+        "sentence": "La estación central.",
+        "translationEn": "The central station.",
+        "translationPl": "Dworzec centralny."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1381",
+    "word": "cruzar",
+    "translationEn": "to cross",
+    "translationPl": "przekraczać",
+    "examples": [
+      {
+        "sentence": "Vamos a cruzar la calle.",
+        "translationEn": "We are going to cross the street.",
+        "translationPl": "Przejdziemy przez ulicę."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1395",
+    "word": "descubrir",
+    "translationEn": "to discover",
+    "translationPl": "odkrywać",
+    "examples": [
+      {
+        "sentence": "Quiero descubrir el mundo.",
+        "translationEn": "I want to discover the world.",
+        "translationPl": "Chcę odkrywać świat."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1397",
+    "word": "destino",
+    "translationEn": "destination;destiny",
+    "translationPl": "przeznaczenie;cel podróży",
+    "examples": [
+      {
+        "sentence": "Nuestro destino final.",
+        "translationEn": "Our final destination.",
+        "translationPl": "Nasz ostateczny cel."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1398",
+    "word": "detener",
+    "translationEn": "to stop;to detain",
+    "translationPl": "zatrzymywać",
+    "examples": [
+      {
+        "sentence": "Detén el coche.",
+        "translationEn": "Stop the car.",
+        "translationPl": "Zatrzymaj samochód."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1443",
+    "word": "extranjero",
+    "translationEn": "foreign;foreigner",
+    "translationPl": "zagraniczny;cudzoziemiec",
+    "examples": [
+      {
+        "sentence": "Un país extranjero.",
+        "translationEn": "A foreign country.",
+        "translationPl": "Obcy kraj."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1493",
+    "word": "manejar",
+    "translationEn": "to manage;to drive",
+    "translationPl": "zarządzać;prowadzić",
+    "examples": [
+      {
+        "sentence": "Sé manejar un coche.",
+        "translationEn": "I know how to drive a car.",
+        "translationPl": "Umiem prowadzić samochód."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1583",
+    "word": "región",
+    "translationEn": "region",
+    "translationPl": "region",
+    "examples": [
+      {
+        "sentence": "Una hermosa región.",
+        "translationEn": "A beautiful region.",
+        "translationPl": "Piękny region."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1600",
+    "word": "salida",
+    "translationEn": "exit;departure",
+    "translationPl": "wyjście;odlot",
+    "examples": [
+      {
+        "sentence": "La salida de emergencia.",
+        "translationEn": "The emergency exit.",
+        "translationPl": "Wyjście awaryjne."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1635",
+    "word": "vehículo",
+    "translationEn": "vehicle",
+    "translationPl": "pojazd",
+    "examples": [
+      {
+        "sentence": "Un vehículo nuevo.",
+        "translationEn": "A new vehicle.",
+        "translationPl": "Nowy pojazd."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1642",
+    "word": "viajar",
+    "translationEn": "to travel",
+    "translationPl": "podróżować",
+    "examples": [
+      {
+        "sentence": "Me gusta viajar.",
+        "translationEn": "I like to travel.",
+        "translationPl": "Lubię podróżować."
+      }
+    ],
+    "category": "travel"
+  },
+  {
+    "id": "1723",
+    "word": "conducir",
+    "translationEn": "to drive;to lead",
+    "translationPl": "prowadzić (samochód);prowadzić (do celu)",
+    "examples": [
+      {
+        "sentence": "Me gusta conducir.",
+        "translationEn": "I like to drive.",
+        "translationPl": "Lubię prowadzić."
+      }
+    ],
+    "category": "travel"
+  }
+]

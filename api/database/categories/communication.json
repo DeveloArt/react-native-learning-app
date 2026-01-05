@@ -1,0 +1,1864 @@
+[
+  {
+    "id": "14",
+    "word": "cómo",
+    "translationEn": "how",
+    "translationPl": "jak",
+    "examples": [
+      {
+        "sentence": "¿Cómo estás?",
+        "translationEn": "How are you?",
+        "translationPl": "Jak się masz?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "18",
+    "word": "sí",
+    "translationEn": "yes",
+    "translationPl": "tak",
+    "examples": [
+      {
+        "sentence": "Sí, quiero.",
+        "translationEn": "Yes, I want.",
+        "translationPl": "Tak, chcę."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "24",
+    "word": "nombre",
+    "translationEn": "name",
+    "translationPl": "imię",
+    "examples": [
+      {
+        "sentence": "¿Cuál es tu nombre?",
+        "translationEn": "What is your name?",
+        "translationPl": "Jak masz na imię?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "34",
+    "word": "información",
+    "translationEn": "information",
+    "translationPl": "informacja",
+    "examples": [
+      {
+        "sentence": "Necesito información.",
+        "translationEn": "I need information.",
+        "translationPl": "Potrzebuję informacji."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "50",
+    "word": "palabra",
+    "translationEn": "word",
+    "translationPl": "słowo",
+    "examples": [
+      {
+        "sentence": "No tengo palabras.",
+        "translationEn": "I have no words.",
+        "translationPl": "Brak mi słów."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "79",
+    "word": "voz",
+    "translationEn": "voice",
+    "translationPl": "głos",
+    "examples": [
+      {
+        "sentence": "Escucha mi voz.",
+        "translationEn": "Listen to my voice.",
+        "translationPl": "Posłuchaj mojego głosu."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "82",
+    "word": "internet",
+    "translationEn": "internet",
+    "translationPl": "internet",
+    "examples": [
+      {
+        "sentence": "Navegar por internet.",
+        "translationEn": "Surf the internet.",
+        "translationPl": "Przeglądać internet."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "92",
+    "word": "opinión",
+    "translationEn": "opinion",
+    "translationPl": "opinia",
+    "examples": [
+      {
+        "sentence": "En mi opinión.",
+        "translationEn": "In my opinion.",
+        "translationPl": "Moim zdaniem."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "95",
+    "word": "noticia",
+    "translationEn": "news",
+    "translationPl": "wiadomość",
+    "examples": [
+      {
+        "sentence": "Una buena noticia.",
+        "translationEn": "Good news.",
+        "translationPl": "Dobra wiadomość."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "117",
+    "word": "fuente",
+    "translationEn": "source",
+    "translationPl": "źródło",
+    "examples": [
+      {
+        "sentence": "Una fuente de información.",
+        "translationEn": "A source of information.",
+        "translationPl": "Źródło informacji."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "118",
+    "word": "puta",
+    "translationEn": "whore (vulgar)",
+    "translationPl": "kurwa (wulgarne)",
+    "examples": [
+      {
+        "sentence": "No uses esa palabra, es una puta palabra.",
+        "translationEn": "Don't use that word, it's a whore word.",
+        "translationPl": "Nie używaj tego słowa, to jest przekleństwo."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "149",
+    "word": "post",
+    "translationEn": "post (as in blog post;social media post)",
+    "translationPl": "post (jak wpis na blogu;post w mediach społecznościowych)",
+    "examples": [
+      {
+        "sentence": "Publicar un post.",
+        "translationEn": "Publish a post.",
+        "translationPl": "Opublikować post."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "170",
+    "word": "usuario",
+    "translationEn": "user",
+    "translationPl": "użytkownik",
+    "examples": [
+      {
+        "sentence": "Nombre de usuario.",
+        "translationEn": "Username.",
+        "translationPl": "Nazwa użytkownika."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "175",
+    "word": "obtener",
+    "translationEn": "to obtain;to get",
+    "translationPl": "uzyskać;dostać",
+    "examples": [
+      {
+        "sentence": "Obtener información.",
+        "translationEn": "Obtain information.",
+        "translationPl": "Uzyskać informację."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "200",
+    "word": "expresión",
+    "translationEn": "expression",
+    "translationPl": "wyrażenie",
+    "examples": [
+      {
+        "sentence": "Una expresión de alegría.",
+        "translationEn": "An expression of joy.",
+        "translationPl": "Wyraz radości."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "226",
+    "word": "culo",
+    "translationEn": "butt;ass",
+    "translationPl": "dupa (wulgarne)",
+    "examples": [
+      {
+        "sentence": "¡Cállate el culo!",
+        "translationEn": "Shut your ass!",
+        "translationPl": "Zamknij mordę!"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "239",
+    "word": "declaración",
+    "translationEn": "declaration;statement",
+    "translationPl": "deklaracja;oświadczenie",
+    "examples": [
+      {
+        "sentence": "Una declaración importante.",
+        "translationEn": "An important statement.",
+        "translationPl": "Ważne oświadczenie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "245",
+    "word": "perfil",
+    "translationEn": "profile",
+    "translationPl": "profil",
+    "examples": [
+      {
+        "sentence": "Actualizar mi perfil.",
+        "translationEn": "Update my profile.",
+        "translationPl": "Zaktualizować mój profil."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "256",
+    "word": "permiso",
+    "translationEn": "permission;excuse me",
+    "translationPl": "pozwolenie;przepraszam",
+    "examples": [
+      {
+        "sentence": "Con permiso.",
+        "translationEn": "Excuse me.",
+        "translationPl": "Przepraszam."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "258",
+    "word": "claramente",
+    "translationEn": "clearly",
+    "translationPl": "wyraźnie",
+    "examples": [
+      {
+        "sentence": "Habla claramente.",
+        "translationEn": "Speak clearly.",
+        "translationPl": "Mów wyraźnie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "263",
+    "word": "periodista",
+    "translationEn": "journalist",
+    "translationPl": "dziennikarz",
+    "examples": [
+      {
+        "sentence": "Un periodista famoso.",
+        "translationEn": "A famous journalist.",
+        "translationPl": "Znany dziennikarz."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "270",
+    "word": "seguidor",
+    "translationEn": "follower;supporter",
+    "translationPl": "obserwator;zwolennik",
+    "examples": [
+      {
+        "sentence": "Un seguidor fiel.",
+        "translationEn": "A loyal follower.",
+        "translationPl": "Wierny zwolennik."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "298",
+    "word": "titular",
+    "translationEn": "headline;holder",
+    "translationPl": "nagłówek;posiadacz",
+    "examples": [
+      {
+        "sentence": "El titular del periódico.",
+        "translationEn": "The newspaper headline.",
+        "translationPl": "Nagłówek gazety."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "306",
+    "word": "oír",
+    "translationEn": "to hear",
+    "translationPl": "słyszeć",
+    "examples": [
+      {
+        "sentence": "¿Me oyes?",
+        "translationEn": "Can you hear me?",
+        "translationPl": "Słyszysz mnie?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "309",
+    "word": "mostrar",
+    "translationEn": "to show",
+    "translationPl": "pokazywać",
+    "examples": [
+      {
+        "sentence": "Muéstrame la foto.",
+        "translationEn": "Show me the picture.",
+        "translationPl": "Pokaż mi zdjęcie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "329",
+    "word": "conexión",
+    "translationEn": "connection",
+    "translationPl": "połączenie",
+    "examples": [
+      {
+        "sentence": "Falta de conexión.",
+        "translationEn": "Lack of connection.",
+        "translationPl": "Brak połączenia."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "342",
+    "word": "enlace",
+    "translationEn": "link",
+    "translationPl": "link",
+    "examples": [
+      {
+        "sentence": "Haz clic en el enlace.",
+        "translationEn": "Click on the link.",
+        "translationPl": "Kliknij w link."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "348",
+    "word": "argumento",
+    "translationEn": "argument",
+    "translationPl": "argument",
+    "examples": [
+      {
+        "sentence": "Un buen argumento.",
+        "translationEn": "A good argument.",
+        "translationPl": "Dobry argument."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "356",
+    "word": "reciente",
+    "translationEn": "recent",
+    "translationPl": "ostatni",
+    "examples": [
+      {
+        "sentence": "Noticias recientes.",
+        "translationEn": "Recent news.",
+        "translationPl": "Najnowsze wiadomości."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "360",
+    "word": "tono",
+    "translationEn": "tone",
+    "translationPl": "ton",
+    "examples": [
+      {
+        "sentence": "Cambiar el tono.",
+        "translationEn": "Change the tone.",
+        "translationPl": "Zmienić ton."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "365",
+    "word": "acceder",
+    "translationEn": "to access;to agree",
+    "translationPl": "dostęp;zgadzać się",
+    "examples": [
+      {
+        "sentence": "Acceder a la información.",
+        "translationEn": "Access the information.",
+        "translationPl": "Uzyskać dostęp do informacji."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "368",
+    "word": "electrónico",
+    "translationEn": "electronic",
+    "translationPl": "elektroniczny",
+    "examples": [
+      {
+        "sentence": "Correo electrónico.",
+        "translationEn": "Email.",
+        "translationPl": "Poczta elektroniczna."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "370",
+    "word": "explicación",
+    "translationEn": "explanation",
+    "translationPl": "wyjaśnienie",
+    "examples": [
+      {
+        "sentence": "Necesito una explicación.",
+        "translationEn": "I need an explanation.",
+        "translationPl": "Potrzebuję wyjaśnienia."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "380",
+    "word": "aviso",
+    "translationEn": "notice;warning",
+    "translationPl": "ogłoszenie;ostrzeżenie",
+    "examples": [
+      {
+        "sentence": "Recibí un aviso importante.",
+        "translationEn": "I received an important notice.",
+        "translationPl": "Otrzymałem ważne ogłoszenie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "405",
+    "word": "falso",
+    "translationEn": "false;fake",
+    "translationPl": "fałszywy;podrobiony",
+    "examples": [
+      {
+        "sentence": "Es una noticia falsa.",
+        "translationEn": "It's fake news.",
+        "translationPl": "To fałszywa wiadomość."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "418",
+    "word": "anuncio",
+    "translationEn": "advertisement;announcement",
+    "translationPl": "reklama;ogłoszenie",
+    "examples": [
+      {
+        "sentence": "Vi un anuncio en la televisión.",
+        "translationEn": "I saw an advertisement on television.",
+        "translationPl": "Widziałem reklamę w telewizji."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "452",
+    "word": "razon",
+    "translationEn": "reason",
+    "translationPl": "powód",
+    "examples": [
+      {
+        "sentence": "Tienes razón.",
+        "translationEn": "You are right.",
+        "translationPl": "Masz rację."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "468",
+    "word": "link",
+    "translationEn": "link",
+    "translationPl": "link",
+    "examples": [
+      {
+        "sentence": "Haz clic en el link.",
+        "translationEn": "Click on the link.",
+        "translationPl": "Kliknij w link."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "488",
+    "word": "expresar",
+    "translationEn": "to express",
+    "translationPl": "wyrażać",
+    "examples": [
+      {
+        "sentence": "No puedo expresar lo que siento.",
+        "translationEn": "I can't express what I feel.",
+        "translationPl": "Nie mogę wyrazić tego, co czuję."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "499",
+    "word": "confiar",
+    "translationEn": "to trust",
+    "translationPl": "ufać",
+    "examples": [
+      {
+        "sentence": "Confío en ti.",
+        "translationEn": "I trust you.",
+        "translationPl": "Ufam ci."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "514",
+    "word": "mencionado",
+    "translationEn": "mentioned",
+    "translationPl": "wspomniany",
+    "examples": [
+      {
+        "sentence": "El tema mencionado anteriormente.",
+        "translationEn": "The previously mentioned topic.",
+        "translationPl": "Wspomniany wcześniej temat."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "524",
+    "word": "equivocado",
+    "translationEn": "wrong;mistaken",
+    "translationPl": "błędny;mylny",
+    "examples": [
+      {
+        "sentence": "Estás equivocado.",
+        "translationEn": "You are wrong.",
+        "translationPl": "Mylisz się."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "556",
+    "word": "totalmente",
+    "translationEn": "totally;completely",
+    "translationPl": "całkowicie",
+    "examples": [
+      {
+        "sentence": "Estoy totalmente de acuerdo.",
+        "translationEn": "I totally agree.",
+        "translationPl": "Całkowicie się zgadzam."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "563",
+    "word": "acuerdo",
+    "translationEn": "agreement",
+    "translationPl": "zgoda;porozumienie",
+    "examples": [
+      {
+        "sentence": "Llegamos a un acuerdo.",
+        "translationEn": "We reached an agreement.",
+        "translationPl": "Osiągnęliśmy porozumienie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "571",
+    "word": "consenso",
+    "translationEn": "consensus",
+    "translationPl": "konsensus",
+    "examples": [
+      {
+        "sentence": "Llegaron a un consenso.",
+        "translationEn": "They reached a consensus.",
+        "translationPl": "Osiągnęli konsensus."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "574",
+    "word": "contacto",
+    "translationEn": "contact",
+    "translationPl": "kontakt",
+    "examples": [
+      {
+        "sentence": "Mantente en contacto.",
+        "translationEn": "Stay in contact.",
+        "translationPl": "Pozostań w kontakcie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "578",
+    "word": "demostrar",
+    "translationEn": "to demonstrate;to show",
+    "translationPl": "demonstrować;pokazywać",
+    "examples": [
+      {
+        "sentence": "Demostró su inocencia.",
+        "translationEn": "He demonstrated his innocence.",
+        "translationPl": "Udowodnił swoją niewinność."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "601",
+    "word": "mensaje",
+    "translationEn": "message",
+    "translationPl": "wiadomość",
+    "examples": [
+      {
+        "sentence": "Te envié un mensaje.",
+        "translationEn": "I sent you a message.",
+        "translationPl": "Wysłałem ci wiadomość."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "610",
+    "word": "persuadir",
+    "translationEn": "to persuade",
+    "translationPl": "przekonywać",
+    "examples": [
+      {
+        "sentence": "Intentó persuadirlo.",
+        "translationEn": "He tried to persuade him.",
+        "translationPl": "Próbował go przekonać."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "613",
+    "word": "prometer",
+    "translationEn": "to promise",
+    "translationPl": "obiecywać",
+    "examples": [
+      {
+        "sentence": "Te lo prometo.",
+        "translationEn": "I promise you.",
+        "translationPl": "Obiecuję ci."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "625",
+    "word": "sentido",
+    "translationEn": "sense;meaning",
+    "translationPl": "sens;znaczenie",
+    "examples": [
+      {
+        "sentence": "No tiene sentido.",
+        "translationEn": "It doesn't make sense.",
+        "translationPl": "To nie ma sensu."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "633",
+    "word": "supuesto",
+    "translationEn": "supposed;of course",
+    "translationPl": "rzekomy;oczywiście",
+    "examples": [
+      {
+        "sentence": "Por supuesto.",
+        "translationEn": "Of course.",
+        "translationPl": "Oczywiście."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "655",
+    "word": "breve",
+    "translationEn": "brief",
+    "translationPl": "krótki",
+    "examples": [
+      {
+        "sentence": "Una breve explicación.",
+        "translationEn": "A brief explanation.",
+        "translationPl": "Krótkie wyjaśnienie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "659",
+    "word": "claro",
+    "translationEn": "clear;light",
+    "translationPl": "jasny;oczywisty",
+    "examples": [
+      {
+        "sentence": "Está claro.",
+        "translationEn": "It's clear.",
+        "translationPl": "To jasne."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "692",
+    "word": "petición",
+    "translationEn": "petition;request",
+    "translationPl": "petycja;prośba",
+    "examples": [
+      {
+        "sentence": "Hizo una petición formal.",
+        "translationEn": "He made a formal request.",
+        "translationPl": "Złożył formalną prośbę."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "697",
+    "word": "recomendar",
+    "translationEn": "to recommend",
+    "translationPl": "polecać",
+    "examples": [
+      {
+        "sentence": "Te recomiendo este libro.",
+        "translationEn": "I recommend this book to you.",
+        "translationPl": "Polecam ci tę książkę."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "699",
+    "word": "repetir",
+    "translationEn": "to repeat",
+    "translationPl": "powtarzać",
+    "examples": [
+      {
+        "sentence": "Puedes repetir, por favor?",
+        "translationEn": "Can you repeat, please?",
+        "translationPl": "Czy możesz powtórzyć, proszę?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "701",
+    "word": "señal",
+    "translationEn": "signal;sign",
+    "translationPl": "sygnał;znak",
+    "examples": [
+      {
+        "sentence": "La señal de alto.",
+        "translationEn": "The stop sign.",
+        "translationPl": "Znak stopu."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "722",
+    "word": "adicional",
+    "translationEn": "additional",
+    "translationPl": "dodatkowy",
+    "examples": [
+      {
+        "sentence": "Necesito información adicional.",
+        "translationEn": "I need additional information.",
+        "translationPl": "Potrzebuję dodatkowych informacji."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "724",
+    "word": "afirmar",
+    "translationEn": "to affirm;to state",
+    "translationPl": "twierdzić;potwierdzać",
+    "examples": [
+      {
+        "sentence": "Afirmó su inocencia.",
+        "translationEn": "He affirmed his innocence.",
+        "translationPl": "Potwierdził swoją niewinność."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "748",
+    "word": "coincidir",
+    "translationEn": "to coincide;to agree",
+    "translationPl": "zbiegać się;zgadzać się",
+    "examples": [
+      {
+        "sentence": "Nuestras ideas coinciden.",
+        "translationEn": "Our ideas coincide (agree).",
+        "translationPl": "Nasze pomysły się zgadzają."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "754",
+    "word": "conversación",
+    "translationEn": "conversation",
+    "translationPl": "rozmowa",
+    "examples": [
+      {
+        "sentence": "Tuvimos una larga conversación.",
+        "translationEn": "We had a long conversation.",
+        "translationPl": "Odbyliśmy długą rozmowę."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "772",
+    "word": "discutir",
+    "translationEn": "to discuss;to argue",
+    "translationPl": "dyskutować;kłócić się",
+    "examples": [
+      {
+        "sentence": "No quiero discutir contigo.",
+        "translationEn": "I don't want to argue with you.",
+        "translationPl": "Nie chcę się z tobą kłócić."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "808",
+    "word": "información",
+    "translationEn": "information",
+    "translationPl": "informacja",
+    "examples": [
+      {
+        "sentence": "Necesito más información.",
+        "translationEn": "I need more information.",
+        "translationPl": "Potrzebuję więcej informacji."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "819",
+    "word": "llamada",
+    "translationEn": "call",
+    "translationPl": "połączenie;wezwanie",
+    "examples": [
+      {
+        "sentence": "Recibí una llamada telefónica.",
+        "translationEn": "I received a phone call.",
+        "translationPl": "Odebrałem połączenie telefoniczne."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "840",
+    "word": "opinar",
+    "translationEn": "to opine;to think",
+    "translationPl": "sądzić;uważać",
+    "examples": [
+      {
+        "sentence": "¿Qué opinas al respecto?",
+        "translationEn": "What do you think about it?",
+        "translationPl": "Co o tym sądzisz?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "843",
+    "word": "palabra",
+    "translationEn": "word",
+    "translationPl": "słowo",
+    "examples": [
+      {
+        "sentence": "No tengo palabras.",
+        "translationEn": "I have no words.",
+        "translationPl": "Brak mi słów."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "865",
+    "word": "pregunta",
+    "translationEn": "question",
+    "translationPl": "pytanie",
+    "examples": [
+      {
+        "sentence": "Tengo una pregunta.",
+        "translationEn": "I have a question.",
+        "translationPl": "Mam pytanie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "883",
+    "word": "razón",
+    "translationEn": "reason;right",
+    "translationPl": "rozum;powód",
+    "examples": [
+      {
+        "sentence": "Tienes razón.",
+        "translationEn": "You are right.",
+        "translationPl": "Masz rację."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "900",
+    "word": "serio",
+    "translationEn": "serious",
+    "translationPl": "poważny",
+    "examples": [
+      {
+        "sentence": "Hablamos en serio.",
+        "translationEn": "We are serious.",
+        "translationPl": "Mówimy poważnie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "944",
+    "word": "anunciar",
+    "translationEn": "to announce",
+    "translationPl": "ogłaszać",
+    "examples": [
+      {
+        "sentence": "Van a anunciar los resultados.",
+        "translationEn": "They are going to announce the results.",
+        "translationPl": "Ogłoszą wyniki."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "951",
+    "word": "atención",
+    "translationEn": "attention",
+    "translationPl": "uwaga",
+    "examples": [
+      {
+        "sentence": "Presta atención.",
+        "translationEn": "Pay attention.",
+        "translationPl": "Uważaj."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "978",
+    "word": "comentar",
+    "translationEn": "to comment",
+    "translationPl": "komentować",
+    "examples": [
+      {
+        "sentence": "No quiero comentar al respecto.",
+        "translationEn": "I don't want to comment on that.",
+        "translationPl": "Nie chcę tego komentować."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "987",
+    "word": "confirmar",
+    "translationEn": "to confirm",
+    "translationPl": "potwierdzać",
+    "examples": [
+      {
+        "sentence": "Puedes confirmar la reserva?",
+        "translationEn": "Can you confirm the reservation?",
+        "translationPl": "Czy możesz potwierdzić rezerwację?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "996",
+    "word": "contacto",
+    "translationEn": "contact",
+    "translationPl": "kontakt",
+    "examples": [
+      {
+        "sentence": "Mantener contacto.",
+        "translationEn": "To keep in contact.",
+        "translationPl": "Utrzymywać kontakt."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "997",
+    "word": "contar",
+    "translationEn": "to count;to tell",
+    "translationPl": "liczyć;opowiadać",
+    "examples": [
+      {
+        "sentence": "Cuéntame una historia.",
+        "translationEn": "Tell me a story.",
+        "translationPl": "Opowiedz mi historię."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1013",
+    "word": "declarar",
+    "translationEn": "to declare",
+    "translationPl": "deklarować",
+    "examples": [
+      {
+        "sentence": "Voy a declarar mis intenciones.",
+        "translationEn": "I'm going to declare my intentions.",
+        "translationPl": "Zadeklaruję swoje intencje."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1026",
+    "word": "diálogo",
+    "translationEn": "dialogue",
+    "translationPl": "dialog",
+    "examples": [
+      {
+        "sentence": "Un diálogo interesante.",
+        "translationEn": "An interesting dialogue.",
+        "translationPl": "Ciekawy dialog."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1030",
+    "word": "discutir",
+    "translationEn": "to discuss;to argue",
+    "translationPl": "dyskutować;kłócić się",
+    "examples": [
+      {
+        "sentence": "No quiero discutir.",
+        "translationEn": "I don't want to argue.",
+        "translationPl": "Nie chcę się kłócić."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1045",
+    "word": "emitir",
+    "translationEn": "to emit;to issue;to broadcast",
+    "translationPl": "emitować;wydawać;nadawać",
+    "examples": [
+      {
+        "sentence": "Van a emitir un programa.",
+        "translationEn": "They are going to broadcast a program.",
+        "translationPl": "Będą nadawać program."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1051",
+    "word": "entender",
+    "translationEn": "to understand",
+    "translationPl": "rozumieć",
+    "examples": [
+      {
+        "sentence": "No entiendo.",
+        "translationEn": "I don't understand.",
+        "translationPl": "Nie rozumiem."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1068",
+    "word": "explicar",
+    "translationEn": "to explain",
+    "translationPl": "wyjaśniać",
+    "examples": [
+      {
+        "sentence": "Puedes explicarme esto?",
+        "translationEn": "Can you explain this to me?",
+        "translationPl": "Czy możesz mi to wyjaśnić?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1070",
+    "word": "expresar",
+    "translationEn": "to express",
+    "translationPl": "wyrażać",
+    "examples": [
+      {
+        "sentence": "Necesito expresar mis sentimientos.",
+        "translationEn": "I need to express my feelings.",
+        "translationPl": "Muszę wyrazić swoje uczucia."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1109",
+    "word": "indicar",
+    "translationEn": "to indicate",
+    "translationPl": "wskazywać",
+    "examples": [
+      {
+        "sentence": "Indica la dirección.",
+        "translationEn": "Indicate the direction.",
+        "translationPl": "Wskaż kierunek."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1111",
+    "word": "información",
+    "translationEn": "information",
+    "translationPl": "informacja",
+    "examples": [
+      {
+        "sentence": "Necesito información.",
+        "translationEn": "I need information.",
+        "translationPl": "Potrzebuję informacji."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1127",
+    "word": "letra",
+    "translationEn": "letter;lyrics",
+    "translationPl": "litera;tekst piosenki",
+    "examples": [
+      {
+        "sentence": "Escribe una letra.",
+        "translationEn": "Write a letter.",
+        "translationPl": "Napisz list."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1150",
+    "word": "mostrar",
+    "translationEn": "to show",
+    "translationPl": "pokazywać",
+    "examples": [
+      {
+        "sentence": "Muéstrame la foto.",
+        "translationEn": "Show me the photo.",
+        "translationPl": "Pokaż mi zdjęcie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1153",
+    "word": "negar",
+    "translationEn": "to deny",
+    "translationPl": "zaprzeczać",
+    "examples": [
+      {
+        "sentence": "Él niega los cargos.",
+        "translationEn": "He denies the charges.",
+        "translationPl": "On zaprzecza zarzutom."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1185",
+    "word": "plantear",
+    "translationEn": "to propose;to raise",
+    "translationPl": "przedstawiać;podnosić",
+    "examples": [
+      {
+        "sentence": "Voy a plantear una pregunta.",
+        "translationEn": "I'm going to raise a question.",
+        "translationPl": "Zadam pytanie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1203",
+    "word": "prometer",
+    "translationEn": "to promise",
+    "translationPl": "obiecywać",
+    "examples": [
+      {
+        "sentence": "Te lo prometo.",
+        "translationEn": "I promise you.",
+        "translationPl": "Obiecuję ci."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1228",
+    "word": "repetir",
+    "translationEn": "to repeat",
+    "translationPl": "powtarzać",
+    "examples": [
+      {
+        "sentence": "Puedes repetir, por favor?",
+        "translationEn": "Can you repeat, please?",
+        "translationPl": "Możesz powtórzyć, proszę?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1231",
+    "word": "respuesta",
+    "translationEn": "answer",
+    "translationPl": "odpowiedź",
+    "examples": [
+      {
+        "sentence": "Dame una respuesta.",
+        "translationEn": "Give me an answer.",
+        "translationPl": "Daj mi odpowiedź."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1234",
+    "word": "revelar",
+    "translationEn": "to reveal",
+    "translationPl": "ujawniać",
+    "examples": [
+      {
+        "sentence": "No puedo revelar el secreto.",
+        "translationEn": "I can't reveal the secret.",
+        "translationPl": "Nie mogę ujawnić tajemnicy."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1244",
+    "word": "señal",
+    "translationEn": "signal;sign",
+    "translationPl": "sygnał;znak",
+    "examples": [
+      {
+        "sentence": "Recibí una señal.",
+        "translationEn": "I received a signal.",
+        "translationPl": "Otrzymałem sygnał."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1249",
+    "word": "significar",
+    "translationEn": "to mean",
+    "translationPl": "znaczyć",
+    "examples": [
+      {
+        "sentence": "Qué significa esto?",
+        "translationEn": "What does this mean?",
+        "translationPl": "Co to znaczy?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1262",
+    "word": "sugerir",
+    "translationEn": "to suggest",
+    "translationPl": "sugerować",
+    "examples": [
+      {
+        "sentence": "Sugiero una idea.",
+        "translationEn": "I suggest an idea.",
+        "translationPl": "Sugeruję pomysł."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1272",
+    "word": "texto",
+    "translationEn": "text",
+    "translationPl": "tekst",
+    "examples": [
+      {
+        "sentence": "Lee el texto.",
+        "translationEn": "Read the text.",
+        "translationPl": "Przeczytaj tekst."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1306",
+    "word": "acuerdo",
+    "translationEn": "agreement",
+    "translationPl": "porozumienie",
+    "examples": [
+      {
+        "sentence": "Llegamos a un acuerdo.",
+        "translationEn": "We reached an agreement.",
+        "translationPl": "Osiągnęliśmy porozumienie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1323",
+    "word": "anunciar",
+    "translationEn": "to announce",
+    "translationPl": "ogłaszać",
+    "examples": [
+      {
+        "sentence": "Van a anunciar los resultados.",
+        "translationEn": "They are going to announce the results.",
+        "translationPl": "Ogłoszą wyniki."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1357",
+    "word": "comentar",
+    "translationEn": "to comment",
+    "translationPl": "komentować",
+    "examples": [
+      {
+        "sentence": "Quiero comentar algo.",
+        "translationEn": "I want to comment on something.",
+        "translationPl": "Chcę coś skomentować."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1363",
+    "word": "confirmar",
+    "translationEn": "to confirm",
+    "translationPl": "potwierdzać",
+    "examples": [
+      {
+        "sentence": "Puedes confirmar tu asistencia?",
+        "translationEn": "Can you confirm your attendance?",
+        "translationPl": "Czy możesz potwierdzić swoją obecność?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1370",
+    "word": "contacto",
+    "translationEn": "contact",
+    "translationPl": "kontakt",
+    "examples": [
+      {
+        "sentence": "Mantente en contacto.",
+        "translationEn": "Stay in contact.",
+        "translationPl": "Pozostań w kontakcie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1400",
+    "word": "diario",
+    "translationEn": "daily;diary;newspaper",
+    "translationPl": "codzienny;dziennik;gazeta",
+    "examples": [
+      {
+        "sentence": "Leo el diario.",
+        "translationEn": "I read the newspaper.",
+        "translationPl": "Czytam gazetę."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1404",
+    "word": "discutir",
+    "translationEn": "to discuss;to argue",
+    "translationPl": "dyskutować;kłócić się",
+    "examples": [
+      {
+        "sentence": "No quiero discutir.",
+        "translationEn": "I don't want to argue.",
+        "translationPl": "Nie chcę się kłócić."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1425",
+    "word": "entender",
+    "translationEn": "to understand",
+    "translationPl": "rozumieć",
+    "examples": [
+      {
+        "sentence": "No entiendo.",
+        "translationEn": "I don't understand.",
+        "translationPl": "Nie rozumiem."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1430",
+    "word": "escribir",
+    "translationEn": "to write",
+    "translationPl": "pisać",
+    "examples": [
+      {
+        "sentence": "Me gusta escribir.",
+        "translationEn": "I like to write.",
+        "translationPl": "Lubię pisać."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1439",
+    "word": "exigir",
+    "translationEn": "to demand;to require",
+    "translationPl": "wymagać",
+    "examples": [
+      {
+        "sentence": "Exijo una explicación.",
+        "translationEn": "I demand an explanation.",
+        "translationPl": "Wymagam wyjaśnienia."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1442",
+    "word": "expresar",
+    "translationEn": "to express",
+    "translationPl": "wyrażać",
+    "examples": [
+      {
+        "sentence": "Quiero expresar mis sentimientos.",
+        "translationEn": "I want to express my feelings.",
+        "translationPl": "Chcę wyrazić swoje uczucia."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1458",
+    "word": "hablar",
+    "translationEn": "to speak;to talk",
+    "translationPl": "rozmawiać",
+    "examples": [
+      {
+        "sentence": "Me gusta hablar contigo.",
+        "translationEn": "I like talking to you.",
+        "translationPl": "Lubię z tobą rozmawiać."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1469",
+    "word": "indicar",
+    "translationEn": "to indicate",
+    "translationPl": "wskazywać",
+    "examples": [
+      {
+        "sentence": "Indica la dirección.",
+        "translationEn": "Indicate the direction.",
+        "translationPl": "Wskaż kierunek."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1472",
+    "word": "información",
+    "translationEn": "information",
+    "translationPl": "informacja",
+    "examples": [
+      {
+        "sentence": "Necesito más información.",
+        "translationEn": "I need more information.",
+        "translationPl": "Potrzebuję więcej informacji."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1503",
+    "word": "mencionar",
+    "translationEn": "to mention",
+    "translationPl": "wspominać",
+    "examples": [
+      {
+        "sentence": "No lo mencioné.",
+        "translationEn": "I didn't mention it.",
+        "translationPl": "Nie wspomniałem o tym."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1511",
+    "word": "mostrar",
+    "translationEn": "to show",
+    "translationPl": "pokazywać",
+    "examples": [
+      {
+        "sentence": "Puedes mostrarme el camino?",
+        "translationEn": "Can you show me the way?",
+        "translationPl": "Czy możesz pokazać mi drogę?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1516",
+    "word": "negar",
+    "translationEn": "to deny",
+    "translationPl": "zaprzeczać",
+    "examples": [
+      {
+        "sentence": "No puedo negar la verdad.",
+        "translationEn": "I cannot deny the truth.",
+        "translationPl": "Nie mogę zaprzeczyć prawdzie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1519",
+    "word": "novedad",
+    "translationEn": "novelty;news",
+    "translationPl": "nowość;aktualności",
+    "examples": [
+      {
+        "sentence": "Hay alguna novedad?",
+        "translationEn": "Is there any news?",
+        "translationPl": "Czy są jakieś nowości?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1568",
+    "word": "prometer",
+    "translationEn": "to promise",
+    "translationPl": "obiecywać",
+    "examples": [
+      {
+        "sentence": "Te lo prometo.",
+        "translationEn": "I promise you.",
+        "translationPl": "Obiecuję ci."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1573",
+    "word": "publicar",
+    "translationEn": "to publish",
+    "translationPl": "publikować",
+    "examples": [
+      {
+        "sentence": "Vamos a publicar un libro.",
+        "translationEn": "We are going to publish a book.",
+        "translationPl": "Opublikujemy książkę."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1582",
+    "word": "referencia",
+    "translationEn": "reference",
+    "translationPl": "odniesienie",
+    "examples": [
+      {
+        "sentence": "Hacer referencia a.",
+        "translationEn": "To make reference to.",
+        "translationPl": "Odwoływać się do."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1592",
+    "word": "respuesta",
+    "translationEn": "answer;response",
+    "translationPl": "odpowiedź",
+    "examples": [
+      {
+        "sentence": "Tengo una respuesta.",
+        "translationEn": "I have an answer.",
+        "translationPl": "Mam odpowiedź."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1595",
+    "word": "revelar",
+    "translationEn": "to reveal",
+    "translationPl": "ujawniać",
+    "examples": [
+      {
+        "sentence": "No puedo revelar el secreto.",
+        "translationEn": "I cannot reveal the secret.",
+        "translationPl": "Nie mogę ujawnić tajemnicy."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1606",
+    "word": "significar",
+    "translationEn": "to mean",
+    "translationPl": "znaczyć",
+    "examples": [
+      {
+        "sentence": "Qué significa esto?",
+        "translationEn": "What does this mean?",
+        "translationPl": "Co to znaczy?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1650",
+    "word": "voz",
+    "translationEn": "voice",
+    "translationPl": "głos",
+    "examples": [
+      {
+        "sentence": "Una voz hermosa.",
+        "translationEn": "A beautiful voice.",
+        "translationPl": "Piękny głos."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1657",
+    "word": "afirmar",
+    "translationEn": "to affirm;to state",
+    "translationPl": "potwierdzać;stwierdzać",
+    "examples": [
+      {
+        "sentence": "Él afirmó su inocencia.",
+        "translationEn": "He affirmed his innocence.",
+        "translationPl": "Potwierdził swoją niewinność."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1668",
+    "word": "anotar",
+    "translationEn": "to note;to write down",
+    "translationPl": "zapisywać",
+    "examples": [
+      {
+        "sentence": "Voy a anotar tu número.",
+        "translationEn": "I'm going to write down your number.",
+        "translationPl": "Zapiszę twój numer."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1670",
+    "word": "anunciar",
+    "translationEn": "to announce",
+    "translationPl": "ogłaszać",
+    "examples": [
+      {
+        "sentence": "Van a anunciar los resultados.",
+        "translationEn": "They are going to announce the results.",
+        "translationPl": "Ogłoszą wyniki."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1680",
+    "word": "asegurar",
+    "translationEn": "to assure;to secure",
+    "translationPl": "zapewniać;zabezpieczać",
+    "examples": [
+      {
+        "sentence": "Te aseguro que sí.",
+        "translationEn": "I assure you yes.",
+        "translationPl": "Zapewniam cię, że tak."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1710",
+    "word": "comentar",
+    "translationEn": "to comment",
+    "translationPl": "komentować",
+    "examples": [
+      {
+        "sentence": "No tengo nada que comentar.",
+        "translationEn": "I have nothing to comment.",
+        "translationPl": "Nie mam nic do skomentowania."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1717",
+    "word": "comprender",
+    "translationEn": "to understand;to comprehend",
+    "translationPl": "rozumieć",
+    "examples": [
+      {
+        "sentence": "No comprendo.",
+        "translationEn": "I don't understand.",
+        "translationPl": "Nie rozumiem."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1719",
+    "word": "comunicación",
+    "translationEn": "communication",
+    "translationPl": "komunikacja",
+    "examples": [
+      {
+        "sentence": "Buena comunicación.",
+        "translationEn": "Good communication.",
+        "translationPl": "Dobra komunikacja."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1726",
+    "word": "confirmar",
+    "translationEn": "to confirm",
+    "translationPl": "potwierdzać",
+    "examples": [
+      {
+        "sentence": "Puedes confirmar tu reserva?",
+        "translationEn": "Can you confirm your reservation?",
+        "translationPl": "Czy możesz potwierdzić swoją rezerwację?"
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1733",
+    "word": "contar",
+    "translationEn": "to count;to tell",
+    "translationPl": "liczyć;opowiadać",
+    "examples": [
+      {
+        "sentence": "Cuéntame una historia.",
+        "translationEn": "Tell me a story.",
+        "translationPl": "Opowiedz mi historię."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1736",
+    "word": "contestar",
+    "translationEn": "to answer",
+    "translationPl": "odpowiadać",
+    "examples": [
+      {
+        "sentence": "Voy a contestar la pregunta.",
+        "translationEn": "I'm going to answer the question.",
+        "translationPl": "Odpowiem na pytanie."
+      }
+    ],
+    "category": "communication"
+  },
+  {
+    "id": "1739",
+    "word": "convencer",
+    "translationEn": "to convince",
+    "translationPl": "przekonywać",
+    "examples": [
+      {
+        "sentence": "Voy a convencerte.",
+        "translationEn": "I'm going to convince you.",
+        "translationPl": "Przekonam cię."
+      }
+    ],
+    "category": "communication"
+  }
+]

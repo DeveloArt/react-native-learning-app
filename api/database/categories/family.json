@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1133",
+    "word": "madre",
+    "translationEn": "mother",
+    "translationPl": "matka",
+    "examples": [
+      {
+        "sentence": "Mi madre es la mejor.",
+        "translationEn": "My mother is the best.",
+        "translationPl": "Moja matka jest najlepsza."
+      }
+    ],
+    "category": "family"
+  },
+  {
+    "id": "1136",
+    "word": "marido",
+    "translationEn": "husband",
+    "translationPl": "mąż",
+    "examples": [
+      {
+        "sentence": "Mi marido está en casa.",
+        "translationEn": "My husband is home.",
+        "translationPl": "Mój mąż jest w domu."
+      }
+    ],
+    "category": "family"
+  }
+]
