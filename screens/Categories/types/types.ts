@@ -8,6 +8,7 @@ export interface CategoryCard {
   color: string; // base color for the category icon background
   icon: string;
   iconColor: string;
+  progress?: number; // progress percentage (0-100)
   subcategories: SubcategoryItem[]; // exactly 4 subcategories
 }
 

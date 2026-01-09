@@ -4,7 +4,7 @@ import { ThemedText } from '@/components/typography/ThemedText';
 import { flashcardsReducer, initialFlashcardsState } from '@/hooks/useFlashcardsReducer';
 import { categoryCards } from '@/screens/Categories/data/cards';
 import { getSelectedCategory, saveSelectedCategory } from '@/src/storage/category';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { MaterialIcons } from '@expo/vector-icons';
 import { useEffect, useReducer } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
@@ -128,80 +128,41 @@ export function FlashcardsScreen() {
 
   return (
     <View
-      className="flex-1 px-4 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
+      className="flex-1 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
       style={{ paddingTop, paddingBottom }}
     >
-      <Modal
-        visible={state.pickerOpen}
-        animationType="slide"
-        onRequestClose={() => dispatch({ type: 'TOGGLE_PICKER' })}
-      >
-        <ScrollView
-          className="flex-1 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
-          contentContainerStyle={{ padding: 16, paddingTop, paddingBottom }}
-        >
-          <View className="gap-3 mt-2">
-            {categoryCards.map((c) => (
-              <TouchableOpacity
-                key={c.key}
-                onPress={() => applyCategorySelection(c.key)}
-                className="rounded-2xl bg-surfacePrimary dark:bg-surfacePrimary-dark"
-              >
-                <View className="flex-row justify-between items-center p-4">
-                  <View className="flex-row gap-4 items-center">
-                    <View className="p-3 rounded-xl" style={{ backgroundColor: c.color }}>
-                      <MaterialCommunityIcons name={c.icon as any} size={22} color={c.iconColor} />
-                    </View>
-                    <View>
-                      <ThemedText weight="bold">{t(`builder.categories.${c.key}`)}</ThemedText>
-                    </View>
-                  </View>
-                </View>
-              </TouchableOpacity>
-            ))}
-          </View>
-          <View>
-            <View style={{ height: 24 }} />
-            <TouchableOpacity
-              onPress={() => dispatch({ type: 'TOGGLE_PICKER' })}
-              className="w-full px-4 py-3 rounded-full bg-white dark:bg-surfaceTertiary-dark"
-            >
-              <ThemedText className="text-center text-black dark:text-white">
-                {t('common.buttons.close') || 'Close'}
-              </ThemedText>
-            </TouchableOpacity>
-          </View>
-        </ScrollView>
-      </Modal>
-
-      <View className="mb-4 w-full">
-        <TouchableOpacity
-          onPress={() => {
-            dispatch({ type: 'TOGGLE_PICKER' });
-          }}
-          className="px-3 py-2 bg-surfacePrimary dark:bg-surfacePrimary-dark rounded mb-3"
-          style={{ marginTop: pickerButtonMarginTop }}
-        >
-          <ThemedText>
-            {state.selectedCategory
-              ? t(`builder.categories.${state.selectedCategory}`)
-              : t('flashcards.selectCategory') || 'Select category'}
-          </ThemedText>
+      {/* TopAppBar */}
+      <View className="flex-row items-center justify-between p-4 pb-2">
+        <TouchableOpacity className="w-12 h-12 items-start justify-center">
+          <MaterialIcons name="close" size={24} className="text-text dark:text-white" />
         </TouchableOpacity>
-        <ProgressBar progress={progress} height={8} />
-      </View>
-      <View className="items-center">
-        <ThemedText size="small" className="opacity-70">
-          {state.knownIds.size}/{state.deck.length}
+        <ThemedText weight="bold" className="text-lg flex-1 text-center pr-12">
+          Vocabulary: Basics 1
         </ThemedText>
       </View>
-      <View
-        className="flex-1 items-center"
-        style={{ justifyContent: 'flex-start', marginTop: height * 0.1 }}
-      >
+
+      {/* ProgressBar */}
+      <View className="flex-col gap-2 p-4 pt-0">
+        <View className="flex-row gap-6 justify-between items-center mb-1">
+          <ThemedText
+            size="small"
+            weight="medium"
+            className="text-textSecondary dark:text-textSecondary-dark uppercase tracking-wider"
+          >
+            Session Progress
+          </ThemedText>
+          <ThemedText size="small" weight="bold">
+            {state.knownIds.size}/{state.deck.length}
+          </ThemedText>
+        </View>
+        <ProgressBar progress={progress} height={10} />
+      </View>
+
+      {/* Central Flashcard Area */}
+      <View className="flex-1 flex-col justify-center px-4 py-4">
         {done ? (
           <Animated.View entering={FadeInDown} exiting={FadeOutDown}>
-            <ThemedText weight="bold" className="text-[24px]">
+            <ThemedText weight="bold" className="text-[24px] text-center">
               All done!
             </ThemedText>
           </Animated.View>
@@ -241,8 +202,56 @@ export function FlashcardsScreen() {
             </ThemedText>
           </View>
         )}
-        {!done && <FlashcardButtons onUnknown={handleUnknown} onKnown={handleKnown} />}
       </View>
+
+      {/* Navigation / Action Buttons */}
+      {!done && <FlashcardButtons onUnknown={handleUnknown} onKnown={handleKnown} />}
+
+      {/* Floating Hint (Bottom spacer for iOS home bar area) */}
+      <View className="h-6 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"></View>
+
+      <Modal
+        visible={state.pickerOpen}
+        animationType="slide"
+        onRequestClose={() => dispatch({ type: 'TOGGLE_PICKER' })}
+      >
+        <ScrollView
+          className="flex-1 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
+          contentContainerStyle={{ padding: 16, paddingTop, paddingBottom }}
+        >
+          <View className="gap-3 mt-2">
+            {categoryCards.map((c) => (
+              <TouchableOpacity
+                key={c.key}
+                onPress={() => applyCategorySelection(c.key)}
+                className="rounded-2xl bg-surfacePrimary dark:bg-surfacePrimary-dark"
+              >
+                <View className="flex-row justify-between items-center p-4">
+                  <View className="flex-row gap-4 items-center">
+                    <View className="p-3 rounded-xl" style={{ backgroundColor: c.color }}>
+                      <MaterialIcons name={c.icon as any} size={22} color={c.iconColor} />
+                    </View>
+                    <View>
+                      <ThemedText weight="bold">{t(`builder.categories.${c.key}`)}</ThemedText>
+                    </View>
+                  </View>
+                </View>
+              </TouchableOpacity>
+            ))}
+          </View>
+          <View>
+            <View style={{ height: 24 }} />
+            <TouchableOpacity
+              onPress={() => dispatch({ type: 'TOGGLE_PICKER' })}
+              className="w-full px-4 py-3 rounded-full bg-white dark:bg-surfaceTertiary-dark"
+            >
+              <ThemedText className="text-center text-black dark:text-white">
+                {t('common.buttons.close') || 'Close'}
+              </ThemedText>
+            </TouchableOpacity>
+          </View>
+        </ScrollView>
+      </Modal>
     </View>
   );
 }

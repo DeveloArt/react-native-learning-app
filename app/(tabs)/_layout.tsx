@@ -1,8 +1,6 @@
-import { AppHeader } from '@/components/headers/AppHeader';
-import { Colors } from '@/constants/color';
+import { ThemedText } from '@/components/typography/ThemedText';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { HeaderBackButton } from '@react-navigation/elements';
 import { Tabs, useRouter } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { Platform, View, useWindowDimensions } from 'react-native';
@@ -16,7 +14,8 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={({ navigation }) => ({
-        tabBarActiveTintColor: colorScheme === 'dark' ? '#0A47C2' : '#0d59f2',
+        tabBarActiveTintColor: '#2b8cee',
+        tabBarInactiveTintColor: colorScheme === 'dark' ? '#64748b' : '#4c739a',
         tabBarLabelPosition: 'below-icon',
         tabBarIconStyle: {
           alignItems: 'center',
@@ -25,53 +24,32 @@ export default function TabLayout() {
           overflow: 'visible',
         },
         tabBarLabelStyle: {
-          fontSize: 11,
-          lineHeight: 13,
+          fontSize: 10,
+          lineHeight: 12,
           marginTop: 2,
+          fontWeight: '500',
         },
         tabBarItemStyle: {
           paddingVertical: 2,
           alignItems: 'center',
         },
-        headerShown: true,
-        headerLeft: (props) =>
-          navigation.canGoBack() ? (
-            <HeaderBackButton {...props} onPress={() => navigation.goBack()} />
-          ) : undefined,
-        headerTitleAlign: 'left',
-        headerShadowVisible: false,
-        headerTintColor: Colors[colorScheme ?? 'light'].text,
-        headerStyle: { backgroundColor: Colors[colorScheme ?? 'light'].background },
-        headerTitleStyle: {
-          fontSize: 22,
-          fontWeight: '700',
-          color: Colors[colorScheme ?? 'light'].text,
-        },
-        header: ({ options }) => {
-          const state = navigation.getState?.();
-          const currentRouteName = state?.routes?.[state.index]?.name;
-          const isHome = currentRouteName === 'index';
-          const isSpeaking = currentRouteName === 'speaking';
-          const showBack = navigation.canGoBack() || isSpeaking;
-          return (
-            <AppHeader
-              title={isHome ? t('home.heading.helloTitle') : (options?.title as string) || ''}
-              showBackButton={showBack}
-              onPressBack={() =>
-                navigation.canGoBack() ? navigation.goBack() : router.push('/(tabs)')
-              }
-              onPressRightSecondary={undefined}
-              onPressRight={isHome ? () => router.push('/(content)/config') : undefined}
-            />
-          );
-        },
+        headerShown: false,
         tabBarStyle: Platform.select({
           ios: {
             position: 'absolute',
-            height: height * 0.135,
+            height: height * 0.12,
+            backgroundColor:
+              colorScheme === 'dark' ? 'rgba(16, 25, 34, 0.8)' : 'rgba(255, 255, 255, 0.8)',
+            borderTopWidth: 1,
+            borderTopColor: colorScheme === 'dark' ? '#334155' : '#e2e8f0',
+            backdropFilter: 'blur',
           },
           default: {
-            height: height * 0.135,
+            height: height * 0.12,
+            backgroundColor:
+              colorScheme === 'dark' ? 'rgba(16, 25, 34, 0.8)' : 'rgba(255, 255, 255, 0.8)',
+            borderTopWidth: 1,
+            borderTopColor: colorScheme === 'dark' ? '#334155' : '#e2e8f0',
           },
         }),
       })}
@@ -80,10 +58,19 @@ export default function TabLayout() {
         name="index"
         options={{
           title: '',
-          tabBarLabel: t('common.tabs.home'),
-          tabBarIcon: ({ color, size }) => (
-            <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
-              <MaterialCommunityIcons name="square-rounded-outline" size={size} color={color} />
+          tabBarLabel: 'Home',
+          tabBarIcon: ({ color, size, focused }) => (
+            <View className="flex-col items-center gap-1">
+              <MaterialCommunityIcons
+                name={focused ? 'home' : 'home-outline'}
+                size={24}
+                color={color}
+              />
+              <ThemedText
+                className={`text-[10px] font-bold ${focused ? 'text-primary' : 'text-textSecondary dark:text-textSecondary-dark'}`}
+              >
+                Home
+              </ThemedText>
             </View>
           ),
         }}
@@ -92,9 +79,19 @@ export default function TabLayout() {
         name="flashcards"
         options={{
           title: t('common.tabs.flashcards'),
-          tabBarIcon: ({ color, size }) => (
-            <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
-              <MaterialCommunityIcons name="cards-outline" size={size} color={color} />
+          tabBarLabel: 'Lessons',
+          tabBarIcon: ({ color, size, focused }) => (
+            <View className="flex-col items-center gap-1">
+              <MaterialCommunityIcons
+                name={focused ? 'book-open-variant' : 'book-open-outline'}
+                size={24}
+                color={color}
+              />
+              <ThemedText
+                className={`text-[10px] font-medium ${focused ? 'text-primary' : 'text-textSecondary dark:text-textSecondary-dark'}`}
+              >
+                Lessons
+              </ThemedText>
             </View>
           ),
         }}
@@ -103,33 +100,61 @@ export default function TabLayout() {
         name="builder"
         options={{
           title: t('common.tabs.builder'),
-          tabBarLabel: t('common.tabs.builder'),
-          tabBarIcon: ({ color, size }) => (
-            <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
-              <MaterialCommunityIcons name="view-dashboard-outline" size={size} color={color} />
+          tabBarLabel: 'Leaderboard',
+          tabBarIcon: ({ color, size, focused }) => (
+            <View className="flex-col items-center gap-1">
+              <MaterialCommunityIcons
+                name={focused ? 'trophy' : 'trophy-outline'}
+                size={24}
+                color={color}
+              />
+              <ThemedText
+                className={`text-[10px] font-medium ${focused ? 'text-primary' : 'text-textSecondary dark:text-textSecondary-dark'}`}
+              >
+                Leaderboard
+              </ThemedText>
             </View>
           ),
         }}
       />
       <Tabs.Screen
-        name="speaking"
+        name="progress"
         options={{
-          title: t('common.tabs.speaking'),
-          tabBarIcon: ({ color, size }) => (
-            <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
-              <MaterialCommunityIcons name="microphone-outline" size={size} color={color} />
+          title: t('common.tabs.progress'),
+          tabBarLabel: 'Progress',
+          tabBarIcon: ({ color, size, focused }) => (
+            <View className="flex-col items-center gap-1">
+              <MaterialCommunityIcons
+                name={focused ? 'chart-pie' : 'chart-pie-outline'}
+                size={24}
+                color={color}
+              />
+              <ThemedText
+                className={`text-[10px] font-medium ${focused ? 'text-primary' : 'text-textSecondary dark:text-textSecondary-dark'}`}
+              >
+                Progress
+              </ThemedText>
             </View>
           ),
         }}
       />
       <Tabs.Screen
-        name="stats"
+        name="sentence-builder"
         options={{
-          title: t('common.tabs.stats'),
-          tabBarLabel: t('common.tabs.stats'),
-          tabBarIcon: ({ color, size }) => (
-            <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
-              <MaterialCommunityIcons name="chart-box-outline" size={size} color={color} />
+          title: 'Sentence Builder',
+          tabBarLabel: 'Practice',
+          tabBarIcon: ({ color, size, focused }) => (
+            <View className="flex-col items-center gap-1">
+              <MaterialCommunityIcons
+                name={focused ? 'pencil' : 'pencil-outline'}
+                size={24}
+                color={color}
+              />
+              <ThemedText
+                className={`text-[10px] font-medium ${focused ? 'text-primary' : 'text-textSecondary dark:text-textSecondary-dark'}`}
+              >
+                Practice
+              </ThemedText>
             </View>
           ),
         }}
