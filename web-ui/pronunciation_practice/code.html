@@ -1,0 +1,177 @@
+<!doctype html>
+
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>¡Hola! - Pronunciation Practice</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#2b8cee',
+              'background-light': '#f6f7f8',
+              'background-dark': '#101922',
+            },
+            fontFamily: {
+              display: ['Lexend', 'sans-serif'],
+            },
+            borderRadius: {
+              DEFAULT: '1rem',
+              lg: '2rem',
+              xl: '3rem',
+              full: '9999px',
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: 'Lexend', sans-serif;
+      }
+      .waveform-bar {
+        width: 4px;
+        background-color: #2b8cee;
+        border-radius: 2px;
+        margin: 0 2px;
+      }
+    </style>
+    <style>
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+  </head>
+  <body class="bg-background-light dark:bg-background-dark min-h-screen flex flex-col items-center">
+    <!-- Main Container -->
+    <div
+      class="relative flex h-full min-h-screen w-full max-w-[430px] flex-col bg-background-light dark:bg-background-dark overflow-x-hidden pb-10"
+    >
+      <!-- TopAppBar -->
+      <div class="flex items-center bg-transparent p-4 pb-2 justify-between">
+        <div
+          aria-label="Go back"
+          class="text-[#0d141b] dark:text-white flex size-12 shrink-0 items-center cursor-pointer"
+        >
+          <span class="material-symbols-outlined">arrow_back_ios</span>
+        </div>
+        <h2
+          class="text-[#0d141b] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12"
+        >
+          Practice Pronunciation
+        </h2>
+      </div>
+      <!-- Progress Indicator (Custom Component) -->
+      <div class="px-6 py-2">
+        <div class="w-full bg-gray-200 dark:bg-gray-800 h-2 rounded-full overflow-hidden">
+          <div class="bg-primary h-full rounded-full" style="width: 65%"></div>
+        </div>
+      </div>
+      <!-- HeadlineText (Word Area) -->
+      <div class="mt-8 flex flex-col items-center">
+        <div class="flex items-center gap-3">
+          <h1
+            class="text-[#0d141b] dark:text-white tracking-tight text-[48px] font-bold leading-tight px-4 text-center"
+          >
+            Gracias
+          </h1>
+          <button class="bg-primary/10 dark:bg-primary/20 p-2 rounded-full text-primary">
+            <span class="material-symbols-outlined">volume_up</span>
+          </button>
+        </div>
+        <!-- TitleText (Translation) -->
+        <h2
+          class="text-gray-500 dark:text-gray-400 text-xl font-medium leading-tight tracking-[-0.015em] px-4 text-center pt-2"
+        >
+          Thank you
+        </h2>
+      </div>
+      <!-- Pulse & Recording Area -->
+      <div class="flex-1 flex flex-col items-center justify-center py-12">
+        <!-- Pulsating effect wrapper -->
+        <div class="relative flex items-center justify-center">
+          <!-- Background Pulse Rings -->
+          <div class="absolute w-40 h-40 bg-primary/20 rounded-full scale-110"></div>
+          <div class="absolute w-48 h-48 bg-primary/10 rounded-full scale-125"></div>
+          <!-- SingleButton (Microphone) -->
+          <div class="flex px-4 py-3 justify-center relative z-10">
+            <button
+              class="flex size-24 cursor-pointer items-center justify-center overflow-hidden rounded-full bg-primary text-white shadow-lg shadow-primary/30 active:scale-95 transition-transform"
+            >
+              <span class="material-symbols-outlined text-[40px]">mic</span>
+            </button>
+          </div>
+        </div>
+        <!-- Waveform Animation -->
+        <div class="flex items-center justify-center h-12 mt-8">
+          <div class="waveform-bar h-4"></div>
+          <div class="waveform-bar h-8"></div>
+          <div class="waveform-bar h-10"></div>
+          <div class="waveform-bar h-6"></div>
+          <div class="waveform-bar h-12"></div>
+          <div class="waveform-bar h-9"></div>
+          <div class="waveform-bar h-11"></div>
+          <div class="waveform-bar h-5"></div>
+          <div class="waveform-bar h-7"></div>
+        </div>
+        <!-- BodyText -->
+        <p
+          class="text-gray-500 dark:text-gray-400 text-base font-normal leading-normal pb-3 pt-4 px-4 text-center"
+        >
+          Hold to speak
+        </p>
+      </div>
+      <!-- Results Area (Appears after speaking) -->
+      <div
+        class="mx-6 p-6 bg-white dark:bg-gray-900 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 flex flex-col items-center gap-4"
+      >
+        <div class="flex items-center justify-between w-full">
+          <div class="flex flex-col">
+            <span class="text-gray-400 text-xs uppercase tracking-widest font-bold">Accuracy</span>
+            <span class="text-3xl font-bold text-primary">92%</span>
+          </div>
+          <div
+            class="bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 px-4 py-2 rounded-full flex items-center gap-2"
+          >
+            <span class="material-symbols-outlined text-lg font-bold">check_circle</span>
+            <span class="font-bold">Correct!</span>
+          </div>
+        </div>
+        <!-- Result Bar Visualization -->
+        <div class="w-full h-3 bg-gray-100 dark:bg-gray-800 rounded-full overflow-hidden">
+          <div class="bg-green-500 h-full rounded-full" style="width: 92%"></div>
+        </div>
+      </div>
+      <!-- Footer Action -->
+      <div class="px-6 pt-8 pb-4 flex flex-col gap-3">
+        <button
+          class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-5 bg-primary text-white text-lg font-bold shadow-md"
+        >
+          <span>Continue</span>
+          <span class="material-symbols-outlined ml-2">arrow_forward</span>
+        </button>
+        <button
+          class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-[#0d141b] dark:text-white text-base font-bold"
+        >
+          Try again
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

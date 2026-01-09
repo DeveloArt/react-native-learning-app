@@ -16,6 +16,7 @@ export default {
       builder: 'Builder',
       speaking: 'Speaking',
       stats: 'Statistics',
+      progress: 'Progress',
     },
   },
   layout: {

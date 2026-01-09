@@ -16,6 +16,7 @@ export default {
       builder: 'Zdania',
       speaking: 'Mówienie',
       stats: 'Statystyki',
+      progress: 'Postęp',
     },
   },
   layout: {

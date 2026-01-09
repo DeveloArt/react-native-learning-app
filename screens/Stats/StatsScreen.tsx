@@ -1,7 +1,8 @@
+import { ThemedText } from '@/components/typography/ThemedText';
 import { useFocusEffect } from '@react-navigation/native';
 import { useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ScrollView } from 'react-native';
+import { ScrollView, TouchableOpacity, View } from 'react-native';
 import { ProgressChart } from './components/ProgressChart';
 import { StreakCard } from './components/StreakCard';
 import { SummaryCards } from './components/SummaryCards';
@@ -56,10 +57,23 @@ export function StatsScreen() {
   }, [stats, t]);
 
   return (
-    <ScrollView className="flex-1 px-4 py-4 bg-surfaceSecondary dark:bg-surfaceSecondary-dark">
-      <SummaryCards stats={summaryStats} />
-      <StreakCard streak={streakInfo} />
-      <ProgressChart points={progress7d} />
-    </ScrollView>
+    <View className="flex-1 bg-surfaceSecondary dark:bg-surfaceSecondary-dark">
+      {/* TopAppBar */}
+      <View className="flex-row items-center justify-between p-4 pb-2">
+        <TouchableOpacity className="w-12 h-12 items-start justify-center">
+          <ThemedText className="text-2xl">✕</ThemedText>
+        </TouchableOpacity>
+        <ThemedText weight="bold" className="text-lg flex-1 text-center pr-12">
+          Learning Statistics
+        </ThemedText>
+      </View>
+
+      {/* Content */}
+      <ScrollView className="flex-1 px-4 py-4">
+        <SummaryCards stats={summaryStats} />
+        <StreakCard streak={streakInfo} />
+        <ProgressChart points={progress7d} />
+      </ScrollView>
+    </View>
   );
 }

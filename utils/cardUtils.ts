@@ -72,11 +72,7 @@ export class CardUtils {
   /**
    * Get next card index
    */
-  static getNextIndex(
-    currentIndex: number,
-    deckLength: number,
-    incorrectQueue: number[]
-  ): number {
+  static getNextIndex(currentIndex: number, deckLength: number, incorrectQueue: number[]): number {
     if (currentIndex < deckLength - 1) {
       return currentIndex + 1;
     }
@@ -89,10 +85,7 @@ export class CardUtils {
   /**
    * Add card to incorrect queue if not already present
    */
-  static addToIncorrectQueue(
-    index: number,
-    queue: number[]
-  ): number[] {
+  static addToIncorrectQueue(index: number, queue: number[]): number[] {
     if (queue.includes(index)) return queue;
     return [...queue, index];
   }
@@ -109,15 +102,9 @@ export class CardUtils {
   /**
    * Localize card text based on language
    */
-  static localizeCard(
-    card: StudyCard,
-    language: string,
-    t: (key: string) => string
-  ) {
+  static localizeCard(card: StudyCard, language: string, t: (key: string) => string) {
     const isPl = language.startsWith('pl');
-    const backLanguageLabel = isPl
-      ? t('config.languagePolish')
-      : t('config.languageEnglish');
+    const backLanguageLabel = isPl ? t('config.languagePolish') : t('config.languageEnglish');
     const backText = isPl ? card.backTextPl : card.backTextEn;
     const examples = (card.examples || []).map((e) => ({
       sentence: e.sentence,
@@ -164,12 +151,12 @@ export class CardUtils {
     hard: StudyCard[];
   } {
     return cards.reduce(
-      (groups, card) => {
+      (groups: { easy: StudyCard[]; medium: StudyCard[]; hard: StudyCard[] }, card) => {
         const difficulty = this.getCardDifficulty(card);
         groups[difficulty].push(card);
         return groups;
       },
-      { easy: [], medium: [], hard: [] }
+      { easy: [], medium: [], hard: [] },
     );
   }
 }
