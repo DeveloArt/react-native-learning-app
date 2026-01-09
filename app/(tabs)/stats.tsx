@@ -1,5 +1,5 @@
-import { StatsScreen } from '@/screens/Stats/StatsScreen';
+import { WebProgressScreen } from '@/screens/Stats/WebProgressScreen';
 
 export default function StatsTab() {
-  return <StatsScreen />;
+  return <WebProgressScreen />;
 }

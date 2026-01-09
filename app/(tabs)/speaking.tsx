@@ -1,5 +1,5 @@
-import { SpeakingScreen } from '@/screens/Speaking/SpeakingScreen';
+import { WebPronunciationScreen } from '@/screens/Speaking/WebPronunciationScreen';
 
 export default function SpeakingTab() {
-  return <SpeakingScreen />;
+  return <WebPronunciationScreen />;
 }

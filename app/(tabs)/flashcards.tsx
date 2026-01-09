@@ -1,5 +1,5 @@
-import { FlashcardsScreen } from '@/screens/Flashcards/FlashcardsScreen';
+import { WebFlashcardsScreen } from '@/screens/Flashcards/WebFlashcardsScreen';
 
 export default function FlashCardsTab() {
-  return <FlashcardsScreen />;
+  return <WebFlashcardsScreen />;
 }

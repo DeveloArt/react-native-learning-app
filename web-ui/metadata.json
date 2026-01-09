@@ -1,0 +1,7 @@
+{
+  "name": "¡Hola! Language Learning",
+  "description": "A comprehensive language learning application featuring flashcards, sentence building, pronunciation practice, and progress tracking.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
