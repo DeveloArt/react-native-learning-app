@@ -20,7 +20,7 @@ const weightToFontClass: Record<ThemedTextWeight, string> = {
 
 const colorToClass: Partial<Record<ThemedTextColorName, string>> = {
   text: 'text-textPrimary dark:text-textPrimary-dark',
-  icon: 'text-iconDefault dark:text-iconDefault-dark',
+  icon: 'text-icon dark:text-icon-dark',
 };
 
 export const ThemedText = ({

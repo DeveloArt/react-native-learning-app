@@ -1,5 +1,5 @@
 import { useBottomTabBarHeight } from '@react-navigation/bottom-tabs';
-import { Platform, View } from 'react-native';
+import { Platform, Text, View } from 'react-native';
 import { HomeScreenButtons } from './components/HomeScreenButtons';
 import { HomeScreenHeading } from './components/HomeScreenHeading';
 
@@ -12,6 +12,7 @@ export const HomeScreen = () => {
       <View style={{ paddingBottom: bottomInset + 70 }} className="flex-1 justify-center">
         <HomeScreenHeading />
         <HomeScreenButtons />
+        <Text style={{ color: 'white' }}>Home Screen</Text>
       </View>
     </View>
   );

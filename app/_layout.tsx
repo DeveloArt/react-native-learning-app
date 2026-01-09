@@ -32,6 +32,8 @@ export default function RootLayout() {
     MontserratRegular: require('../assets/fonts/Montserrat-Regular.ttf'),
     MontserratSemiBold: require('../assets/fonts/Montserrat-SemiBold.ttf'),
     MontserratBold: require('../assets/fonts/Montserrat-Bold.ttf'),
+    MontserratLight: require('../assets/fonts/Montserrat-Light.ttf'),
+    MontserratMedium: require('../assets/fonts/Montserrat-Medium.ttf'),
   });
 
   const [showSplash, setShowSplash] = useState(true);
@@ -44,7 +46,7 @@ export default function RootLayout() {
     <QueryClientProvider client={queryClient}>
       <GestureHandlerRootView style={{ flex: 1 }}>
         <I18nextProvider i18n={i18n}>
-          <AppThemeProvider defaultScheme={colorScheme === 'dark' ? 'dark' : 'light'}>
+          <AppThemeProvider defaultScheme="light">
             <ThemeContext.Consumer>
               {({ scheme }) => {
                 const resolved = scheme ?? (colorScheme === 'dark' ? 'dark' : 'light');

@@ -65,6 +65,8 @@ module.exports = {
         montserratRegular: ['MontserratRegular'],
         montserratSemiBold: ['MontserratSemiBold'],
         montserratBold: ['MontserratBold'],
+        montserratLight: ['MontserratLight'],
+        montserratMedium: ['MontserratMedium'],
       },
     },
   },

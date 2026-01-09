@@ -7,7 +7,14 @@ import { getSelectedCategory, saveSelectedCategory } from '@/src/storage/categor
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useEffect, useReducer } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Modal, Platform, ScrollView, TouchableOpacity, View, useWindowDimensions } from 'react-native';
+import {
+  Modal,
+  Platform,
+  ScrollView,
+  TouchableOpacity,
+  View,
+  useWindowDimensions,
+} from 'react-native';
 import Animated, { FadeInDown, FadeOutDown } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Flashcard } from './components/Flashcard';
@@ -124,7 +131,11 @@ export function FlashcardsScreen() {
       className="flex-1 px-4 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
       style={{ paddingTop, paddingBottom }}
     >
-      <Modal visible={state.pickerOpen} animationType="slide" onRequestClose={() => dispatch({ type: 'TOGGLE_PICKER' })}>
+      <Modal
+        visible={state.pickerOpen}
+        animationType="slide"
+        onRequestClose={() => dispatch({ type: 'TOGGLE_PICKER' })}
+      >
         <ScrollView
           className="flex-1 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
           contentContainerStyle={{ padding: 16, paddingTop, paddingBottom }}
@@ -152,7 +163,7 @@ export function FlashcardsScreen() {
           <View>
             <View style={{ height: 24 }} />
             <TouchableOpacity
-              onPress={() => setPickerOpen(false)}
+              onPress={() => dispatch({ type: 'TOGGLE_PICKER' })}
               className="w-full px-4 py-3 rounded-full bg-white dark:bg-surfaceTertiary-dark"
             >
               <ThemedText className="text-center text-black dark:text-white">
@@ -209,7 +220,8 @@ export function FlashcardsScreen() {
               const backText = isPl ? card.backTextPl : card.backTextEn;
               const examples = (card.examples || []).map((e) => ({
                 sentence: e.sentence,
-                translation: isPl ? e.translationPl : e.translationEn,
+                translationEn: e.translationEn,
+                translationPl: e.translationPl,
               }));
               return (
                 <Flashcard
@@ -222,7 +234,13 @@ export function FlashcardsScreen() {
               );
             })()}
           </Animated.View>
-        ) : null}
+        ) : (
+          <View className="w-full items-center">
+            <ThemedText weight="bold" className="text-[24px]">
+              No cards available
+            </ThemedText>
+          </View>
+        )}
         {!done && <FlashcardButtons onUnknown={handleUnknown} onKnown={handleKnown} />}
       </View>
     </View>
