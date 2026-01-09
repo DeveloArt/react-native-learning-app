@@ -15,5 +15,6 @@ export interface FlashcardButtonsProps {
 
 export interface ExampleSentence {
   sentence: string;
-  translation?: string;
+  translationEn: string;
+  translationPl: string;
 }

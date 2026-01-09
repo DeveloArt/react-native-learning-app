@@ -220,7 +220,8 @@ export function FlashcardsScreen() {
               const backText = isPl ? card.backTextPl : card.backTextEn;
               const examples = (card.examples || []).map((e) => ({
                 sentence: e.sentence,
-                translation: isPl ? e.translationPl : e.translationEn,
+                translationEn: e.translationEn,
+                translationPl: e.translationPl,
               }));
               return (
                 <Flashcard
@@ -233,7 +234,13 @@ export function FlashcardsScreen() {
               );
             })()}
           </Animated.View>
-        ) : null}
+        ) : (
+          <View className="w-full items-center">
+            <ThemedText weight="bold" className="text-[24px]">
+              No cards available
+            </ThemedText>
+          </View>
+        )}
         {!done && <FlashcardButtons onUnknown={handleUnknown} onKnown={handleKnown} />}
       </View>
     </View>
