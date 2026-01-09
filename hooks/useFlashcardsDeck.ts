@@ -1,6 +1,6 @@
 import { mapToStudyCards, spanishFlashcards, StudyCard } from '@/api/database/flashcards';
 import { getSelectedCategory, saveSelectedCategory } from '@/src/storage/category';
-import { useCallback, useEffect, useMemo } from 'react';
+import { useCallback, useEffect, useMemo, useReducer } from 'react';
 import { useTranslation } from 'react-i18next';
 import { flashcardsReducer, initialFlashcardsState } from './useFlashcardsReducer';
 
@@ -17,21 +17,21 @@ function pickRandomEntries<T>(items: T[], desiredCount: number): T[] {
 
 export function useFlashcardsDeck() {
   const { i18n, t } = useTranslation();
-  
+
   const [state, dispatch] = useReducer(flashcardsReducer, initialFlashcardsState);
-  
+
   // Memoized current card
   const currentCard = useMemo(() => state.deck[state.index], [state.deck, state.index]);
-  
+
   // Memoized progress calculations
-  const progress = useMemo(() => 
-    state.deck.length > 0 ? state.knownIds.size / state.deck.length : 0,
-    [state.deck.length, state.knownIds.size]
+  const progress = useMemo(
+    () => (state.deck.length > 0 ? state.knownIds.size / state.deck.length : 0),
+    [state.deck.length, state.knownIds.size],
   );
-  
-  const isDone = useMemo(() => 
-    state.deck.length > 0 && state.knownIds.size === state.deck.length,
-    [state.deck.length, state.knownIds.size]
+
+  const isDone = useMemo(
+    () => state.deck.length > 0 && state.knownIds.size === state.deck.length,
+    [state.deck.length, state.knownIds.size],
   );
 
   // Initialize deck on mount
@@ -76,10 +76,16 @@ export function useFlashcardsDeck() {
   // Auto-reshuffle when done
   useEffect(() => {
     if (!isDone) return;
-    const t = setTimeout(() => {
-      reshuffleDeck();
+    const timer = setTimeout(() => {
+      const source = spanishFlashcards.filter((e) =>
+        state.selectedCategory ? e.category === state.selectedCategory : true,
+      );
+      const selection = pickRandomEntries(source, 10);
+      const base = mapToStudyCards(selection);
+      const shuffled = [...base].sort(() => Math.random() - 0.5);
+      dispatch({ type: 'SET_DECK', deck: shuffled });
     }, 2500);
-    return () => clearTimeout(t);
+    return () => clearTimeout(timer);
   }, [isDone, state.selectedCategory]);
 
   const handleUnknown = useCallback(() => {
@@ -109,7 +115,7 @@ export function useFlashcardsDeck() {
     dispatch({ type: 'TOGGLE_PICKER' });
     try {
       await saveSelectedCategory(catKey);
-    } catch (e) {
+    } catch {
       // Error saving category - silently continue
     }
     const source = spanishFlashcards.filter((e) => (catKey ? e.category === catKey : true));
@@ -123,24 +129,25 @@ export function useFlashcardsDeck() {
     dispatch({ type: 'TOGGLE_PICKER' });
   }, []);
 
-  const getLocalizedCard = useCallback((card: StudyCard) => {
-    const isPl = (i18n.language || 'en').startsWith('pl');
-    const backLanguageLabel = isPl
-      ? t('config.languagePolish')
-      : t('config.languageEnglish');
-    const backText = isPl ? card.backTextPl : card.backTextEn;
-    const examples = (card.examples || []).map((e) => ({
-      sentence: e.sentence,
-      translation: isPl ? e.translationPl : e.translationEn,
-    }));
+  const getLocalizedCard = useCallback(
+    (card: StudyCard) => {
+      const isPl = (i18n.language || 'en').startsWith('pl');
+      const backLanguageLabel = isPl ? t('config.languagePolish') : t('config.languageEnglish');
+      const backText = isPl ? card.backTextPl : card.backTextEn;
+      const examples = (card.examples || []).map((e) => ({
+        sentence: e.sentence,
+        translation: isPl ? e.translationPl : e.translationEn,
+      }));
 
-    return {
-      ...card,
-      backLanguageLabel,
-      backText,
-      examples,
-    };
-  }, [i18n.language, t]);
+      return {
+        ...card,
+        backLanguageLabel,
+        backText,
+        examples,
+      };
+    },
+    [i18n.language, t],
+  );
 
   return {
     // State
@@ -148,14 +155,14 @@ export function useFlashcardsDeck() {
     currentCard,
     progress,
     isDone,
-    
+
     // Actions
     handleUnknown,
     handleKnown,
     reshuffleDeck,
     applyCategorySelection,
     togglePicker,
-    
+
     // Utilities
     getLocalizedCard,
   };

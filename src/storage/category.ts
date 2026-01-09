@@ -12,14 +12,16 @@ export async function saveSelectedCategory(key: string | null) {
     } else {
       await AsyncStorage.setItem(SELECTED_CATEGORY_KEY, key);
     }
-  } catch (e) {
-    console.error('Error saving selected category', e);
+  } catch (error) {
+    console.error('Error saving selected category', error);
   }
   try {
     listeners.forEach((l) => {
       try {
         l(key);
-      } catch (e) {}
+      } catch {
+        // Listener error - continue
+      }
     });
   } catch (err) {
     console.error('[category] notify error', err);

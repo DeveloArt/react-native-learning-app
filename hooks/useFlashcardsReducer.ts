@@ -28,6 +28,7 @@ export const initialFlashcardsState: FlashcardsState = {
   knownIds: new Set(),
 };
 
+// Helper functions for deck management
 function pickRandomEntries<T>(items: T[], desiredCount: number): T[] {
   if (items.length <= desiredCount) return [...items];
   const selectedIndices = new Set<number>();
@@ -45,7 +46,7 @@ function shuffleArray<T>(array: T[]): T[] {
 
 export function flashcardsReducer(
   state: FlashcardsState,
-  action: FlashcardsAction
+  action: FlashcardsAction,
 ): FlashcardsState {
   switch (action.type) {
     case 'TOGGLE_PICKER':

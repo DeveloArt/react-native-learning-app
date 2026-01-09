@@ -16,7 +16,7 @@ export function CategoriesScreen() {
   const handlePressSub = async (catKey: string, subKey: string) => {
     try {
       await saveSelectedCategory(catKey);
-    } catch (e) {
+    } catch {
       // Error saving category - silently continue
     }
     router.push({ pathname: '/(content)/builder', params: { category: catKey } } as any);

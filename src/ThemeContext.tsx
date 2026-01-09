@@ -31,20 +31,26 @@ export const ThemeProvider: React.FC<{
         } else if (defaultScheme) {
           nativewind.setColorScheme(defaultScheme);
         }
-      } catch (e) {}
+      } catch {
+        // Error loading theme - continue with default
+      }
     })();
-  }, []);
+  }, [defaultScheme, nativewind]);
 
   const setScheme = async (s: AppColorScheme) => {
     try {
       if (s === null) await AsyncStorage.removeItem(STORAGE_KEY);
       else await AsyncStorage.setItem(STORAGE_KEY, s);
-    } catch (e) {}
+    } catch {
+      // Error saving theme - continue
+    }
     setSchemeState(s);
     try {
       if (s === null) nativewind.setColorScheme('system');
       else nativewind.setColorScheme(s as 'light' | 'dark');
-    } catch {}
+    } catch {
+      // Error setting theme - continue
+    }
   };
 
   return <ThemeContext.Provider value={{ scheme, setScheme }}>{children}</ThemeContext.Provider>;

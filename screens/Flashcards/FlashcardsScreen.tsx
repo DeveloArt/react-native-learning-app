@@ -5,9 +5,16 @@ import { flashcardsReducer, initialFlashcardsState } from '@/hooks/useFlashcards
 import { categoryCards } from '@/screens/Categories/data/cards';
 import { getSelectedCategory, saveSelectedCategory } from '@/src/storage/category';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { useEffect, useReducer } from 'react';
+import { useCallback, useEffect, useReducer } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Modal, Platform, ScrollView, TouchableOpacity, View, useWindowDimensions } from 'react-native';
+import {
+  Modal,
+  Platform,
+  ScrollView,
+  TouchableOpacity,
+  View,
+  useWindowDimensions,
+} from 'react-native';
 import Animated, { FadeInDown, FadeOutDown } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Flashcard } from './components/Flashcard';
@@ -64,7 +71,7 @@ export function FlashcardsScreen() {
     }
   }, [state.knownIds.size]);
 
-  const reshuffleDeck = () => {
+  const reshuffleDeck = useCallback(() => {
     const source = spanishFlashcards.filter((e) =>
       state.selectedCategory ? e.category === state.selectedCategory : true,
     );
@@ -72,14 +79,14 @@ export function FlashcardsScreen() {
     const base = mapToStudyCards(selection);
     const shuffled = [...base].sort(() => Math.random() - 0.5);
     dispatch({ type: 'SET_DECK', deck: shuffled });
-  };
+  }, [state.selectedCategory]);
 
   const applyCategorySelection = async (catKey: string | null) => {
     dispatch({ type: 'SET_CATEGORY', category: catKey });
     dispatch({ type: 'TOGGLE_PICKER' });
     try {
       await saveSelectedCategory(catKey);
-    } catch (e) {
+    } catch {
       // Error saving category - silently continue
     }
     const source = spanishFlashcards.filter((e) => (catKey ? e.category === catKey : true));
@@ -91,11 +98,11 @@ export function FlashcardsScreen() {
 
   useEffect(() => {
     if (!done) return;
-    const t = setTimeout(() => {
+    const timer = setTimeout(() => {
       reshuffleDeck();
     }, 2500);
-    return () => clearTimeout(t);
-  }, [done, state.selectedCategory]);
+    return () => clearTimeout(timer);
+  }, [done, state.selectedCategory, reshuffleDeck]);
 
   useEffect(() => {
     let mounted = true;
@@ -124,7 +131,11 @@ export function FlashcardsScreen() {
       className="flex-1 px-4 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
       style={{ paddingTop, paddingBottom }}
     >
-      <Modal visible={state.pickerOpen} animationType="slide" onRequestClose={() => dispatch({ type: 'TOGGLE_PICKER' })}>
+      <Modal
+        visible={state.pickerOpen}
+        animationType="slide"
+        onRequestClose={() => dispatch({ type: 'TOGGLE_PICKER' })}
+      >
         <ScrollView
           className="flex-1 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
           contentContainerStyle={{ padding: 16, paddingTop, paddingBottom }}
@@ -152,7 +163,7 @@ export function FlashcardsScreen() {
           <View>
             <View style={{ height: 24 }} />
             <TouchableOpacity
-              onPress={() => setPickerOpen(false)}
+              onPress={() => dispatch({ type: 'TOGGLE_PICKER' })}
               className="w-full px-4 py-3 rounded-full bg-white dark:bg-surfaceTertiary-dark"
             >
               <ThemedText className="text-center text-black dark:text-white">
