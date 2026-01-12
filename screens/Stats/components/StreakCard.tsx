@@ -28,7 +28,7 @@ export function StreakCard({ streak }: { streak: StreakInfo }) {
         size="small"
         className="mt-3 text-center text-textSecondary dark:text-textSecondary-dark"
       >
-        {streak.message.replace("'", '’')}
+        {streak.messageKey ? t(streak.messageKey) : ''}
       </ThemedText>
     </View>
   );

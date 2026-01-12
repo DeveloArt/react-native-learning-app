@@ -14,9 +14,9 @@ export function CategoriesScreen() {
   };
   const handlePressSub = (catKey: string, subKey: string) => {
     router.push({
-      pathname: '/(content)/builder',
+      pathname: '/(content)/builder' as const,
       params: { category: catKey, sub: subKey },
-    } as any);
+    });
   };
   return (
     <ScrollView

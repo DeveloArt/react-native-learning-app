@@ -31,20 +31,37 @@ export const ThemeProvider: React.FC<{
         } else if (defaultScheme) {
           nativewind.setColorScheme(defaultScheme);
         }
-      } catch (e) {}
+      } catch (error) {
+        console.error('Error loading color scheme from AsyncStorage:', error);
+        if (defaultScheme) {
+          nativewind.setColorScheme(defaultScheme);
+        }
+      }
     })();
-  }, []);
+  }, [defaultScheme, nativewind]);
 
   const setScheme = async (s: AppColorScheme) => {
-    try {
-      if (s === null) await AsyncStorage.removeItem(STORAGE_KEY);
-      else await AsyncStorage.setItem(STORAGE_KEY, s);
-    } catch (e) {}
     setSchemeState(s);
     try {
-      if (s === null) nativewind.setColorScheme('system');
-      else nativewind.setColorScheme(s as 'light' | 'dark');
-    } catch {}
+      if (s === null) {
+        await AsyncStorage.removeItem(STORAGE_KEY);
+        nativewind.setColorScheme('system');
+      } else {
+        await AsyncStorage.setItem(STORAGE_KEY, s);
+        nativewind.setColorScheme(s as 'light' | 'dark');
+      }
+    } catch (error) {
+      console.error('Error saving color scheme to AsyncStorage:', error);
+      try {
+        if (s === null) {
+          nativewind.setColorScheme('system');
+        } else {
+          nativewind.setColorScheme(s as 'light' | 'dark');
+        }
+      } catch (nativewindError) {
+        console.error('Error setting nativewind color scheme:', nativewindError);
+      }
+    }
   };
 
   return <ThemeContext.Provider value={{ scheme, setScheme }}>{children}</ThemeContext.Provider>;

@@ -21,8 +21,15 @@ export default function ConfigScreen() {
     (async () => {
       try {
         const stored = await AsyncStorage.getItem('tts-rate');
-        if (stored) setTtsRate(parseFloat(stored));
-      } catch {}
+        if (stored) {
+          const rate = parseFloat(stored);
+          if (!isNaN(rate) && rate >= 0.5 && rate <= 1.0) {
+            setTtsRate(rate);
+          }
+        }
+      } catch (error) {
+        console.error('Error loading TTS rate from AsyncStorage:', error);
+      }
     })();
   }, []);
 
@@ -114,7 +121,9 @@ export default function ConfigScreen() {
                   setTtsRate(r);
                   try {
                     await AsyncStorage.setItem('tts-rate', String(r));
-                  } catch {}
+                  } catch (error) {
+                    console.error('Error saving TTS rate to AsyncStorage:', error);
+                  }
                 }}
                 className={
                   r === ttsRate
@@ -142,7 +151,9 @@ export default function ConfigScreen() {
             onPress={async () => {
               try {
                 await setScheme(scheme === 'dark' ? 'light' : 'dark');
-              } catch {}
+              } catch (error) {
+                console.error('Error changing color scheme:', error);
+              }
             }}
             className={
               scheme === 'dark'

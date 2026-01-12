@@ -18,14 +18,22 @@ const LANGUAGE_DETECTOR: Module & {
   detect: async (callback: (lng: string) => void) => {
     try {
       const savedLanguage = await AsyncStorage.getItem('user-language');
-      callback(savedLanguage || 'pl');
+      if (savedLanguage && (savedLanguage === 'pl' || savedLanguage === 'en')) {
+        callback(savedLanguage);
+      } else {
+        callback('pl');
+      }
     } catch (error) {
       console.error('Error reading language from AsyncStorage:', error);
-      callback('en');
+      callback('pl');
     }
   },
   init: () => {},
   cacheUserLanguage: async (lng: string) => {
+    if (lng !== 'pl' && lng !== 'en') {
+      console.warn(`Invalid language code: ${lng}. Expected 'pl' or 'en'.`);
+      return;
+    }
     try {
       await AsyncStorage.setItem('user-language', lng);
     } catch (error) {

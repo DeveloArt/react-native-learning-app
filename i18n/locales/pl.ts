@@ -45,11 +45,13 @@ export default {
     tapToSeeTranslation: 'Dotknij, aby zobaczyć tłumaczenie',
     tapToSeeOriginal: 'Dotknij, aby zobaczyć oryginał',
     swipeForNext: 'Przesuń, aby zobaczyć kolejny przykład',
+    allDone: 'Wszystko zrobione!',
   },
   builder: {
     check: 'Sprawdź',
     translate: 'Przetłumacz zdanie',
     examplePrompt: 'Ułóż zdanie',
+    correct: 'Doskonale! ✅',
     tryAgain: 'Prawie! Sprawdź szyk wyrazów i spróbuj ponownie.',
     categories: {
       cuisine: 'Kulinaria',
@@ -114,6 +116,7 @@ export default {
     newWordsLearned: 'Nowe słowa',
     currentStreak: 'Aktualna passa',
     days: 'dni',
+    streakMessage: 'Świetnie! Kontynuuj, aby osiągnąć kolejny kamień milowy.',
     summary: {
       learned: 'Nauczone',
       studyDays: 'Dni nauki',

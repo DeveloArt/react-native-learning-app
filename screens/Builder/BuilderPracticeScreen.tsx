@@ -12,6 +12,7 @@ interface Props {
 }
 
 export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
+  const { t } = useTranslation();
   const sentences = useMemo(
     () => (categoryKey && subKey ? getSentences(categoryKey, subKey) : []),
     [categoryKey, subKey],
@@ -28,34 +29,44 @@ export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
   const [poolWords, setPoolWords] = useState<string[]>([]);
   const [selectedWords, setSelectedWords] = useState<string[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [isCorrect, setIsCorrect] = useState(false);
 
   const addWord = (w: string) => {
     setPoolWords((prev) => prev.filter((x) => x !== w));
     setSelectedWords((prev) => [...prev, w]);
+    setIsCorrect(false);
+    setError(null);
   };
   const removeWord = (w: string) => {
     setSelectedWords((prev) => prev.filter((x) => x !== w));
     setPoolWords((prev) => [...prev, w]);
+    setIsCorrect(false);
+    setError(null);
   };
 
-  // Reset tokens when sentence changes
   useEffect(() => {
     if (!current) return;
     const words = current.targetEs.split(' ');
     setPoolWords([...words].sort(() => Math.random() - 0.5));
     setSelectedWords([]);
     setError(null);
+    setIsCorrect(false);
   }, [current]);
 
-  // Auto-advance when full sequence is correct
   useEffect(() => {
     if (!current) return;
     const isComplete =
       selectedWords.length === expectedWords.length &&
       expectedWords.every((w, i) => selectedWords[i] === w);
     if (isComplete && expectedWords.length > 0) {
+      setIsCorrect(true);
       const nextIdx = idx < sentences.length - 1 ? idx + 1 : 0;
-      setTimeout(() => setIdx(nextIdx), 300);
+      setTimeout(() => {
+        setIdx(nextIdx);
+        setIsCorrect(false);
+      }, 1500);
+    } else {
+      setIsCorrect(false);
     }
   }, [selectedWords, expectedWords, current, idx, sentences]);
 
@@ -73,9 +84,14 @@ export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
       />
       {current && (
         <View className="items-center mt-4">
-          <View className="items-center">
-            <>{/* prompt text under the areas */}</>
-          </View>
+          <View className="items-center" />
+          {isCorrect && (
+            <View className="mt-4 items-center">
+              <ThemedText weight="bold" className="text-[36px] text-green-500">
+                {t('builder.correct')}
+              </ThemedText>
+            </View>
+          )}
           {error && (
             <View className="mt-2">
               <ThemedText size="small" className="text-[#ef4444]">
@@ -85,7 +101,6 @@ export function BuilderPracticeScreen({ categoryKey, subKey }: Props) {
           )}
         </View>
       )}
-      {/* No explicit Check button */}
     </View>
   );
 }

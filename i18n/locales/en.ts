@@ -45,11 +45,13 @@ export default {
     tapToSeeTranslation: 'Tap to see translation',
     tapToSeeOriginal: 'Tap to see original',
     swipeForNext: 'Swipe to see next example',
+    allDone: 'All done!',
   },
   builder: {
     check: 'Check',
     translate: 'Translate the sentence',
     examplePrompt: 'Build the sentence',
+    correct: 'Perfect! ✅',
     tryAgain: 'Almost! Check the word order and try again.',
     categories: {
       cuisine: 'Cuisine',
@@ -114,6 +116,7 @@ export default {
     newWordsLearned: 'New words learned',
     currentStreak: 'Current Streak',
     days: 'Days',
+    streakMessage: "You're on a roll! Keep it up to reach your next milestone.",
     summary: {
       learned: 'Learned',
       studyDays: 'Study Days',

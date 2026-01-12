@@ -5,7 +5,7 @@ export interface SummaryStat {
 
 export interface StreakInfo {
   days: number;
-  message: string;
+  messageKey?: string;
 }
 
 export interface ProgressPoint {
