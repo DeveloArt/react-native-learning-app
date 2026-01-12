@@ -12,17 +12,19 @@ export type WordEntry = {
   translationEn: string; // L1 English
   translationPl: string; // L1 Polish
   examples: ExampleSentence[];
+  category?: string; // optional category key from data.json
 };
 
 type JsonEntry = WordEntry & { category?: string };
 
 export const spanishFlashcards: WordEntry[] = (data as JsonEntry[]).map(
-  ({ id, word, translationEn, translationPl, examples }) => ({
+  ({ id, word, translationEn, translationPl, examples, category }) => ({
     id,
     word,
     translationEn,
     translationPl,
     examples,
+    category,
   }),
 );
 

@@ -1,0 +1,996 @@
+[
+  {
+    "id": "60",
+    "word": "video",
+    "translationEn": "video",
+    "translationPl": "wideo",
+    "examples": [
+      {
+        "sentence": "Mira el video.",
+        "translationEn": "Watch the video.",
+        "translationPl": "Obejrzyj wideo."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "72",
+    "word": "serie",
+    "translationEn": "series",
+    "translationPl": "seria",
+    "examples": [
+      {
+        "sentence": "Mi serie favorita.",
+        "translationEn": "My favorite series.",
+        "translationPl": "Mój ulubiony serial."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "130",
+    "word": "radio",
+    "translationEn": "radio",
+    "translationPl": "radio",
+    "examples": [
+      {
+        "sentence": "Escuchar la radio.",
+        "translationEn": "Listen to the radio.",
+        "translationPl": "Słuchać radia."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "139",
+    "word": "televisión",
+    "translationEn": "television",
+    "translationPl": "telewizja",
+    "examples": [
+      {
+        "sentence": "Ver la televisión.",
+        "translationEn": "Watch television.",
+        "translationPl": "Oglądać telewizję."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "154",
+    "word": "cultural",
+    "translationEn": "cultural",
+    "translationPl": "kulturalny",
+    "examples": [
+      {
+        "sentence": "Un evento cultural.",
+        "translationEn": "A cultural event.",
+        "translationPl": "Wydarzenie kulturalne."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "160",
+    "word": "victoria",
+    "translationEn": "victory",
+    "translationPl": "zwycięstwo",
+    "examples": [
+      {
+        "sentence": "Celebrar la victoria.",
+        "translationEn": "Celebrate the victory.",
+        "translationPl": "Świętować zwycięstwo."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "177",
+    "word": "viernes",
+    "translationEn": "Friday",
+    "translationPl": "piątek",
+    "examples": [
+      {
+        "sentence": "Viernes por la noche.",
+        "translationEn": "Friday night.",
+        "translationPl": "Piątkowa noc."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "178",
+    "word": "vídeo",
+    "translationEn": "video",
+    "translationPl": "wideo",
+    "examples": [
+      {
+        "sentence": "Grabar un vídeo.",
+        "translationEn": "Record a video.",
+        "translationPl": "Nagrywać wideo."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "199",
+    "word": "encantar",
+    "translationEn": "to love (to be enchanted by)",
+    "translationPl": "kochać (być oczarowanym)",
+    "examples": [
+      {
+        "sentence": "Me encanta esta canción.",
+        "translationEn": "I love this song.",
+        "translationPl": "Uwielbiam tę piosenkę."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "207",
+    "word": "evento",
+    "translationEn": "event",
+    "translationPl": "wydarzenie",
+    "examples": [
+      {
+        "sentence": "Un evento importante.",
+        "translationEn": "An important event.",
+        "translationPl": "Ważne wydarzenie."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "260",
+    "word": "latino",
+    "translationEn": "Latin;Latino",
+    "translationPl": "łaciński;Latynos",
+    "examples": [
+      {
+        "sentence": "Música latina.",
+        "translationEn": "Latin music.",
+        "translationPl": "Muzyka latynoamerykańska."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "303",
+    "word": "famoso",
+    "translationEn": "famous",
+    "translationPl": "sławny",
+    "examples": [
+      {
+        "sentence": "Un cantante famoso.",
+        "translationEn": "A famous singer.",
+        "translationPl": "Sławny piosenkarz."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "312",
+    "word": "correr",
+    "translationEn": "to run",
+    "translationPl": "biegać",
+    "examples": [
+      {
+        "sentence": "Me gusta correr.",
+        "translationEn": "I like to run.",
+        "translationPl": "Lubię biegać."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "349",
+    "word": "caminar",
+    "translationEn": "to walk",
+    "translationPl": "chodzić",
+    "examples": [
+      {
+        "sentence": "Me gusta caminar.",
+        "translationEn": "I like to walk.",
+        "translationPl": "Lubię chodzić."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "354",
+    "word": "pista",
+    "translationEn": "track",
+    "translationPl": "ścieżka",
+    "examples": [
+      {
+        "sentence": "La pista de atletismo.",
+        "translationEn": "The athletics track.",
+        "translationPl": "Tor lekkoatletyczny."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "366",
+    "word": "actor",
+    "translationEn": "actor",
+    "translationPl": "aktor",
+    "examples": [
+      {
+        "sentence": "Un actor famoso.",
+        "translationEn": "A famous actor.",
+        "translationPl": "Sławny aktor."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "387",
+    "word": "espectáculo",
+    "translationEn": "show;spectacle",
+    "translationPl": "pokaz;widowisko",
+    "examples": [
+      {
+        "sentence": "El espectáculo fue increíble.",
+        "translationEn": "The show was incredible.",
+        "translationPl": "Przedstawienie było niesamowite."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "415",
+    "word": "paseo",
+    "translationEn": "walk;stroll",
+    "translationPl": "spacer;przechadzka",
+    "examples": [
+      {
+        "sentence": "Damos un paseo por el parque.",
+        "translationEn": "We take a walk in the park.",
+        "translationPl": "Idziemy na spacer do parku."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "419",
+    "word": "audio",
+    "translationEn": "audio",
+    "translationPl": "audio",
+    "examples": [
+      {
+        "sentence": "Escucha el audio.",
+        "translationEn": "Listen to the audio.",
+        "translationPl": "Posłuchaj audio."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "437",
+    "word": "cantar",
+    "translationEn": "to sing",
+    "translationPl": "śpiewać",
+    "examples": [
+      {
+        "sentence": "Le gusta cantar.",
+        "translationEn": "He likes to sing.",
+        "translationPl": "On lubi śpiewać."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "444",
+    "word": "programación",
+    "translationEn": "programming;schedule",
+    "translationPl": "programowanie;harmonogram",
+    "examples": [
+      {
+        "sentence": "La programación de la televisión.",
+        "translationEn": "The television schedule.",
+        "translationPl": "Ramówka telewizyjna."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "449",
+    "word": "héroe",
+    "translationEn": "hero",
+    "translationPl": "bohater",
+    "examples": [
+      {
+        "sentence": "Es un verdadero héroe.",
+        "translationEn": "He is a true hero.",
+        "translationPl": "Jest prawdziwym bohaterem."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "459",
+    "word": "fama",
+    "translationEn": "fame",
+    "translationPl": "sława",
+    "examples": [
+      {
+        "sentence": "Alcanzó la fama mundial.",
+        "translationEn": "He achieved worldwide fame.",
+        "translationPl": "Osiągnął światową sławę."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "466",
+    "word": "episodio",
+    "translationEn": "episode",
+    "translationPl": "odcinek",
+    "examples": [
+      {
+        "sentence": "Vi el último episodio.",
+        "translationEn": "I watched the last episode.",
+        "translationPl": "Obejrzałem ostatni odcinek."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "483",
+    "word": "caza",
+    "translationEn": "hunting",
+    "translationPl": "polowanie",
+    "examples": [
+      {
+        "sentence": "Le gusta la caza.",
+        "translationEn": "He likes hunting.",
+        "translationPl": "On lubi polować."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "494",
+    "word": "relato",
+    "translationEn": "story;account",
+    "translationPl": "opowieść;relacja",
+    "examples": [
+      {
+        "sentence": "Me contó un relato.",
+        "translationEn": "He told me a story.",
+        "translationPl": "Opowiedział mi historię."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "529",
+    "word": "colección",
+    "translationEn": "collection",
+    "translationPl": "kolekcja",
+    "examples": [
+      {
+        "sentence": "Tiene una gran colección de sellos.",
+        "translationEn": "He has a large stamp collection.",
+        "translationPl": "Ma dużą kolekcję znaczków."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "538",
+    "word": "ganar",
+    "translationEn": "to win;to earn",
+    "translationPl": "wygrywać;zarabiać",
+    "examples": [
+      {
+        "sentence": "Quiero ganar el juego.",
+        "translationEn": "I want to win the game.",
+        "translationPl": "Chcę wygrać grę."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "540",
+    "word": "grabación",
+    "translationEn": "recording",
+    "translationPl": "nagranie",
+    "examples": [
+      {
+        "sentence": "Escucha la grabación.",
+        "translationEn": "Listen to the recording.",
+        "translationPl": "Posłuchaj nagrania."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "541",
+    "word": "misterio",
+    "translationEn": "mystery",
+    "translationPl": "tajemnica",
+    "examples": [
+      {
+        "sentence": "Es un gran misterio.",
+        "translationEn": "It's a great mystery.",
+        "translationPl": "To wielka tajemnica."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "566",
+    "word": "banda",
+    "translationEn": "band",
+    "translationPl": "zespół;opaska",
+    "examples": [
+      {
+        "sentence": "Mi banda favorita.",
+        "translationEn": "My favorite band.",
+        "translationPl": "Mój ulubiony zespół."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "593",
+    "word": "humor",
+    "translationEn": "humor",
+    "translationPl": "humor",
+    "examples": [
+      {
+        "sentence": "Tiene buen humor.",
+        "translationEn": "He has a good sense of humor.",
+        "translationPl": "Ma dobre poczucie humoru."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "634",
+    "word": "teatro",
+    "translationEn": "theater",
+    "translationPl": "teatr",
+    "examples": [
+      {
+        "sentence": "Vamos al teatro esta noche.",
+        "translationEn": "We're going to the theater tonight.",
+        "translationPl": "Idziemy do teatru dziś wieczorem."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "638",
+    "word": "tocar",
+    "translationEn": "to touch;to play (an instrument)",
+    "translationPl": "dotykać;grać (na instrumencie)",
+    "examples": [
+      {
+        "sentence": "Me gusta tocar la guitarra.",
+        "translationEn": "I like to play the guitar.",
+        "translationPl": "Lubię grać na gitarze."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "653",
+    "word": "arte",
+    "translationEn": "art",
+    "translationPl": "sztuka",
+    "examples": [
+      {
+        "sentence": "El arte moderno.",
+        "translationEn": "Modern art.",
+        "translationPl": "Sztuka nowoczesna."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "669",
+    "word": "fiesta",
+    "translationEn": "party",
+    "translationPl": "przyjęcie;święto",
+    "examples": [
+      {
+        "sentence": "Vamos a una fiesta.",
+        "translationEn": "We're going to a party.",
+        "translationPl": "Idziemy na przyjęcie."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "708",
+    "word": "tipo",
+    "translationEn": "type;kind",
+    "translationPl": "rodzaj;typ",
+    "examples": [
+      {
+        "sentence": "¿Qué tipo de música te gusta?",
+        "translationEn": "What kind of music do you like?",
+        "translationPl": "Jakiego rodzaju muzyki słuchasz?"
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "736",
+    "word": "artista",
+    "translationEn": "artist",
+    "translationPl": "artysta",
+    "examples": [
+      {
+        "sentence": "Es un gran artista.",
+        "translationEn": "He is a great artist.",
+        "translationPl": "To wielki artysta."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "758",
+    "word": "cuadro",
+    "translationEn": "painting;square;frame",
+    "translationPl": "obraz;kwadrat;ramka",
+    "examples": [
+      {
+        "sentence": "Un hermoso cuadro.",
+        "translationEn": "A beautiful painting.",
+        "translationPl": "Piękny obraz."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "778",
+    "word": "equipo",
+    "translationEn": "team;equipment",
+    "translationPl": "drużyna;sprzęt",
+    "examples": [
+      {
+        "sentence": "Mi equipo de fútbol.",
+        "translationEn": "My soccer team.",
+        "translationPl": "Moja drużyna piłkarska."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "815",
+    "word": "ir",
+    "translationEn": "to go",
+    "translationPl": "iść",
+    "examples": [
+      {
+        "sentence": "Voy a ir al cine.",
+        "translationEn": "I'm going to go to the cinema.",
+        "translationPl": "Idę do kina."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "835",
+    "word": "novela",
+    "translationEn": "novel",
+    "translationPl": "powieść",
+    "examples": [
+      {
+        "sentence": "Leo una novela.",
+        "translationEn": "I am reading a novel.",
+        "translationPl": "Czytam powieść."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "849",
+    "word": "película",
+    "translationEn": "movie;film",
+    "translationPl": "film",
+    "examples": [
+      {
+        "sentence": "Vamos a ver una película.",
+        "translationEn": "We are going to watch a movie.",
+        "translationPl": "Idziemy obejrzeć film."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "853",
+    "word": "periódico",
+    "translationEn": "newspaper",
+    "translationPl": "gazeta",
+    "examples": [
+      {
+        "sentence": "Leo el periódico cada mañana.",
+        "translationEn": "I read the newspaper every morning.",
+        "translationPl": "Czytam gazetę każdego ranka."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "880",
+    "word": "radio",
+    "translationEn": "radio",
+    "translationPl": "radio",
+    "examples": [
+      {
+        "sentence": "Escucho la radio.",
+        "translationEn": "I listen to the radio.",
+        "translationPl": "Słucham radia."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "893",
+    "word": "revista",
+    "translationEn": "magazine",
+    "translationPl": "magazyn",
+    "examples": [
+      {
+        "sentence": "Leo una revista de moda.",
+        "translationEn": "I read a fashion magazine.",
+        "translationPl": "Czytam magazyn modowy."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "908",
+    "word": "televisión",
+    "translationEn": "television",
+    "translationPl": "telewizja",
+    "examples": [
+      {
+        "sentence": "Veo televisión por la noche.",
+        "translationEn": "I watch television at night.",
+        "translationPl": "Oglądam telewizję wieczorem."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "982",
+    "word": "componer",
+    "translationEn": "to compose",
+    "translationPl": "komponować",
+    "examples": [
+      {
+        "sentence": "Le gusta componer música.",
+        "translationEn": "He likes to compose music.",
+        "translationPl": "Lubię komponować muzykę."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1010",
+    "word": "cultura",
+    "translationEn": "culture",
+    "translationPl": "kultura",
+    "examples": [
+      {
+        "sentence": "La cultura española.",
+        "translationEn": "Spanish culture.",
+        "translationPl": "Kultura hiszpańska."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1033",
+    "word": "divertido",
+    "translationEn": "fun;funny",
+    "translationPl": "zabawny",
+    "examples": [
+      {
+        "sentence": "La fiesta fue muy divertida.",
+        "translationEn": "The party was very fun.",
+        "translationPl": "Impreza była bardzo zabawna."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1090",
+    "word": "ganar",
+    "translationEn": "to win;to earn",
+    "translationPl": "wygrywać;zarabiać",
+    "examples": [
+      {
+        "sentence": "Quiero ganar el juego.",
+        "translationEn": "I want to win the game.",
+        "translationPl": "Chcę wygrać grę."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1121",
+    "word": "juego",
+    "translationEn": "game",
+    "translationPl": "gra",
+    "examples": [
+      {
+        "sentence": "Vamos a jugar un juego.",
+        "translationEn": "Let's play a game.",
+        "translationPl": "Zagramy w grę."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1172",
+    "word": "participar",
+    "translationEn": "to participate",
+    "translationPl": "uczestniczyć",
+    "examples": [
+      {
+        "sentence": "Quiero participar en el evento.",
+        "translationEn": "I want to participate in the event.",
+        "translationPl": "Chcę uczestniczyć w wydarzeniu."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1174",
+    "word": "partido",
+    "translationEn": "party;match",
+    "translationPl": "partia;mecz",
+    "examples": [
+      {
+        "sentence": "Ganamos el partido.",
+        "translationEn": "We won the match.",
+        "translationPl": "Wygraliśmy mecz."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1202",
+    "word": "programa",
+    "translationEn": "program",
+    "translationPl": "program",
+    "examples": [
+      {
+        "sentence": "Un programa de televisión.",
+        "translationEn": "A TV program.",
+        "translationPl": "Program telewizyjny."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1257",
+    "word": "subir",
+    "translationEn": "to go up;to upload",
+    "translationPl": "wchodzić;przesyłać",
+    "examples": [
+      {
+        "sentence": "Vamos a subir la montaña.",
+        "translationEn": "We are going to climb the mountain.",
+        "translationPl": "Wspniemy się na górę."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1265",
+    "word": "talento",
+    "translationEn": "talent",
+    "translationPl": "talent",
+    "examples": [
+      {
+        "sentence": "Ella tiene mucho talento.",
+        "translationEn": "She has a lot of talent.",
+        "translationPl": "Ona ma duży talent."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1269",
+    "word": "temporada",
+    "translationEn": "season",
+    "translationPl": "sezon",
+    "examples": [
+      {
+        "sentence": "La temporada de verano.",
+        "translationEn": "The summer season.",
+        "translationPl": "Sezon letni."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1329",
+    "word": "arte",
+    "translationEn": "art",
+    "translationPl": "sztuka",
+    "examples": [
+      {
+        "sentence": "Me gusta el arte moderno.",
+        "translationEn": "I like modern art.",
+        "translationPl": "Lubię sztukę nowoczesną."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1346",
+    "word": "celebrar",
+    "translationEn": "to celebrate",
+    "translationPl": "świętować",
+    "examples": [
+      {
+        "sentence": "Vamos a celebrar tu cumpleaños.",
+        "translationEn": "We are going to celebrate your birthday.",
+        "translationPl": "Będziemy świętować twoje urodziny."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1391",
+    "word": "delantero",
+    "translationEn": "forward (sports);front",
+    "translationPl": "napastnik;przedni",
+    "examples": [
+      {
+        "sentence": "Es un buen delantero.",
+        "translationEn": "He is a good forward.",
+        "translationPl": "Jest dobrym napastnikiem."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1405",
+    "word": "disfrutar",
+    "translationEn": "to enjoy",
+    "translationPl": "cieszyć się",
+    "examples": [
+      {
+        "sentence": "Disfruta el momento.",
+        "translationEn": "Enjoy the moment.",
+        "translationPl": "Ciesz się chwilą."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1453",
+    "word": "género",
+    "translationEn": "gender;genre",
+    "translationPl": "płeć;gatunek",
+    "examples": [
+      {
+        "sentence": "Qué género de música te gusta?",
+        "translationEn": "What genre of music do you like?",
+        "translationPl": "Jaki gatunek muzyki lubisz?"
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1455",
+    "word": "grabar",
+    "translationEn": "to record",
+    "translationPl": "nagrywać",
+    "examples": [
+      {
+        "sentence": "Voy a grabar la canción.",
+        "translationEn": "I'm going to record the song.",
+        "translationPl": "Nagram piosenkę."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1485",
+    "word": "juego",
+    "translationEn": "game;play",
+    "translationPl": "gra",
+    "examples": [
+      {
+        "sentence": "Me gusta jugar juegos de mesa.",
+        "translationEn": "I like to play board games.",
+        "translationPl": "Lubię grać w gry planszowe."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1522",
+    "word": "observar",
+    "translationEn": "to observe",
+    "translationPl": "obserwować",
+    "examples": [
+      {
+        "sentence": "Me gusta observar las estrellas.",
+        "translationEn": "I like to observe the stars.",
+        "translationPl": "Lubię obserwować gwiazdy."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1538",
+    "word": "participar",
+    "translationEn": "to participate",
+    "translationPl": "uczestniczyć",
+    "examples": [
+      {
+        "sentence": "Quiero participar en el evento.",
+        "translationEn": "I want to participate in the event.",
+        "translationPl": "Chcę uczestniczyć w wydarzeniu."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1545",
+    "word": "perder",
+    "translationEn": "to lose",
+    "translationPl": "tracić;gubic",
+    "examples": [
+      {
+        "sentence": "No quiero perder.",
+        "translationEn": "I don't want to lose.",
+        "translationPl": "Nie chcę przegrać."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1605",
+    "word": "serie",
+    "translationEn": "series",
+    "translationPl": "seria",
+    "examples": [
+      {
+        "sentence": "Una serie de eventos.",
+        "translationEn": "A series of events.",
+        "translationPl": "Seria wydarzeń."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1679",
+    "word": "artístico",
+    "translationEn": "artistic",
+    "translationPl": "artystyczny",
+    "examples": [
+      {
+        "sentence": "Un talento artístico.",
+        "translationEn": "An artistic talent.",
+        "translationPl": "Talent artystyczny."
+      }
+    ],
+    "category": "leisure"
+  },
+  {
+    "id": "1716",
+    "word": "componer",
+    "translationEn": "to compose",
+    "translationPl": "komponować",
+    "examples": [
+      {
+        "sentence": "Le gusta componer música.",
+        "translationEn": "He/She likes to compose music.",
+        "translationPl": "On/Ona lubi komponować muzykę."
+      }
+    ],
+    "category": "leisure"
+  }
+]

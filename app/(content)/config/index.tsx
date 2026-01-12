@@ -4,12 +4,14 @@ import i18n from '@/i18n';
 import ThemeContext from '@/src/ThemeContext';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useRouter } from 'expo-router';
 import { useContext, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function ConfigScreen() {
+  const router = useRouter();
   const [offline, setOffline] = useState(false);
   const [isPolish, setIsPolish] = useState(i18n.language === 'pl');
   const insets = useSafeAreaInsets();
@@ -183,6 +185,7 @@ export default function ConfigScreen() {
           title={t('common.buttons.apply')}
           variant="secondaryBlue"
           className="rounded-full"
+          onPress={() => router.push('/(tabs)')}
         />
       </View>
     </View>

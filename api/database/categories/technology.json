@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1286",
+    "word": "usuario",
+    "translationEn": "user",
+    "translationPl": "użytkownik",
+    "examples": [
+      {
+        "sentence": "Un nuevo usuario.",
+        "translationEn": "A new user.",
+        "translationPl": "Nowy użytkownik."
+      }
+    ],
+    "category": "technology"
+  },
+  {
+    "id": "1343",
+    "word": "cargar",
+    "translationEn": "to load;to charge",
+    "translationPl": "ładować",
+    "examples": [
+      {
+        "sentence": "Necesito cargar mi teléfono.",
+        "translationEn": "I need to charge my phone.",
+        "translationPl": "Muszę naładować telefon."
+      }
+    ],
+    "category": "technology"
+  },
+  {
+    "id": "1386",
+    "word": "datos",
+    "translationEn": "data",
+    "translationPl": "dane",
+    "examples": [
+      {
+        "sentence": "Recopilar datos.",
+        "translationEn": "To collect data.",
+        "translationPl": "Zbierać dane."
+      }
+    ],
+    "category": "technology"
+  },
+  {
+    "id": "1617",
+    "word": "tecnología",
+    "translationEn": "technology",
+    "translationPl": "technologia",
+    "examples": [
+      {
+        "sentence": "Nueva tecnología.",
+        "translationEn": "New technology.",
+        "translationPl": "Nowa technologia."
+      }
+    ],
+    "category": "technology"
+  },
+  {
+    "id": "1699",
+    "word": "cargar",
+    "translationEn": "to load;to charge",
+    "translationPl": "ładować",
+    "examples": [
+      {
+        "sentence": "Voy a cargar mi teléfono.",
+        "translationEn": "I'm going to charge my phone.",
+        "translationPl": "Naładuję mój telefon."
+      }
+    ],
+    "category": "technology"
+  },
+  {
+    "id": "1703",
+    "word": "celular",
+    "translationEn": "cell phone",
+    "translationPl": "telefon komórkowy",
+    "examples": [
+      {
+        "sentence": "Mi celular está roto.",
+        "translationEn": "My cell phone is broken.",
+        "translationPl": "Mój telefon jest zepsuty."
+      }
+    ],
+    "category": "technology"
+  }
+]

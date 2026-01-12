@@ -7,10 +7,16 @@ export function HomeScreenHeading() {
   return (
     <View className="items-center px-4">
       <ThemedText className="text-[40px] pb-4">👋</ThemedText>
-      <ThemedText weight="bold" className="text-fontSize5xl text-center">
+      <ThemedText
+        weight="bold"
+        className="text-[36px] text-center text-textPrimary dark:text-textPrimary-dark"
+      >
         {t('home.heading.welcomeLine1')}
       </ThemedText>
-      <ThemedText weight="bold" className="text-fontSize5xl text-center">
+      <ThemedText
+        weight="bold"
+        className="text-[36px] text-center text-textPrimary dark:text-textPrimary-dark"
+      >
         {t('home.heading.welcomeLine2')}
       </ThemedText>
       <ThemedText

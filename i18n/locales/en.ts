@@ -7,6 +7,8 @@ export default {
       settings: 'Settings',
       back: 'Back',
       apply: 'Apply',
+      allCategories: 'All categories',
+      close: 'Close',
     },
     tabs: {
       home: 'Home',
@@ -46,9 +48,11 @@ export default {
     tapToSeeOriginal: 'Tap to see original',
     swipeForNext: 'Swipe to see next example',
     allDone: 'All done!',
+    selectCategory: 'Select category',
   },
   builder: {
     check: 'Check',
+    backToCategories: 'Back to categories',
     translate: 'Translate the sentence',
     examplePrompt: 'Build the sentence',
     correct: 'Perfect! ✅',
@@ -115,6 +119,8 @@ export default {
     last7Days: 'Last 7 Days',
     newWordsLearned: 'New words learned',
     currentStreak: 'Current Streak',
+    keepItUp: "Keep it up — don't break the streak!",
+    startLearning: 'Start learning today!',
     days: 'Days',
     streakMessage: "You're on a roll! Keep it up to reach your next milestone.",
     summary: {
@@ -135,5 +141,15 @@ export default {
   speaking: {
     howDoYouSay: 'How do you say...',
     tapMic: 'Tap the microphone and say the word',
+    recording: 'Recording...',
+    processing: 'Processing...',
+    correct: 'Perfect! ✅',
+    tryAgain: 'Try again 🔄',
+    correctAnswer: 'Correct answer:',
+    next: 'Next',
+    noPermission: 'No microphone permission',
+    error: 'An error occurred',
+    notAvailable: 'Speech recognition is not available',
+    youSaid: 'You said',
   },
 };

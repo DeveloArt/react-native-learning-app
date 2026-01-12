@@ -1,6 +1,5 @@
-import { useState } from 'react';
-import { AccessibilityRole, Pressable, Text, View } from 'react-native';
-import { twMerge } from 'tailwind-merge';
+import { memo, useState } from 'react';
+import { AccessibilityRole, Pressable, StyleSheet, Text } from 'react-native';
 
 type ButtonVariant = 'secondary' | 'secondaryBlue' | 'secondaryBlueLight';
 
@@ -15,70 +14,38 @@ interface Props {
   accessibilityRole?: AccessibilityRole;
 }
 
-const getVariantClasses = (variant: ButtonVariant, disabled: boolean, pressed: boolean) => {
-  const baseClasses = 'flex items-center justify-center rounded-xl';
+const styles = StyleSheet.create({
+  button: {
+    height: 64,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 16,
+  },
+  secondary: {
+    backgroundColor: '#f7f7f7',
+    borderWidth: 1,
+    borderColor: '#d7d7d7',
+  },
+  secondaryBlue: {
+    backgroundColor: '#0d59f2',
+  },
+  secondaryBlueLight: {
+    backgroundColor: '#E6EFFD',
+  },
+  textWhite: {
+    color: 'white',
+    fontSize: 18,
+    fontWeight: '600',
+  },
+  textDark: {
+    color: '#1d1d1d',
+    fontSize: 18,
+    fontWeight: '600',
+  },
+});
 
-  switch (variant) {
-    case 'secondary':
-      return twMerge(
-        baseClasses,
-        disabled
-          ? 'bg-surfaceDisabled dark:bg-surfaceDisabled-dark'
-          : pressed
-            ? 'bg-surfaceTertiary dark:bg-surfaceTertiary-dark'
-            : 'bg-surfacePrimary dark:bg-surfacePrimary-dark',
-        'border-0',
-      );
-    case 'secondaryBlue':
-      return twMerge(
-        baseClasses,
-        disabled
-          ? 'bg-surfaceDisabled dark:bg-surfaceDisabled-dark'
-          : pressed
-            ? 'bg-surfaceActionSecondaryPress'
-            : 'bg-surfaceActionSecondary dark:bg-surfaceActionSecondary-dark',
-        'border-0',
-      );
-    case 'secondaryBlueLight':
-      return twMerge(
-        baseClasses,
-        disabled
-          ? 'bg-surfaceDisabled dark:bg-surfaceDisabled-dark'
-          : pressed
-            ? 'bg-surfaceActionSecondary'
-            : 'bg-surfaceActionSecondaryLight dark:bg-surfaceActionSecondaryLight-dark',
-        'border-0',
-      );
-    default:
-      return baseClasses;
-  }
-};
-
-const getTextClasses = (variant: ButtonVariant, disabled: boolean, pressed: boolean) => {
-  const baseClasses = 'text-[18px] font-montserratSemiBold';
-
-  if (disabled) {
-    return twMerge(baseClasses, 'text-textDisabled');
-  }
-
-  switch (variant) {
-    case 'secondary':
-      return twMerge(baseClasses, 'text-textPrimary dark:text-textPrimary-dark');
-    case 'secondaryBlue':
-      return twMerge(baseClasses, 'text-white');
-    case 'secondaryBlueLight':
-      return twMerge(
-        baseClasses,
-        pressed ? 'text-white' : 'text-textPrimary dark:text-textPrimary-dark',
-      );
-    default:
-      return baseClasses;
-  }
-};
-
-const getSizeClasses = () => 'h-16';
-
-export const ButtonPrimary = ({
+export const ButtonPrimary = memo(function ButtonPrimary({
   title,
   onPress,
   className,
@@ -87,7 +54,7 @@ export const ButtonPrimary = ({
   variant = 'secondaryBlue',
   accessibilityLabel,
   accessibilityRole = 'button',
-}: Props) => {
+}: Props) {
   const [pressed, setPressed] = useState(false);
 
   const handlePressIn = () => {
@@ -98,9 +65,23 @@ export const ButtonPrimary = ({
     setPressed(false);
   };
 
-  const variantClasses = getVariantClasses(variant, disabled, pressed);
-  const textClasses = getTextClasses(variant, disabled, pressed);
-  const sizeClasses = getSizeClasses();
+  const buttonStyle = [
+    styles.button,
+    variant === 'secondary'
+      ? styles.secondary
+      : variant === 'secondaryBlue'
+        ? styles.secondaryBlue
+        : styles.secondaryBlueLight,
+    pressed && { opacity: 0.8 },
+    disabled && { opacity: 0.5 },
+  ];
+
+  const textStyle =
+    variant === 'secondary'
+      ? styles.textDark
+      : variant === 'secondaryBlue'
+        ? styles.textWhite
+        : styles.textDark;
 
   return (
     <Pressable
@@ -110,11 +91,9 @@ export const ButtonPrimary = ({
       disabled={disabled}
       accessibilityRole={accessibilityRole}
       accessibilityLabel={accessibilityLabel ?? title}
-      className={twMerge(variantClasses, sizeClasses, 'w-full', className)}
+      style={buttonStyle}
     >
-      <View className="flex-row gap-2 justify-center items-center">
-        {title && <Text className={twMerge(textClasses, textClassName)}>{title}</Text>}
-      </View>
+      <Text style={textStyle}>{title}</Text>
     </Pressable>
   );
-};
+});

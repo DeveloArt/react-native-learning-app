@@ -1,0 +1,156 @@
+[
+  {
+    "id": "1356",
+    "word": "cobrar",
+    "translationEn": "to charge;to collect (money)",
+    "translationPl": "pobierać opłatę;inkasować",
+    "examples": [
+      {
+        "sentence": "Voy a cobrar el cheque.",
+        "translationEn": "I'm going to cash the check.",
+        "translationPl": "Zrealizuję czek."
+      }
+    ],
+    "category": "money"
+  },
+  {
+    "id": "1387",
+    "word": "declarar",
+    "translationEn": "to declare",
+    "translationPl": "deklarować",
+    "examples": [
+      {
+        "sentence": "Debes declarar tus ingresos.",
+        "translationEn": "You must declare your income.",
+        "translationPl": "Musisz zadeklarować swoje dochody."
+      }
+    ],
+    "category": "money"
+  },
+  {
+    "id": "1411",
+    "word": "económico",
+    "translationEn": "economic",
+    "translationPl": "ekonomiczny",
+    "examples": [
+      {
+        "sentence": "Crecimiento económico.",
+        "translationEn": "Economic growth.",
+        "translationPl": "Wzrost gospodarczy."
+      }
+    ],
+    "category": "money"
+  },
+  {
+    "id": "1466",
+    "word": "impuesto",
+    "translationEn": "tax",
+    "translationPl": "podatek",
+    "examples": [
+      {
+        "sentence": "Pagar impuestos.",
+        "translationEn": "To pay taxes.",
+        "translationPl": "Płacić podatki."
+      }
+    ],
+    "category": "money"
+  },
+  {
+    "id": "1482",
+    "word": "invertir",
+    "translationEn": "to invest",
+    "translationPl": "inwestować",
+    "examples": [
+      {
+        "sentence": "Quiero invertir mi dinero.",
+        "translationEn": "I want to invest my money.",
+        "translationPl": "Chcę zainwestować swoje pieniądze."
+      }
+    ],
+    "category": "money"
+  },
+  {
+    "id": "1505",
+    "word": "mercado",
+    "translationEn": "market",
+    "translationPl": "rynek",
+    "examples": [
+      {
+        "sentence": "El mercado de valores.",
+        "translationEn": "The stock market.",
+        "translationPl": "Rynek papierów wartościowych."
+      }
+    ],
+    "category": "money"
+  },
+  {
+    "id": "1536",
+    "word": "pagar",
+    "translationEn": "to pay",
+    "translationPl": "płacić",
+    "examples": [
+      {
+        "sentence": "Voy a pagar la cuenta.",
+        "translationEn": "I'm going to pay the bill.",
+        "translationPl": "Zapłacę rachunek."
+      }
+    ],
+    "category": "money"
+  },
+  {
+    "id": "1622",
+    "word": "total",
+    "translationEn": "total",
+    "translationPl": "całkowity",
+    "examples": [
+      {
+        "sentence": "El coste total.",
+        "translationEn": "The total cost.",
+        "translationPl": "Całkowity koszt."
+      }
+    ],
+    "category": "money"
+  },
+  {
+    "id": "1624",
+    "word": "transferir",
+    "translationEn": "to transfer",
+    "translationPl": "przenosić",
+    "examples": [
+      {
+        "sentence": "Voy a transferir dinero.",
+        "translationEn": "I'm going to transfer money.",
+        "translationPl": "Prześlę pieniądze."
+      }
+    ],
+    "category": "money"
+  },
+  {
+    "id": "1636",
+    "word": "vender",
+    "translationEn": "to sell",
+    "translationPl": "sprzedawać",
+    "examples": [
+      {
+        "sentence": "Quiero vender mi casa.",
+        "translationEn": "I want to sell my house.",
+        "translationPl": "Chcę sprzedać swój dom."
+      }
+    ],
+    "category": "money"
+  },
+  {
+    "id": "1660",
+    "word": "ahorrar",
+    "translationEn": "to save (money, time)",
+    "translationPl": "oszczędzać",
+    "examples": [
+      {
+        "sentence": "Necesito ahorrar dinero.",
+        "translationEn": "I need to save money.",
+        "translationPl": "Muszę oszczędzać pieniądze."
+      }
+    ],
+    "category": "money"
+  }
+]

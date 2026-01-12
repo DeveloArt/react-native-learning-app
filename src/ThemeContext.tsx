@@ -19,7 +19,7 @@ export const ThemeProvider: React.FC<{
   defaultScheme?: AppColorScheme;
 }> = ({ children, defaultScheme }) => {
   const [scheme, setSchemeState] = useState<AppColorScheme>(defaultScheme ?? null);
-  const nativewind = useNativewindColorScheme();
+  const { setColorScheme } = useNativewindColorScheme();
 
   useEffect(() => {
     (async () => {
@@ -27,40 +27,44 @@ export const ThemeProvider: React.FC<{
         const stored = await AsyncStorage.getItem(STORAGE_KEY);
         if (stored === 'light' || stored === 'dark') {
           setSchemeState(stored);
-          nativewind.setColorScheme(stored);
+          try {
+            setColorScheme(stored);
+          } catch (e) {
+            // Ignoruj błędy ustawiania color scheme
+          }
         } else if (defaultScheme) {
-          nativewind.setColorScheme(defaultScheme);
+          try {
+            setColorScheme(defaultScheme);
+          } catch (e) {
+            // Ignoruj błędy ustawiania color scheme
+          }
         }
       } catch (error) {
-        console.error('Error loading color scheme from AsyncStorage:', error);
-        if (defaultScheme) {
-          nativewind.setColorScheme(defaultScheme);
-        }
+        // Ignoruj błędy AsyncStorage
       }
     })();
-  }, [defaultScheme, nativewind]);
+  }, [defaultScheme, setColorScheme]);
 
   const setScheme = async (s: AppColorScheme) => {
     setSchemeState(s);
     try {
       if (s === null) {
         await AsyncStorage.removeItem(STORAGE_KEY);
-        nativewind.setColorScheme('system');
+        try {
+          setColorScheme('system');
+        } catch (e) {
+          // Ignoruj błędy ustawiania color scheme
+        }
       } else {
         await AsyncStorage.setItem(STORAGE_KEY, s);
-        nativewind.setColorScheme(s as 'light' | 'dark');
+        try {
+          setColorScheme(s as 'light' | 'dark');
+        } catch (e) {
+          // Ignoruj błędy ustawiania color scheme
+        }
       }
     } catch (error) {
       console.error('Error saving color scheme to AsyncStorage:', error);
-      try {
-        if (s === null) {
-          nativewind.setColorScheme('system');
-        } else {
-          nativewind.setColorScheme(s as 'light' | 'dark');
-        }
-      } catch (nativewindError) {
-        console.error('Error setting nativewind color scheme:', nativewindError);
-      }
     }
   };
 

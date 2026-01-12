@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1542",
+    "word": "pedir",
+    "translationEn": "to ask for;to order",
+    "translationPl": "prosić;zamawiać",
+    "examples": [
+      {
+        "sentence": "Voy a pedir un café.",
+        "translationEn": "I'm going to order a coffee.",
+        "translationPl": "Zamówię kawę."
+      }
+    ],
+    "category": "food"
+  },
+  {
+    "id": "1596",
+    "word": "rico",
+    "translationEn": "rich;delicious",
+    "translationPl": "bogaty;smaczny",
+    "examples": [
+      {
+        "sentence": "Es muy rico.",
+        "translationEn": "It's very delicious.",
+        "translationPl": "Jest bardzo smaczne."
+      }
+    ],
+    "category": "food"
+  },
+  {
+    "id": "1663",
+    "word": "alimento",
+    "translationEn": "food;nourishment",
+    "translationPl": "jedzenie;pokarm",
+    "examples": [
+      {
+        "sentence": "Un alimento saludable.",
+        "translationEn": "A healthy food.",
+        "translationPl": "Zdrowe jedzenie."
+      }
+    ],
+    "category": "food"
+  }
+]

@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "3",
+    "word": "ser",
+    "translationEn": "to be",
+    "translationPl": "być",
+    "examples": [
+      {
+        "sentence": "Soy estudiante.",
+        "translationEn": "I am a student.",
+        "translationPl": "Jestem studentem."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "5",
+    "word": "mejor",
+    "translationEn": "better;best",
+    "translationPl": "lepszy;najlepszy",
+    "examples": [
+      {
+        "sentence": "Este libro es mejor.",
+        "translationEn": "This book is better.",
+        "translationPl": "Ta książka jest lepsza."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "144",
+    "word": "análisis",
+    "translationEn": "analysis",
+    "translationPl": "analiza",
+    "examples": [
+      {
+        "sentence": "Hacer un análisis.",
+        "translationEn": "Do an analysis.",
+        "translationPl": "Zrobić analizę."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "183",
+    "word": "práctica",
+    "translationEn": "practice",
+    "translationPl": "praktyka",
+    "examples": [
+      {
+        "sentence": "Poner en práctica.",
+        "translationEn": "Put into practice.",
+        "translationPl": "Wprowadzić w życie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "212",
+    "word": "concepto",
+    "translationEn": "concept",
+    "translationPl": "pojęcie",
+    "examples": [
+      {
+        "sentence": "Un concepto nuevo.",
+        "translationEn": "A new concept.",
+        "translationPl": "Nowe pojęcie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "225",
+    "word": "contexto",
+    "translationEn": "context",
+    "translationPl": "kontekst",
+    "examples": [
+      {
+        "sentence": "En este contexto.",
+        "translationEn": "In this context.",
+        "translationPl": "W tym kontekście."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "250",
+    "word": "promedio",
+    "translationEn": "average",
+    "translationPl": "średnia",
+    "examples": [
+      {
+        "sentence": "En promedio.",
+        "translationEn": "On average.",
+        "translationPl": "Przeciętnie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "295",
+    "word": "fundamental",
+    "translationEn": "fundamental",
+    "translationPl": "fundamentalny",
+    "examples": [
+      {
+        "sentence": "Un principio fundamental.",
+        "translationEn": "A fundamental principle.",
+        "translationPl": "Fundamentalna zasada."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "310",
+    "word": "suma",
+    "translationEn": "sum",
+    "translationPl": "suma",
+    "examples": [
+      {
+        "sentence": "La suma total.",
+        "translationEn": "The total sum.",
+        "translationPl": "Suma całkowita."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "328",
+    "word": "complejo",
+    "translationEn": "complex",
+    "translationPl": "złożony",
+    "examples": [
+      {
+        "sentence": "Un problema complejo.",
+        "translationEn": "A complex problem.",
+        "translationPl": "Złożony problem."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "338",
+    "word": "significado",
+    "translationEn": "meaning",
+    "translationPl": "znaczenie",
+    "examples": [
+      {
+        "sentence": "El significado de la palabra.",
+        "translationEn": "The meaning of the word.",
+        "translationPl": "Znaczenie słowa."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "357",
+    "word": "relacionado",
+    "translationEn": "related",
+    "translationPl": "związany",
+    "examples": [
+      {
+        "sentence": "Temas relacionados.",
+        "translationEn": "Related topics.",
+        "translationPl": "Powiązane tematy."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "401",
+    "word": "científico",
+    "translationEn": "scientific",
+    "translationPl": "naukowy",
+    "examples": [
+      {
+        "sentence": "Es un descubrimiento científico.",
+        "translationEn": "It's a scientific discovery.",
+        "translationPl": "To odkrycie naukowe."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "438",
+    "word": "escritura",
+    "translationEn": "writing",
+    "translationPl": "pisanie;pismo",
+    "examples": [
+      {
+        "sentence": "La escritura es un arte.",
+        "translationEn": "Writing is an art.",
+        "translationPl": "Pisanie to sztuka."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "549",
+    "word": "publicar",
+    "translationEn": "to publish",
+    "translationPl": "publikować",
+    "examples": [
+      {
+        "sentence": "Va a publicar un libro.",
+        "translationEn": "He's going to publish a book.",
+        "translationPl": "On zamierza opublikować książkę."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "558",
+    "word": "universidad",
+    "translationEn": "university",
+    "translationPl": "uniwersytet",
+    "examples": [
+      {
+        "sentence": "Estudio en la universidad.",
+        "translationEn": "I study at the university.",
+        "translationPl": "Studiuję na uniwersytecie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "572",
+    "word": "consecuentemente",
+    "translationEn": "consequently",
+    "translationPl": "w konsekwencji;w rezultacie",
+    "examples": [
+      {
+        "sentence": "Estudió mucho y, consecuentemente, aprobó.",
+        "translationEn": "He studied a lot and, consequently, he passed.",
+        "translationPl": "Dużo się uczył i w rezultacie zdał."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "592",
+    "word": "historia",
+    "translationEn": "history;story",
+    "translationPl": "historia;opowieść",
+    "examples": [
+      {
+        "sentence": "Me gusta la historia.",
+        "translationEn": "I like history.",
+        "translationPl": "Lubię historię."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "595",
+    "word": "institución",
+    "translationEn": "institution",
+    "translationPl": "instytucja",
+    "examples": [
+      {
+        "sentence": "Una institución educativa.",
+        "translationEn": "An educational institution.",
+        "translationPl": "Instytucja edukacyjna."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "596",
+    "word": "literatura",
+    "translationEn": "literature",
+    "translationPl": "literatura",
+    "examples": [
+      {
+        "sentence": "Estudia literatura española.",
+        "translationEn": "He studies Spanish literature.",
+        "translationPl": "Studiuje literaturę hiszpańską."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "614",
+    "word": "pronunciar",
+    "translationEn": "to pronounce",
+    "translationPl": "wymawiać",
+    "examples": [
+      {
+        "sentence": "Tienes que pronunciar mejor.",
+        "translationEn": "You have to pronounce better.",
+        "translationPl": "Musisz lepiej wymawiać."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "618",
+    "word": "prueba",
+    "translationEn": "proof;test",
+    "translationPl": "dowód;test",
+    "examples": [
+      {
+        "sentence": "Necesito una prueba.",
+        "translationEn": "I need proof.",
+        "translationPl": "Potrzebuję dowodu."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "652",
+    "word": "aprender",
+    "translationEn": "to learn",
+    "translationPl": "uczyć się",
+    "examples": [
+      {
+        "sentence": "Quiero aprender español.",
+        "translationEn": "I want to learn Spanish.",
+        "translationPl": "Chcę uczyć się hiszpańskiego."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "720",
+    "word": "aconsejar",
+    "translationEn": "to advise",
+    "translationPl": "doradzać",
+    "examples": [
+      {
+        "sentence": "Te aconsejo que estudies.",
+        "translationEn": "I advise you to study.",
+        "translationPl": "Radzę ci się uczyć."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "723",
+    "word": "admisión",
+    "translationEn": "admission",
+    "translationPl": "wstęp;przyjęcie",
+    "examples": [
+      {
+        "sentence": "La admisión a la universidad.",
+        "translationEn": "Admission to the university.",
+        "translationPl": "Wstęp na uniwersytet."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "735",
+    "word": "artículo",
+    "translationEn": "article",
+    "translationPl": "artykuł",
+    "examples": [
+      {
+        "sentence": "Leí un artículo interesante.",
+        "translationEn": "I read an interesting article.",
+        "translationPl": "Przeczytałem ciekawy artykuł."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "751",
+    "word": "concepto",
+    "translationEn": "concept",
+    "translationPl": "pojęcie;koncept",
+    "examples": [
+      {
+        "sentence": "Es un concepto difícil.",
+        "translationEn": "It's a difficult concept.",
+        "translationPl": "To trudne pojęcie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "759",
+    "word": "cultura",
+    "translationEn": "culture",
+    "translationPl": "kultura",
+    "examples": [
+      {
+        "sentence": "La cultura española.",
+        "translationEn": "Spanish culture.",
+        "translationPl": "Kultura hiszpańska."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "760",
+    "word": "deber",
+    "translationEn": "to owe;duty",
+    "translationPl": "być winnym;obowiązek",
+    "examples": [
+      {
+        "sentence": "Debes hacer tus deberes.",
+        "translationEn": "You must do your homework.",
+        "translationPl": "Musisz odrobić lekcje."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "779",
+    "word": "escuela",
+    "translationEn": "school",
+    "translationPl": "szkoła",
+    "examples": [
+      {
+        "sentence": "Voy a la escuela.",
+        "translationEn": "I go to school.",
+        "translationPl": "Chodzę do szkoły."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "810",
+    "word": "intercambio",
+    "translationEn": "exchange",
+    "translationPl": "wymiana",
+    "examples": [
+      {
+        "sentence": "Un intercambio cultural.",
+        "translationEn": "A cultural exchange.",
+        "translationPl": "Wymiana kulturalna."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "823",
+    "word": "metodología",
+    "translationEn": "methodology",
+    "translationPl": "metodologia",
+    "examples": [
+      {
+        "sentence": "La metodología de investigación.",
+        "translationEn": "The research methodology.",
+        "translationPl": "Metodologia badań."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "837",
+    "word": "obtener",
+    "translationEn": "to obtain;to get",
+    "translationPl": "uzyskiwać;otrzymywać",
+    "examples": [
+      {
+        "sentence": "Quiero obtener el título.",
+        "translationEn": "I want to obtain the degree.",
+        "translationPl": "Chcę uzyskać tytuł."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "874",
+    "word": "profesor",
+    "translationEn": "professor;teacher",
+    "translationPl": "profesor;nauczyciel",
+    "examples": [
+      {
+        "sentence": "Mi profesor es muy bueno.",
+        "translationEn": "My teacher is very good.",
+        "translationPl": "Mój nauczyciel jest bardzo dobry."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "891",
+    "word": "resultado",
+    "translationEn": "result",
+    "translationPl": "wynik",
+    "examples": [
+      {
+        "sentence": "El resultado del examen.",
+        "translationEn": "The exam result.",
+        "translationPl": "Wynik egzaminu."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "915",
+    "word": "universidad",
+    "translationEn": "university",
+    "translationPl": "uniwersytet",
+    "examples": [
+      {
+        "sentence": "Estudio en la universidad.",
+        "translationEn": "I study at the university.",
+        "translationPl": "Studiuję na uniwersytecie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "957",
+    "word": "básico",
+    "translationEn": "basic",
+    "translationPl": "podstawowy",
+    "examples": [
+      {
+        "sentence": "Es un conocimiento básico.",
+        "translationEn": "It's basic knowledge.",
+        "translationPl": "To podstawowa wiedza."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "970",
+    "word": "científico",
+    "translationEn": "scientific;scientist",
+    "translationPl": "naukowy;naukowiec",
+    "examples": [
+      {
+        "sentence": "Un descubrimiento científico.",
+        "translationEn": "A scientific discovery.",
+        "translationPl": "Odkrycie naukowe."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "976",
+    "word": "columna",
+    "translationEn": "column",
+    "translationPl": "kolumna",
+    "examples": [
+      {
+        "sentence": "Una columna de periódico.",
+        "translationEn": "A newspaper column.",
+        "translationPl": "Kolumna w gazecie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "990",
+    "word": "conocimiento",
+    "translationEn": "knowledge",
+    "translationPl": "wiedza",
+    "examples": [
+      {
+        "sentence": "Adquirir conocimiento.",
+        "translationEn": "To acquire knowledge.",
+        "translationPl": "Zdobywać wiedzę."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1012",
+    "word": "dato",
+    "translationEn": "data;fact",
+    "translationPl": "dane;fakt",
+    "examples": [
+      {
+        "sentence": "Tengo un dato interesante.",
+        "translationEn": "I have an interesting fact.",
+        "translationPl": "Mam ciekawą informację."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1014",
+    "word": "dedicar",
+    "translationEn": "to dedicate",
+    "translationPl": "poświęcać",
+    "examples": [
+      {
+        "sentence": "Dedico mi tiempo a estudiar.",
+        "translationEn": "I dedicate my time to studying.",
+        "translationPl": "Poświęcam swój czas na naukę."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1017",
+    "word": "definir",
+    "translationEn": "to define",
+    "translationPl": "definiować",
+    "examples": [
+      {
+        "sentence": "Define el concepto.",
+        "translationEn": "Define the concept.",
+        "translationPl": "Zdefiniuj to pojęcie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1036",
+    "word": "dominar",
+    "translationEn": "to dominate;to master",
+    "translationPl": "dominować;opanować",
+    "examples": [
+      {
+        "sentence": "Él domina el idioma.",
+        "translationEn": "He masters the language.",
+        "translationPl": "On opanował język."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1050",
+    "word": "enseñanza",
+    "translationEn": "teaching;education",
+    "translationPl": "nauczanie",
+    "examples": [
+      {
+        "sentence": "La enseñanza es importante.",
+        "translationEn": "Teaching is important.",
+        "translationPl": "Nauczanie jest ważne."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1057",
+    "word": "escribir",
+    "translationEn": "to write",
+    "translationPl": "pisać",
+    "examples": [
+      {
+        "sentence": "Me gusta escribir.",
+        "translationEn": "I like to write.",
+        "translationPl": "Lubię pisać."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1062",
+    "word": "estudiante",
+    "translationEn": "student",
+    "translationPl": "student",
+    "examples": [
+      {
+        "sentence": "Soy estudiante.",
+        "translationEn": "I am a student.",
+        "translationPl": "Jestem studentem."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1086",
+    "word": "formación",
+    "translationEn": "training;formation",
+    "translationPl": "szkolenie;formacja",
+    "examples": [
+      {
+        "sentence": "Recibí una buena formación.",
+        "translationEn": "I received good training.",
+        "translationPl": "Otrzymałem dobre szkolenie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1097",
+    "word": "histórico",
+    "translationEn": "historic",
+    "translationPl": "historyczny",
+    "examples": [
+      {
+        "sentence": "Un evento histórico.",
+        "translationEn": "A historic event.",
+        "translationPl": "Historyczne wydarzenie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1113",
+    "word": "institución",
+    "translationEn": "institution",
+    "translationPl": "instytucja",
+    "examples": [
+      {
+        "sentence": "Una institución educativa.",
+        "translationEn": "An educational institution.",
+        "translationPl": "Instytucja edukacyjna."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1155",
+    "word": "nota",
+    "translationEn": "note;grade",
+    "translationPl": "notatka;ocena",
+    "examples": [
+      {
+        "sentence": "Escribe una nota.",
+        "translationEn": "Write a note.",
+        "translationPl": "Napisz notatkę."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1157",
+    "word": "objetivo",
+    "translationEn": "objective;goal",
+    "translationPl": "cel;obiektywny",
+    "examples": [
+      {
+        "sentence": "Mi objetivo es aprender español.",
+        "translationEn": "My goal is to learn Spanish.",
+        "translationPl": "Moim celem jest nauka hiszpańskiego."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1160",
+    "word": "obtener",
+    "translationEn": "to obtain;to get",
+    "translationPl": "uzyskiwać",
+    "examples": [
+      {
+        "sentence": "Quiero obtener buenas notas.",
+        "translationEn": "I want to get good grades.",
+        "translationPl": "Chcę uzyskiwać dobre oceny."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1206",
+    "word": "prueba",
+    "translationEn": "proof;test",
+    "translationPl": "dowód;test",
+    "examples": [
+      {
+        "sentence": "Necesito una prueba.",
+        "translationEn": "I need proof.",
+        "translationPl": "Potrzebuję dowodu."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1219",
+    "word": "referencia",
+    "translationEn": "reference",
+    "translationPl": "odniesienie",
+    "examples": [
+      {
+        "sentence": "Una buena referencia.",
+        "translationEn": "A good reference.",
+        "translationPl": "Dobre odniesienie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1240",
+    "word": "sección",
+    "translationEn": "section",
+    "translationPl": "sekcja",
+    "examples": [
+      {
+        "sentence": "Lee esta sección.",
+        "translationEn": "Read this section.",
+        "translationPl": "Przeczytaj tę sekcję."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1267",
+    "word": "tarea",
+    "translationEn": "task;homework",
+    "translationPl": "zadanie;praca domowa",
+    "examples": [
+      {
+        "sentence": "Tengo mucha tarea.",
+        "translationEn": "I have a lot of homework.",
+        "translationPl": "Mam dużo pracy domowej."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1270",
+    "word": "teoría",
+    "translationEn": "theory",
+    "translationPl": "teoria",
+    "examples": [
+      {
+        "sentence": "Es solo una teoría.",
+        "translationEn": "It's just a theory.",
+        "translationPl": "To tylko teoria."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1309",
+    "word": "adquirir",
+    "translationEn": "to acquire",
+    "translationPl": "nabywać",
+    "examples": [
+      {
+        "sentence": "Quiero adquirir nuevas habilidades.",
+        "translationEn": "I want to acquire new skills.",
+        "translationPl": "Chcę nabyć nowe umiejętności."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1322",
+    "word": "antiguo",
+    "translationEn": "ancient;old",
+    "translationPl": "stary;starożytny",
+    "examples": [
+      {
+        "sentence": "Un templo antiguo.",
+        "translationEn": "An ancient temple.",
+        "translationPl": "Starożytna świątynia."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1324",
+    "word": "aprender",
+    "translationEn": "to learn",
+    "translationPl": "uczyć się",
+    "examples": [
+      {
+        "sentence": "Me gusta aprender cosas nuevas.",
+        "translationEn": "I like to learn new things.",
+        "translationPl": "Lubię uczyć się nowych rzeczy."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1327",
+    "word": "aprobar",
+    "translationEn": "to approve;to pass (an exam)",
+    "translationPl": "zatwierdzać;zdawać (egzamin)",
+    "examples": [
+      {
+        "sentence": "Aprobé el examen.",
+        "translationEn": "I passed the exam.",
+        "translationPl": "Zdałem egzamin."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1337",
+    "word": "básico",
+    "translationEn": "basic",
+    "translationPl": "podstawowy",
+    "examples": [
+      {
+        "sentence": "Conceptos básicos.",
+        "translationEn": "Basic concepts.",
+        "translationPl": "Podstawowe pojęcia."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1350",
+    "word": "científico",
+    "translationEn": "scientific;scientist",
+    "translationPl": "naukowy;naukowiec",
+    "examples": [
+      {
+        "sentence": "Un experimento científico.",
+        "translationEn": "A scientific experiment.",
+        "translationPl": "Eksperyment naukowy."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1364",
+    "word": "conocimiento",
+    "translationEn": "knowledge",
+    "translationPl": "wiedza",
+    "examples": [
+      {
+        "sentence": "Adquirir conocimiento.",
+        "translationEn": "To acquire knowledge.",
+        "translationPl": "Nabywać wiedzę."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1390",
+    "word": "definición",
+    "translationEn": "definition",
+    "translationPl": "definicja",
+    "examples": [
+      {
+        "sentence": "Busca la definición.",
+        "translationEn": "Look for the definition.",
+        "translationPl": "Poszukaj definicji."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1424",
+    "word": "enseñanza",
+    "translationEn": "teaching",
+    "translationPl": "nauczanie",
+    "examples": [
+      {
+        "sentence": "La enseñanza es mi pasión.",
+        "translationEn": "Teaching is my passion.",
+        "translationPl": "Nauczanie to moja pasja."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1456",
+    "word": "grado",
+    "translationEn": "degree;grade",
+    "translationPl": "stopień;ocena",
+    "examples": [
+      {
+        "sentence": "Un alto grado de dificultad.",
+        "translationEn": "A high degree of difficulty.",
+        "translationPl": "Wysoki stopień trudności."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1460",
+    "word": "histórico",
+    "translationEn": "historic",
+    "translationPl": "historyczny",
+    "examples": [
+      {
+        "sentence": "Un evento histórico.",
+        "translationEn": "A historic event.",
+        "translationPl": "Historyczne wydarzenie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1479",
+    "word": "interpretar",
+    "translationEn": "to interpret",
+    "translationPl": "interpretować",
+    "examples": [
+      {
+        "sentence": "No puedo interpretar esto.",
+        "translationEn": "I can't interpret this.",
+        "translationPl": "Nie mogę tego zinterpretować."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1481",
+    "word": "investigación",
+    "translationEn": "research;investigation",
+    "translationPl": "badanie;dochodzenie",
+    "examples": [
+      {
+        "sentence": "Una investigación exhaustiva.",
+        "translationEn": "An exhaustive investigation.",
+        "translationPl": "Wyczerpujące dochodzenie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1496",
+    "word": "materia",
+    "translationEn": "matter;subject",
+    "translationPl": "materia;przedmiot",
+    "examples": [
+      {
+        "sentence": "La materia oscura.",
+        "translationEn": "Dark matter.",
+        "translationPl": "Ciemna materia."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1501",
+    "word": "mejorar",
+    "translationEn": "to improve",
+    "translationPl": "ulepszać",
+    "examples": [
+      {
+        "sentence": "Quiero mejorar mi español.",
+        "translationEn": "I want to improve my Spanish.",
+        "translationPl": "Chcę ulepszyć swój hiszpański."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1520",
+    "word": "núcleo",
+    "translationEn": "nucleus;core",
+    "translationPl": "jądro;rdzeń",
+    "examples": [
+      {
+        "sentence": "El núcleo de la Tierra.",
+        "translationEn": "The Earth's core.",
+        "translationPl": "Jądro Ziemi."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1541",
+    "word": "patrimonio",
+    "translationEn": "heritage;patrimony",
+    "translationPl": "dziedzictwo",
+    "examples": [
+      {
+        "sentence": "Patrimonio cultural.",
+        "translationEn": "Cultural heritage.",
+        "translationPl": "Dziedzictwo kulturowe."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1572",
+    "word": "prueba",
+    "translationEn": "proof;test",
+    "translationPl": "dowód;test",
+    "examples": [
+      {
+        "sentence": "Necesito una prueba.",
+        "translationEn": "I need proof.",
+        "translationPl": "Potrzebuję dowodu."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1616",
+    "word": "técnica",
+    "translationEn": "technique",
+    "translationPl": "technika",
+    "examples": [
+      {
+        "sentence": "Una buena técnica.",
+        "translationEn": "A good technique.",
+        "translationPl": "Dobra technika."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1675",
+    "word": "aprender",
+    "translationEn": "to learn",
+    "translationPl": "uczyć się",
+    "examples": [
+      {
+        "sentence": "Quiero aprender español.",
+        "translationEn": "I want to learn Spanish.",
+        "translationPl": "Chcę uczyć się hiszpańskiego."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1676",
+    "word": "aprobar",
+    "translationEn": "to approve;to pass (a test)",
+    "translationPl": "zatwierdzać;zdać (test)",
+    "examples": [
+      {
+        "sentence": "Espero aprobar el examen.",
+        "translationEn": "I hope to pass the exam.",
+        "translationPl": "Mam nadzieję zdać egzamin."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1690",
+    "word": "básico",
+    "translationEn": "basic",
+    "translationPl": "podstawowy",
+    "examples": [
+      {
+        "sentence": "Conocimientos básicos.",
+        "translationEn": "Basic knowledge.",
+        "translationPl": "Podstawowa wiedza."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1704",
+    "word": "científico",
+    "translationEn": "scientific;scientist",
+    "translationPl": "naukowy;naukowiec",
+    "examples": [
+      {
+        "sentence": "Un descubrimiento científico.",
+        "translationEn": "A scientific discovery.",
+        "translationPl": "Odkrycie naukowe."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1720",
+    "word": "concepto",
+    "translationEn": "concept",
+    "translationPl": "pojęcie",
+    "examples": [
+      {
+        "sentence": "Un concepto nuevo.",
+        "translationEn": "A new concept.",
+        "translationPl": "Nowe pojęcie."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1728",
+    "word": "conocimiento",
+    "translationEn": "knowledge",
+    "translationPl": "wiedza",
+    "examples": [
+      {
+        "sentence": "Tengo mucho conocimiento.",
+        "translationEn": "I have a lot of knowledge.",
+        "translationPl": "Mam dużo wiedzy."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1735",
+    "word": "contenido",
+    "translationEn": "content",
+    "translationPl": "zawartość",
+    "examples": [
+      {
+        "sentence": "El contenido del libro.",
+        "translationEn": "The content of the book.",
+        "translationPl": "Zawartość książki."
+      }
+    ],
+    "category": "education"
+  },
+  {
+    "id": "1747",
+    "word": "cultura",
+    "translationEn": "culture",
+    "translationPl": "kultura",
+    "examples": [
+      {
+        "sentence": "La cultura española.",
+        "translationEn": "Spanish culture.",
+        "translationPl": "Kultura hiszpańska."
+      }
+    ],
+    "category": "education"
+  }
+]

@@ -1,0 +1,3053 @@
+[
+  {
+    "id": "41",
+    "word": "desarrollo",
+    "translationEn": "development",
+    "translationPl": "rozwój",
+    "examples": [
+      {
+        "sentence": "El desarrollo del proyecto.",
+        "translationEn": "The development of the project.",
+        "translationPl": "Rozwój projektu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "89",
+    "word": "miembro",
+    "translationEn": "member",
+    "translationPl": "członek",
+    "examples": [
+      {
+        "sentence": "Es un miembro del equipo.",
+        "translationEn": "He is a member of the team.",
+        "translationPl": "Jest członkiem zespołu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "93",
+    "word": "organización",
+    "translationEn": "organization",
+    "translationPl": "organizacja",
+    "examples": [
+      {
+        "sentence": "Una organización sin fines de lucro.",
+        "translationEn": "A non-profit organization.",
+        "translationPl": "Organizacja non-profit."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "120",
+    "word": "construcción",
+    "translationEn": "construction",
+    "translationPl": "budowa",
+    "examples": [
+      {
+        "sentence": "Está en construcción.",
+        "translationEn": "It's under construction.",
+        "translationPl": "Jest w budowie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "123",
+    "word": "sector",
+    "translationEn": "sector",
+    "translationPl": "sektor",
+    "examples": [
+      {
+        "sentence": "El sector servicios.",
+        "translationEn": "The service sector.",
+        "translationPl": "Sektor usług."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "125",
+    "word": "superior",
+    "translationEn": "superior",
+    "translationPl": "lepszy",
+    "examples": [
+      {
+        "sentence": "Un rendimiento superior.",
+        "translationEn": "Superior performance.",
+        "translationPl": "Lepsza wydajność."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "151",
+    "word": "industria",
+    "translationEn": "industry",
+    "translationPl": "przemysł",
+    "examples": [
+      {
+        "sentence": "La industria del automóvil.",
+        "translationEn": "The automotive industry.",
+        "translationPl": "Przemysł samochodowy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "163",
+    "word": "tecnología",
+    "translationEn": "technology",
+    "translationPl": "technologia",
+    "examples": [
+      {
+        "sentence": "La nueva tecnología.",
+        "translationEn": "New technology.",
+        "translationPl": "Nowa technologia."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "167",
+    "word": "profesional",
+    "translationEn": "professional",
+    "translationPl": "zawodowy",
+    "examples": [
+      {
+        "sentence": "Un deportista profesional.",
+        "translationEn": "A professional athlete.",
+        "translationPl": "Profesjonalny sportowiec."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "176",
+    "word": "responsabilidad",
+    "translationEn": "responsibility",
+    "translationPl": "odpowiedzialność",
+    "examples": [
+      {
+        "sentence": "Asumir la responsabilidad.",
+        "translationEn": "Take responsibility.",
+        "translationPl": "Wziąć odpowiedzialność."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "188",
+    "word": "crecimiento",
+    "translationEn": "growth",
+    "translationPl": "wzrost",
+    "examples": [
+      {
+        "sentence": "Crecimiento económico.",
+        "translationEn": "Economic growth.",
+        "translationPl": "Wzrost gospodarczy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "189",
+    "word": "función",
+    "translationEn": "function;role;performance",
+    "translationPl": "funkcja;rola;przedstawienie",
+    "examples": [
+      {
+        "sentence": "La función principal.",
+        "translationEn": "The main function.",
+        "translationPl": "Główna funkcja."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "191",
+    "word": "fiscal",
+    "translationEn": "fiscal;tax;prosecutor",
+    "translationPl": "fiskalny;podatkowy;prokurator",
+    "examples": [
+      {
+        "sentence": "Un abogado fiscal.",
+        "translationEn": "A tax lawyer.",
+        "translationPl": "Prawnik podatkowy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "192",
+    "word": "líder",
+    "translationEn": "leader",
+    "translationPl": "lider",
+    "examples": [
+      {
+        "sentence": "El líder del equipo.",
+        "translationEn": "The team leader.",
+        "translationPl": "Lider zespołu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "210",
+    "word": "lunes",
+    "translationEn": "Monday",
+    "translationPl": "poniedziałek",
+    "examples": [
+      {
+        "sentence": "El lunes empiezo a trabajar.",
+        "translationEn": "I start work on Monday.",
+        "translationPl": "W poniedziałek zaczynam pracę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "217",
+    "word": "responsable",
+    "translationPl": "odpowiedzialny",
+    "examples": [
+      {
+        "sentence": "Es responsable de sus actos.",
+        "translationEn": "He is responsible for his actions.",
+        "translationPl": "Jest odpowiedzialny za swoje czyny."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "219",
+    "word": "considerar",
+    "translationEn": "to consider",
+    "translationPl": "rozważać",
+    "examples": [
+      {
+        "sentence": "Considera mi propuesta.",
+        "translationEn": "Consider my proposal.",
+        "translationPl": "Rozważ moją propozycję."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "220",
+    "word": "representar",
+    "translationEn": "to represent",
+    "translationPl": "reprezentować",
+    "examples": [
+      {
+        "sentence": "Representa a su país.",
+        "translationEn": "He represents his country.",
+        "translationPl": "Reprezentuje swój kraj."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "240",
+    "word": "empleado",
+    "translationEn": "employee",
+    "translationPl": "pracownik",
+    "examples": [
+      {
+        "sentence": "Un buen empleado.",
+        "translationEn": "A good employee.",
+        "translationPl": "Dobry pracownik."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "292",
+    "word": "comandante",
+    "translationEn": "commander",
+    "translationPl": "dowódca",
+    "examples": [
+      {
+        "sentence": "El comandante en jefe.",
+        "translationEn": "The commander-in-chief.",
+        "translationPl": "Naczelny dowódca."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "296",
+    "word": "industrial",
+    "translationEn": "industrial",
+    "translationPl": "przemysłowy",
+    "examples": [
+      {
+        "sentence": "Zona industrial.",
+        "translationEn": "Industrial zone.",
+        "translationPl": "Strefa przemysłowa."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "297",
+    "word": "miércoles",
+    "translationEn": "Wednesday",
+    "translationPl": "środa",
+    "examples": [
+      {
+        "sentence": "El miércoles tengo reunión.",
+        "translationEn": "I have a meeting on Wednesday.",
+        "translationPl": "W środę mam spotkanie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "300",
+    "word": "continuar",
+    "translationEn": "to continue",
+    "translationPl": "kontynuować",
+    "examples": [
+      {
+        "sentence": "Continuar el trabajo.",
+        "translationEn": "Continue the work.",
+        "translationPl": "Kontynuować pracę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "321",
+    "word": "coronel",
+    "translationEn": "colonel",
+    "translationPl": "pułkownik",
+    "examples": [
+      {
+        "sentence": "El coronel del ejército.",
+        "translationEn": "The army colonel.",
+        "translationPl": "Pułkownik armii."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "326",
+    "word": "ámbito",
+    "translationEn": "scope;field;area",
+    "translationPl": "zakres;pole;obszar",
+    "examples": [
+      {
+        "sentence": "En el ámbito laboral.",
+        "translationEn": "In the workplace.",
+        "translationPl": "W środowisku pracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "335",
+    "word": "desarrollar",
+    "translationEn": "to develop",
+    "translationPl": "rozwijać",
+    "examples": [
+      {
+        "sentence": "Desarrollar un proyecto.",
+        "translationEn": "Develop a project.",
+        "translationPl": "Rozwijać projekt."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "347",
+    "word": "agricultura",
+    "translationEn": "agriculture",
+    "translationPl": "rolnictwo",
+    "examples": [
+      {
+        "sentence": "La agricultura es importante.",
+        "translationEn": "Agriculture is important.",
+        "translationPl": "Rolnictwo jest ważne."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "351",
+    "word": "generar",
+    "translationEn": "to generate",
+    "translationPl": "generować",
+    "examples": [
+      {
+        "sentence": "Generar ideas.",
+        "translationEn": "Generate ideas.",
+        "translationPl": "Generować pomysły."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "373",
+    "word": "procedimiento",
+    "translationEn": "procedure",
+    "translationPl": "procedura",
+    "examples": [
+      {
+        "sentence": "Un procedimiento estándar.",
+        "translationEn": "A standard procedure.",
+        "translationPl": "Standardowa procedura."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "383",
+    "word": "ejecución",
+    "translationEn": "execution;performance",
+    "translationPl": "wykonanie;wydajność",
+    "examples": [
+      {
+        "sentence": "La ejecución del plan fue impecable.",
+        "translationEn": "The execution of the plan was impeccable.",
+        "translationPl": "Wykonanie planu było nienaganne."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "388",
+    "word": "funcionamiento",
+    "translationEn": "functioning;operation",
+    "translationPl": "działanie;funkcjonowanie",
+    "examples": [
+      {
+        "sentence": "El buen funcionamiento del sistema.",
+        "translationEn": "The good functioning of the system.",
+        "translationPl": "Dobre funkcjonowanie systemu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "389",
+    "word": "paro",
+    "translationEn": "unemployment;strike;stop",
+    "translationPl": "bezrobocie;strajk;stop",
+    "examples": [
+      {
+        "sentence": "Hay un alto paro en la región.",
+        "translationEn": "There is high unemployment in the region.",
+        "translationPl": "W regionie panuje wysokie bezrobocie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "393",
+    "word": "cooperación",
+    "translationEn": "cooperation",
+    "translationPl": "współpraca",
+    "examples": [
+      {
+        "sentence": "Necesitamos más cooperación.",
+        "translationEn": "We need more cooperation.",
+        "translationPl": "Potrzebujemy więcej współpracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "397",
+    "word": "progreso",
+    "translationEn": "progress",
+    "translationPl": "postęp",
+    "examples": [
+      {
+        "sentence": "Estamos haciendo progreso.",
+        "translationEn": "We are making progress.",
+        "translationPl": "Robimy postępy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "407",
+    "word": "porcentaje",
+    "translationEn": "percentage",
+    "translationPl": "procent",
+    "examples": [
+      {
+        "sentence": "Un alto porcentaje.",
+        "translationEn": "A high percentage.",
+        "translationPl": "Wysoki procent."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "413",
+    "word": "determinar",
+    "translationEn": "to determine",
+    "translationPl": "określać;ustalać",
+    "examples": [
+      {
+        "sentence": "Debemos determinar la causa.",
+        "translationEn": "We must determine the cause.",
+        "translationPl": "Musimy ustalić przyczynę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "445",
+    "word": "proponer",
+    "translationEn": "to propose;to suggest",
+    "translationPl": "proponować;sugerować",
+    "examples": [
+      {
+        "sentence": "Propuso un nuevo plan.",
+        "translationEn": "He proposed a new plan.",
+        "translationPl": "Zaproponował nowy plan."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "467",
+    "word": "integración",
+    "translationEn": "integration",
+    "translationPl": "integracja",
+    "examples": [
+      {
+        "sentence": "La integración de nuevos miembros.",
+        "translationEn": "The integration of new members.",
+        "translationPl": "Integracja nowych członków."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "473",
+    "word": "autorización",
+    "translationEn": "authorization",
+    "translationPl": "autoryzacja;upoważnienie",
+    "examples": [
+      {
+        "sentence": "Necesito una autorización.",
+        "translationEn": "I need an authorization.",
+        "translationPl": "Potrzebuję autoryzacji."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "475",
+    "word": "enfoque",
+    "translationEn": "approach;focus",
+    "translationPl": "podejście;skupienie",
+    "examples": [
+      {
+        "sentence": "Un nuevo enfoque al problema.",
+        "translationEn": "A new approach to the problem.",
+        "translationPl": "Nowe podejście do problemu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "481",
+    "word": "renuncia",
+    "translationEn": "resignation",
+    "translationPl": "rezygnacja",
+    "examples": [
+      {
+        "sentence": "Presentó su renuncia.",
+        "translationEn": "He submitted his resignation.",
+        "translationPl": "Złożył rezygnację."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "489",
+    "word": "fallo",
+    "translationEn": "failure;fault;verdict",
+    "translationPl": "niepowodzenie;wada;werdykt",
+    "examples": [
+      {
+        "sentence": "Hubo un fallo en el sistema.",
+        "translationEn": "There was a system failure.",
+        "translationPl": "Wystąpiła awaria systemu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "512",
+    "word": "editor",
+    "translationEn": "editor;publisher",
+    "translationPl": "redaktor;wydawca",
+    "examples": [
+      {
+        "sentence": "El editor aprobó el manuscrito.",
+        "translationEn": "The editor approved the manuscript.",
+        "translationPl": "Redaktor zatwierdził manuskrypt."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "517",
+    "word": "típico",
+    "translationEn": "typical",
+    "translationPl": "typowy",
+    "examples": [
+      {
+        "sentence": "Un día típico de trabajo.",
+        "translationEn": "A typical workday.",
+        "translationPl": "Typowy dzień pracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "519",
+    "word": "analizar",
+    "translationEn": "to analyze",
+    "translationPl": "analizować",
+    "examples": [
+      {
+        "sentence": "Tenemos que analizar los datos.",
+        "translationEn": "We have to analyze the data.",
+        "translationPl": "Musimy przeanalizować dane."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "527",
+    "word": "profesión",
+    "translationEn": "profession",
+    "translationPl": "zawód",
+    "examples": [
+      {
+        "sentence": "¿Cuál es tu profesión?",
+        "translationEn": "What is your profession?",
+        "translationPl": "Jaki jest twój zawód?"
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "530",
+    "word": "creador",
+    "translationEn": "creator",
+    "translationPl": "twórca",
+    "examples": [
+      {
+        "sentence": "El creador de esta obra.",
+        "translationEn": "The creator of this work.",
+        "translationPl": "Twórca tego dzieła."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "537",
+    "word": "facilitar",
+    "translationEn": "to facilitate",
+    "translationPl": "ułatwiać",
+    "examples": [
+      {
+        "sentence": "Esto facilita el proceso.",
+        "translationEn": "This facilitates the process.",
+        "translationPl": "To ułatwia proces."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "575",
+    "word": "contribuir",
+    "translationEn": "to contribute",
+    "translationPl": "przyczyniać się",
+    "examples": [
+      {
+        "sentence": "Quiero contribuir al proyecto.",
+        "translationEn": "I want to contribute to the project.",
+        "translationPl": "Chcę przyczynić się do projektu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "577",
+    "word": "crear",
+    "translationEn": "to create",
+    "translationPl": "tworzyć",
+    "examples": [
+      {
+        "sentence": "Vamos a crear algo nuevo.",
+        "translationEn": "We are going to create something new.",
+        "translationPl": "Stworzymy coś nowego."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "586",
+    "word": "firmar",
+    "translationEn": "to sign",
+    "translationPl": "podpisywać",
+    "examples": [
+      {
+        "sentence": "Firmó el contrato.",
+        "translationEn": "He signed the contract.",
+        "translationPl": "Podpisał umowę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "608",
+    "word": "obligación",
+    "translationEn": "obligation",
+    "translationPl": "obowiązek",
+    "examples": [
+      {
+        "sentence": "Es tu obligación hacerlo.",
+        "translationEn": "It's your obligation to do it.",
+        "translationPl": "To twój obowiązek, żeby to zrobić."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "611",
+    "word": "práctico",
+    "translationEn": "practical",
+    "translationPl": "praktyczny",
+    "examples": [
+      {
+        "sentence": "Es una solución práctica.",
+        "translationEn": "It's a practical solution.",
+        "translationPl": "To praktyczne rozwiązanie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "612",
+    "word": "proceso",
+    "translationEn": "process",
+    "translationPl": "proces",
+    "examples": [
+      {
+        "sentence": "Es un proceso largo.",
+        "translationEn": "It's a long process.",
+        "translationPl": "To długi proces."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "635",
+    "word": "técnico",
+    "translationEn": "technical",
+    "translationPl": "techniczny",
+    "examples": [
+      {
+        "sentence": "Un problema técnico.",
+        "translationEn": "A technical problem.",
+        "translationPl": "Problem techniczny."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "660",
+    "word": "comando",
+    "translationEn": "command",
+    "translationPl": "komenda;rozkaz",
+    "examples": [
+      {
+        "sentence": "Dio una orden de comando.",
+        "translationEn": "He gave a command order.",
+        "translationPl": "Wydał rozkaz."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "665",
+    "word": "empleo",
+    "translationEn": "employment;job",
+    "translationPl": "zatrudnienie;praca",
+    "examples": [
+      {
+        "sentence": "Busco un nuevo empleo.",
+        "translationEn": "I'm looking for a new job.",
+        "translationPl": "Szukam nowej pracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "667",
+    "word": "éxito",
+    "translationEn": "success",
+    "translationPl": "sukces",
+    "examples": [
+      {
+        "sentence": "Deseo mucho éxito.",
+        "translationEn": "I wish you much success.",
+        "translationPl": "Życzę dużo sukcesów."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "668",
+    "word": "exigir",
+    "translationEn": "to demand;to require",
+    "translationPl": "żądać;wymagać",
+    "examples": [
+      {
+        "sentence": "No puedes exigir tanto.",
+        "translationEn": "You can't demand so much.",
+        "translationPl": "Nie możesz tak dużo żądać."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "670",
+    "word": "formal",
+    "translationEn": "formal",
+    "translationPl": "formalny",
+    "examples": [
+      {
+        "sentence": "Es una reunión formal.",
+        "translationEn": "It's a formal meeting.",
+        "translationPl": "To formalne spotkanie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "673",
+    "word": "gestión",
+    "translationEn": "management",
+    "translationPl": "zarządzanie",
+    "examples": [
+      {
+        "sentence": "La gestión de proyectos.",
+        "translationEn": "Project management.",
+        "translationPl": "Zarządzanie projektami."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "680",
+    "word": "inicial",
+    "translationEn": "initial",
+    "translationPl": "początkowy",
+    "examples": [
+      {
+        "sentence": "La fase inicial del proyecto.",
+        "translationEn": "The initial phase of the project.",
+        "translationPl": "Początkowa faza projektu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "685",
+    "word": "meta",
+    "translationEn": "goal;finish line",
+    "translationPl": "cel;meta",
+    "examples": [
+      {
+        "sentence": "Nuestra meta es ganar.",
+        "translationEn": "Our goal is to win.",
+        "translationPl": "Naszym celem jest zwycięstwo."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "696",
+    "word": "proporcionar",
+    "translationEn": "to provide",
+    "translationPl": "zapewniać;dostarczać",
+    "examples": [
+      {
+        "sentence": "Proporciona toda la información necesaria.",
+        "translationEn": "It provides all the necessary information.",
+        "translationPl": "Dostarcza wszystkich niezbędnych informacji."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "703",
+    "word": "solución",
+    "translationEn": "solution",
+    "translationPl": "rozwiązanie",
+    "examples": [
+      {
+        "sentence": "Encontré la solución.",
+        "translationEn": "I found the solution.",
+        "translationPl": "Znalazłem rozwiązanie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "705",
+    "word": "superior",
+    "translationEn": "superior",
+    "translationPl": "lepszy;wyższy",
+    "examples": [
+      {
+        "sentence": "Un rendimiento superior.",
+        "translationEn": "Superior performance.",
+        "translationPl": "Większa wydajność."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "710",
+    "word": "tratar",
+    "translationEn": "to try;to treat",
+    "translationPl": "próbować;traktować",
+    "examples": [
+      {
+        "sentence": "Voy a tratar de hacerlo.",
+        "translationEn": "I'm going to try to do it.",
+        "translationPl": "Spróbuję to zrobić."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "742",
+    "word": "beneficio",
+    "translationEn": "benefit;profit",
+    "translationPl": "korzyść;zysk",
+    "examples": [
+      {
+        "sentence": "Obtuvimos un gran beneficio.",
+        "translationEn": "We obtained a great profit.",
+        "translationPl": "Osiągnęliśmy duży zysk."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "743",
+    "word": "búsqueda",
+    "translationEn": "search",
+    "translationPl": "poszukiwanie",
+    "examples": [
+      {
+        "sentence": "Estoy en búsqueda de un trabajo.",
+        "translationEn": "I am in search of a job.",
+        "translationPl": "Jestem w poszukiwaniu pracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "755",
+    "word": "copia",
+    "translationEn": "copy",
+    "translationPl": "kopia;odpis",
+    "examples": [
+      {
+        "sentence": "Haz una copia del documento.",
+        "translationEn": "Make a copy of the document.",
+        "translationPl": "Zrób kopię dokumentu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "768",
+    "word": "desarrollo",
+    "translationEn": "development",
+    "translationPl": "rozwój",
+    "examples": [
+      {
+        "sentence": "El desarrollo de la tecnología.",
+        "translationEn": "The development of technology.",
+        "translationPl": "Rozwój technologii."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "775",
+    "word": "ejercer",
+    "translationEn": "to exercise;to practice",
+    "translationPl": "wykonywać;ćwiczyć",
+    "examples": [
+      {
+        "sentence": "Ejerce su profesión.",
+        "translationEn": "He practices his profession.",
+        "translationPl": "Wykonuje swój zawód."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "780",
+    "word": "esfuerzo",
+    "translationEn": "effort",
+    "translationPl": "wysiłek",
+    "examples": [
+      {
+        "sentence": "Necesitas hacer un esfuerzo.",
+        "translationEn": "You need to make an effort.",
+        "translationPl": "Musisz się postarać."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "782",
+    "word": "establecer",
+    "translationEn": "to establish",
+    "translationPl": "ustanawiać;ustalać",
+    "examples": [
+      {
+        "sentence": "Vamos a establecer nuevas reglas.",
+        "translationEn": "We are going to establish new rules.",
+        "translationPl": "Ustanowimy nowe zasady."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "783",
+    "word": "éxito",
+    "translationEn": "success",
+    "translationPl": "sukces",
+    "examples": [
+      {
+        "sentence": "Le deseamos mucho éxito.",
+        "translationEn": "We wish him much success.",
+        "translationPl": "Życzymy mu wiele sukcesów."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "784",
+    "word": "exportación",
+    "translationEn": "exportation",
+    "translationPl": "eksport",
+    "examples": [
+      {
+        "sentence": "La exportación de productos.",
+        "translationEn": "The exportation of products.",
+        "translationPl": "Eksport produktów."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "789",
+    "word": "firmar",
+    "translationEn": "to sign",
+    "translationPl": "podpisywać",
+    "examples": [
+      {
+        "sentence": "Por favor, firma aquí.",
+        "translationEn": "Please sign here.",
+        "translationPl": "Proszę, podpisz tutaj."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "790",
+    "word": "fiscal",
+    "translationEn": "fiscal;prosecutor",
+    "translationPl": "fiskalny;prokurator",
+    "examples": [
+      {
+        "sentence": "El año fiscal.",
+        "translationEn": "The fiscal year.",
+        "translationPl": "Rok podatkowy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "795",
+    "word": "generar",
+    "translationEn": "to generate",
+    "translationPl": "generować",
+    "examples": [
+      {
+        "sentence": "Genera mucha energía.",
+        "translationEn": "It generates a lot of energy.",
+        "translationPl": "Generuje dużo energii."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "804",
+    "word": "implicar",
+    "translationEn": "to imply;to involve",
+    "translationPl": "implikować;angażować",
+    "examples": [
+      {
+        "sentence": "Esto implica un gran esfuerzo.",
+        "translationEn": "This implies a great effort.",
+        "translationPl": "To wiąże się z dużym wysiłkiem."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "811",
+    "word": "introducir",
+    "translationEn": "to introduce",
+    "translationPl": "wprowadzać;przedstawiać",
+    "examples": [
+      {
+        "sentence": "Vamos a introducir un nuevo producto.",
+        "translationEn": "We are going to introduce a new product.",
+        "translationPl": "Wprowadzimy nowy produkt."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "813",
+    "word": "investigar",
+    "translationEn": "to investigate",
+    "translationPl": "badać;śledzić",
+    "examples": [
+      {
+        "sentence": "La policía está investigando el caso.",
+        "translationEn": "The police are investigating the case.",
+        "translationPl": "Policja bada sprawę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "816",
+    "word": "jefe",
+    "translationEn": "boss;chief",
+    "translationPl": "szef",
+    "examples": [
+      {
+        "sentence": "Mi jefe es amable.",
+        "translationEn": "My boss is kind.",
+        "translationPl": "Mój szef jest miły."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "820",
+    "word": "mandato",
+    "translationEn": "mandate;command",
+    "translationPl": "mandat;rozkaz",
+    "examples": [
+      {
+        "sentence": "Cumplió el mandato.",
+        "translationEn": "He fulfilled the mandate.",
+        "translationPl": "Wypełnił mandat."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "827",
+    "word": "modificar",
+    "translationEn": "to modify",
+    "translationPl": "modyfikować",
+    "examples": [
+      {
+        "sentence": "Vamos a modificar el plan.",
+        "translationEn": "We are going to modify the plan.",
+        "translationPl": "Zmodyfikujemy plan."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "839",
+    "word": "ocupado",
+    "translationEn": "busy;occupied",
+    "translationPl": "zajęty",
+    "examples": [
+      {
+        "sentence": "Estoy muy ocupado.",
+        "translationEn": "I am very busy.",
+        "translationPl": "Jestem bardzo zajęty."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "841",
+    "word": "oportunidad",
+    "translationEn": "opportunity",
+    "translationPl": "okazja",
+    "examples": [
+      {
+        "sentence": "Es una gran oportunidad.",
+        "translationEn": "It's a great opportunity.",
+        "translationPl": "To świetna okazja."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "866",
+    "word": "presentar",
+    "translationEn": "to present;to introduce",
+    "translationPl": "przedstawiać",
+    "examples": [
+      {
+        "sentence": "Voy a presentar mi proyecto.",
+        "translationEn": "I'm going to present my project.",
+        "translationPl": "Przedstawię swój projekt."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "873",
+    "word": "producción",
+    "translationEn": "production",
+    "translationPl": "produkcja",
+    "examples": [
+      {
+        "sentence": "La producción de coches.",
+        "translationEn": "Car production.",
+        "translationPl": "Produkcja samochodów."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "876",
+    "word": "propuesta",
+    "translationEn": "proposal",
+    "translationPl": "propozycja",
+    "examples": [
+      {
+        "sentence": "Hice una propuesta.",
+        "translationEn": "I made a proposal.",
+        "translationPl": "Złożyłem propozycję."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "881",
+    "word": "rango",
+    "translationEn": "range;rank",
+    "translationPl": "zakres;stopień",
+    "examples": [
+      {
+        "sentence": "Un amplio rango de productos.",
+        "translationEn": "A wide range of products.",
+        "translationPl": "Szeroki zakres produktów."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "887",
+    "word": "recurso",
+    "translationEn": "resource",
+    "translationPl": "zasób",
+    "examples": [
+      {
+        "sentence": "Los recursos naturales.",
+        "translationEn": "Natural resources.",
+        "translationPl": "Zasoby naturalne."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "892",
+    "word": "reunión",
+    "translationEn": "meeting",
+    "translationPl": "spotkanie",
+    "examples": [
+      {
+        "sentence": "Tengo una reunión mañana.",
+        "translationEn": "I have a meeting tomorrow.",
+        "translationPl": "Mam jutro spotkanie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "903",
+    "word": "sistema",
+    "translationEn": "system",
+    "translationPl": "system",
+    "examples": [
+      {
+        "sentence": "Un sistema complejo.",
+        "translationEn": "A complex system.",
+        "translationPl": "Złożony system."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "907",
+    "word": "superior",
+    "translationEn": "superior",
+    "translationPl": "lepszy;wyższy",
+    "examples": [
+      {
+        "sentence": "Ella es mi superior.",
+        "translationEn": "She is my superior.",
+        "translationPl": "Ona jest moim przełożonym."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "910",
+    "word": "teniente",
+    "translationEn": "lieutenant",
+    "translationPl": "porucznik",
+    "examples": [
+      {
+        "sentence": "El teniente dio una orden.",
+        "translationEn": "The lieutenant gave an order.",
+        "translationPl": "Porucznik wydał rozkaz."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "930",
+    "word": "acuerdo",
+    "translationEn": "agreement",
+    "translationPl": "porozumienie;zgoda",
+    "examples": [
+      {
+        "sentence": "Llegamos a un acuerdo.",
+        "translationEn": "We reached an agreement.",
+        "translationPl": "Doszliśmy do porozumienia."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "932",
+    "word": "administración",
+    "translationEn": "administration",
+    "translationPl": "administracja",
+    "examples": [
+      {
+        "sentence": "La administración pública.",
+        "translationEn": "Public administration.",
+        "translationPl": "Administracja publiczna."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "939",
+    "word": "alcanzar",
+    "translationEn": "to reach;to achieve",
+    "translationPl": "osiągać;docierać",
+    "examples": [
+      {
+        "sentence": "Vamos a alcanzar la meta.",
+        "translationEn": "We are going to reach the goal.",
+        "translationPl": "Osiągniemy cel."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "942",
+    "word": "ambiente",
+    "translationEn": "environment;atmosphere",
+    "translationPl": "środowisko;atmosfera",
+    "examples": [
+      {
+        "sentence": "El ambiente de trabajo.",
+        "translationEn": "The work environment.",
+        "translationPl": "Środowisko pracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "948",
+    "word": "aprovechar",
+    "translationEn": "to take advantage of;to make the most of",
+    "translationPl": "wykorzystywać;korzystać",
+    "examples": [
+      {
+        "sentence": "Hay que aprovechar la oportunidad.",
+        "translationEn": "We must seize the opportunity.",
+        "translationPl": "Trzeba wykorzystać okazję."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "949",
+    "word": "asistir",
+    "translationEn": "to attend",
+    "translationPl": "uczestniczyć",
+    "examples": [
+      {
+        "sentence": "Voy a asistir a la reunión.",
+        "translationEn": "I'm going to attend the meeting.",
+        "translationPl": "Będę uczestniczyć w spotkaniu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "953",
+    "word": "aumentar",
+    "translationEn": "to increase",
+    "translationPl": "zwiększać",
+    "examples": [
+      {
+        "sentence": "Quiero aumentar mis ingresos.",
+        "translationEn": "I want to increase my income.",
+        "translationPl": "Chcę zwiększyć swoje dochody."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "954",
+    "word": "avanzar",
+    "translationEn": "to advance",
+    "translationPl": "posuwać się naprzód",
+    "examples": [
+      {
+        "sentence": "Tenemos que avanzar.",
+        "translationEn": "We have to advance.",
+        "translationPl": "Musimy posuwać się naprzód."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "962",
+    "word": "cambiar",
+    "translationEn": "to change",
+    "translationPl": "zmieniać",
+    "examples": [
+      {
+        "sentence": "Quiero cambiar de trabajo.",
+        "translationEn": "I want to change jobs.",
+        "translationPl": "Chcę zmienić pracę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "975",
+    "word": "colega",
+    "translationEn": "colleague",
+    "translationPl": "kolega",
+    "examples": [
+      {
+        "sentence": "Es mi colega de trabajo.",
+        "translationEn": "He is my work colleague.",
+        "translationPl": "To mój kolega z pracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "980",
+    "word": "complejo",
+    "translationEn": "complex",
+    "translationPl": "złożony",
+    "examples": [
+      {
+        "sentence": "Es un problema complejo.",
+        "translationEn": "It's a complex problem.",
+        "translationPl": "To złożony problem."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "984",
+    "word": "condición",
+    "translationEn": "condition",
+    "translationPl": "warunek",
+    "examples": [
+      {
+        "sentence": "La condición del contrato.",
+        "translationEn": "The condition of the contract.",
+        "translationPl": "Warunek umowy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1007",
+    "word": "crecimiento",
+    "translationEn": "growth",
+    "translationPl": "wzrost",
+    "examples": [
+      {
+        "sentence": "Crecimiento económico.",
+        "translationEn": "Economic growth.",
+        "translationPl": "Wzrost gospodarczy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1019",
+    "word": "demostrar",
+    "translationEn": "to demonstrate;to prove",
+    "translationPl": "demonstrować;udowadniać",
+    "examples": [
+      {
+        "sentence": "Quiero demostrar mi habilidad.",
+        "translationEn": "I want to demonstrate my ability.",
+        "translationPl": "Chcę zademonstrować swoje umiejętności."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1021",
+    "word": "desarrollar",
+    "translationEn": "to develop",
+    "translationPl": "rozwijać",
+    "examples": [
+      {
+        "sentence": "Desarrollamos un nuevo producto.",
+        "translationEn": "We developed a new product.",
+        "translationPl": "Rozwijamy nowy produkt."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1025",
+    "word": "determinar",
+    "translationEn": "to determine",
+    "translationPl": "ustalać;określać",
+    "examples": [
+      {
+        "sentence": "Vamos a determinar la causa.",
+        "translationEn": "We are going to determine the cause.",
+        "translationPl": "Ustalimy przyczynę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1028",
+    "word": "digno",
+    "translationEn": "worthy;dignified",
+    "translationPl": "godny",
+    "examples": [
+      {
+        "sentence": "Es un trabajo digno.",
+        "translationEn": "It's a dignified job.",
+        "translationPl": "To godna praca."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1029",
+    "word": "dirigir",
+    "translationEn": "to direct;to manage",
+    "translationPl": "kierować;zarządzać",
+    "examples": [
+      {
+        "sentence": "Él dirige la empresa.",
+        "translationEn": "He manages the company.",
+        "translationPl": "On zarządza firmą."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1031",
+    "word": "diseño",
+    "translationEn": "design",
+    "translationPl": "projekt",
+    "examples": [
+      {
+        "sentence": "Me gusta el diseño.",
+        "translationEn": "I like the design.",
+        "translationPl": "Podoba mi się projekt."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1039",
+    "word": "economía",
+    "translationEn": "economy",
+    "translationPl": "gospodarka",
+    "examples": [
+      {
+        "sentence": "La economía del país.",
+        "translationEn": "The country's economy.",
+        "translationPl": "Gospodarka kraju."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1041",
+    "word": "ejecutar",
+    "translationEn": "to execute;to perform",
+    "translationPl": "wykonywać;realizować",
+    "examples": [
+      {
+        "sentence": "Vamos a ejecutar el plan.",
+        "translationEn": "We are going to execute the plan.",
+        "translationPl": "Wykonamy plan."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1047",
+    "word": "empleo",
+    "translationEn": "employment;job",
+    "translationPl": "zatrudnienie;praca",
+    "examples": [
+      {
+        "sentence": "Busco empleo.",
+        "translationEn": "I am looking for a job.",
+        "translationPl": "Szukam pracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1055",
+    "word": "equipo",
+    "translationEn": "team;equipment",
+    "translationPl": "zespół;sprzęt",
+    "examples": [
+      {
+        "sentence": "Somos un buen equipo.",
+        "translationEn": "We are a good team.",
+        "translationPl": "Jesteśmy dobrym zespołem."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1059",
+    "word": "especialista",
+    "translationEn": "specialist",
+    "translationPl": "specjalista",
+    "examples": [
+      {
+        "sentence": "Ella es una especialista.",
+        "translationEn": "She is a specialist.",
+        "translationPl": "Ona jest specjalistką."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1060",
+    "word": "establecer",
+    "translationEn": "to establish",
+    "translationPl": "ustalać;ustanawiać",
+    "examples": [
+      {
+        "sentence": "Vamos a establecer nuevas reglas.",
+        "translationEn": "We are going to establish new rules.",
+        "translationPl": "Ustalimy nowe zasady."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1061",
+    "word": "estructura",
+    "translationEn": "structure",
+    "translationPl": "struktura",
+    "examples": [
+      {
+        "sentence": "La estructura del edificio.",
+        "translationEn": "The structure of the building.",
+        "translationPl": "Struktura budynku."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1063",
+    "word": "evaluar",
+    "translationEn": "to evaluate",
+    "translationPl": "oceniać",
+    "examples": [
+      {
+        "sentence": "Tenemos que evaluar la situación.",
+        "translationEn": "We have to evaluate the situation.",
+        "translationPl": "Musimy ocenić sytuację."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1065",
+    "word": "éxito",
+    "translationEn": "success",
+    "translationPl": "sukces",
+    "examples": [
+      {
+        "sentence": "Deseo mucho éxito.",
+        "translationEn": "I wish much success.",
+        "translationPl": "Życzę dużo sukcesów."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1066",
+    "word": "experiencia",
+    "translationEn": "experience",
+    "translationPl": "doświadczenie",
+    "examples": [
+      {
+        "sentence": "Tengo mucha experiencia.",
+        "translationEn": "I have a lot of experience.",
+        "translationPl": "Mam duże doświadczenie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1073",
+    "word": "fábrica",
+    "translationEn": "factory",
+    "translationPl": "fabryka",
+    "examples": [
+      {
+        "sentence": "Trabajo en una fábrica.",
+        "translationEn": "I work in a factory.",
+        "translationPl": "Pracuję w fabryce."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1075",
+    "word": "falla",
+    "translationEn": "failure;fault",
+    "translationPl": "usterka;błąd",
+    "examples": [
+      {
+        "sentence": "Hubo una falla en el sistema.",
+        "translationEn": "There was a failure in the system.",
+        "translationPl": "Wystąpiła usterka w systemie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1082",
+    "word": "firmar",
+    "translationEn": "to sign",
+    "translationPl": "podpisywać",
+    "examples": [
+      {
+        "sentence": "Necesito firmar el documento.",
+        "translationEn": "I need to sign the document.",
+        "translationPl": "Muszę podpisać dokument."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1083",
+    "word": "fiscal",
+    "translationEn": "fiscal;prosecutor",
+    "translationPl": "fiskalny;prokurator",
+    "examples": [
+      {
+        "sentence": "Política fiscal.",
+        "translationEn": "Fiscal policy.",
+        "translationPl": "Polityka fiskalna."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1092",
+    "word": "gestión",
+    "translationEn": "management",
+    "translationPl": "zarządzanie",
+    "examples": [
+      {
+        "sentence": "Buena gestión de proyectos.",
+        "translationEn": "Good project management.",
+        "translationPl": "Dobre zarządzanie projektami."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1104",
+    "word": "implicar",
+    "translationEn": "to involve;to imply",
+    "translationPl": "angażować;implikować",
+    "examples": [
+      {
+        "sentence": "Esto implica mucho trabajo.",
+        "translationEn": "This involves a lot of work.",
+        "translationPl": "To wiąże się z dużą pracą."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1106",
+    "word": "impuesto",
+    "translationEn": "tax",
+    "translationPl": "podatek",
+    "examples": [
+      {
+        "sentence": "Pagar impuestos.",
+        "translationEn": "To pay taxes.",
+        "translationPl": "Płacić podatki."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1117",
+    "word": "introducir",
+    "translationEn": "to introduce;to insert",
+    "translationPl": "wprowadzać;wkładać",
+    "examples": [
+      {
+        "sentence": "Voy a introducir un nuevo concepto.",
+        "translationEn": "I'm going to introduce a new concept.",
+        "translationPl": "Wprowadzę nową koncepcję."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1118",
+    "word": "investigar",
+    "translationEn": "to investigate",
+    "translationPl": "badać",
+    "examples": [
+      {
+        "sentence": "Vamos a investigar el caso.",
+        "translationEn": "We are going to investigate the case.",
+        "translationPl": "Zbadamy sprawę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1119",
+    "word": "jefe",
+    "translationEn": "boss;chief",
+    "translationPl": "szef",
+    "examples": [
+      {
+        "sentence": "Mi jefe es amable.",
+        "translationEn": "My boss is kind.",
+        "translationPl": "Mój szef jest miły."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1139",
+    "word": "mecanismo",
+    "translationEn": "mechanism",
+    "translationPl": "mechanizm",
+    "examples": [
+      {
+        "sentence": "Un mecanismo complejo.",
+        "translationEn": "A complex mechanism.",
+        "translationPl": "Złożony mechanizm."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1144",
+    "word": "mina",
+    "translationEn": "mine",
+    "translationPl": "kopalnia",
+    "examples": [
+      {
+        "sentence": "Trabajo en una mina.",
+        "translationEn": "I work in a mine.",
+        "translationPl": "Pracuję w kopalni."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1145",
+    "word": "ministro",
+    "translationEn": "minister",
+    "translationPl": "minister",
+    "examples": [
+      {
+        "sentence": "El ministro de educación.",
+        "translationEn": "The minister of education.",
+        "translationPl": "Minister edukacji."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1147",
+    "word": "modificar",
+    "translationEn": "to modify",
+    "translationPl": "modyfikować",
+    "examples": [
+      {
+        "sentence": "Necesito modificar el plan.",
+        "translationEn": "I need to modify the plan.",
+        "translationPl": "Muszę zmodyfikować plan."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1168",
+    "word": "organización",
+    "translationEn": "organization",
+    "translationPl": "organizacja",
+    "examples": [
+      {
+        "sentence": "Una buena organización.",
+        "translationEn": "A good organization.",
+        "translationPl": "Dobra organizacja."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1195",
+    "word": "presupuesto",
+    "translationEn": "budget",
+    "translationPl": "budżet",
+    "examples": [
+      {
+        "sentence": "Tenemos un presupuesto limitado.",
+        "translationEn": "We have a limited budget.",
+        "translationPl": "Mamy ograniczony budżet."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1199",
+    "word": "proceso",
+    "translationEn": "process",
+    "translationPl": "proces",
+    "examples": [
+      {
+        "sentence": "Es un proceso largo.",
+        "translationEn": "It's a long process.",
+        "translationPl": "To długi proces."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1201",
+    "word": "profesional",
+    "translationEn": "professional",
+    "translationPl": "profesjonalny",
+    "examples": [
+      {
+        "sentence": "Es un profesional.",
+        "translationEn": "He is a professional.",
+        "translationPl": "Jest profesjonalistą."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1209",
+    "word": "rango",
+    "translationEn": "rank;range",
+    "translationPl": "ranga;zakres",
+    "examples": [
+      {
+        "sentence": "Un rango alto.",
+        "translationEn": "A high rank.",
+        "translationPl": "Wysoka ranga."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1213",
+    "word": "realizar",
+    "translationEn": "to realize;to carry out",
+    "translationPl": "realizować;wykonywać",
+    "examples": [
+      {
+        "sentence": "Vamos a realizar el proyecto.",
+        "translationEn": "We are going to carry out the project.",
+        "translationPl": "Zrealizujemy projekt."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1217",
+    "word": "recurso",
+    "translationEn": "resource",
+    "translationPl": "zasób",
+    "examples": [
+      {
+        "sentence": "Los recursos naturales.",
+        "translationEn": "Natural resources.",
+        "translationPl": "Zasoby naturalne."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1218",
+    "word": "reducir",
+    "translationEn": "to reduce",
+    "translationPl": "redukować",
+    "examples": [
+      {
+        "sentence": "Necesitamos reducir gastos.",
+        "translationEn": "We need to reduce expenses.",
+        "translationPl": "Musimy ograniczyć wydatki."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1226",
+    "word": "remoto",
+    "translationEn": "remote",
+    "translationPl": "zdalny",
+    "examples": [
+      {
+        "sentence": "Trabajo remoto.",
+        "translationEn": "Remote work.",
+        "translationPl": "Praca zdalna."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1227",
+    "word": "rendimiento",
+    "translationEn": "performance",
+    "translationPl": "wydajność;wynik",
+    "examples": [
+      {
+        "sentence": "Buen rendimiento académico.",
+        "translationEn": "Good academic performance.",
+        "translationPl": "Dobre wyniki w nauce."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1232",
+    "word": "resultado",
+    "translationEn": "result",
+    "translationPl": "rezultat",
+    "examples": [
+      {
+        "sentence": "Obtuvimos buenos resultados.",
+        "translationEn": "We obtained good results.",
+        "translationPl": "Uzyskaliśmy dobre rezultaty."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1233",
+    "word": "reunión",
+    "translationEn": "meeting",
+    "translationPl": "spotkanie",
+    "examples": [
+      {
+        "sentence": "Tengo una reunión mañana.",
+        "translationEn": "I have a meeting tomorrow.",
+        "translationPl": "Mam jutro spotkanie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1248",
+    "word": "servicio",
+    "translationEn": "service",
+    "translationPl": "usługa",
+    "examples": [
+      {
+        "sentence": "Buen servicio al cliente.",
+        "translationEn": "Good customer service.",
+        "translationPl": "Dobra obsługa klienta."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1268",
+    "word": "técnica",
+    "translationEn": "technique",
+    "translationPl": "technika",
+    "examples": [
+      {
+        "sentence": "Una técnica nueva.",
+        "translationEn": "A new technique.",
+        "translationPl": "Nowa technika."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1276",
+    "word": "trabajador",
+    "translationEn": "worker",
+    "translationPl": "pracownik",
+    "examples": [
+      {
+        "sentence": "Un trabajador dedicado.",
+        "translationEn": "A dedicated worker.",
+        "translationPl": "Oddany pracownik."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1311",
+    "word": "agente",
+    "translationEn": "agent",
+    "translationPl": "agent",
+    "examples": [
+      {
+        "sentence": "El agente secreto.",
+        "translationEn": "The secret agent.",
+        "translationPl": "Tajny agent."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1313",
+    "word": "agricultura",
+    "translationEn": "agriculture",
+    "translationPl": "rolnictwo",
+    "examples": [
+      {
+        "sentence": "La agricultura es importante.",
+        "translationEn": "Agriculture is important.",
+        "translationPl": "Rolnictwo jest ważne."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1315",
+    "word": "alcanzar",
+    "translationEn": "to reach;to achieve",
+    "translationPl": "osiągać;sięgać",
+    "examples": [
+      {
+        "sentence": "Quiero alcanzar mis metas.",
+        "translationEn": "I want to achieve my goals.",
+        "translationPl": "Chcę osiągnąć swoje cele."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1321",
+    "word": "analizar",
+    "translationEn": "to analyze",
+    "translationPl": "analizować",
+    "examples": [
+      {
+        "sentence": "Vamos a analizar los datos.",
+        "translationEn": "We are going to analyze the data.",
+        "translationPl": "Przeanalizujemy dane."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1334",
+    "word": "aumentar",
+    "translationEn": "to increase",
+    "translationPl": "zwiększać",
+    "examples": [
+      {
+        "sentence": "Necesitamos aumentar las ventas.",
+        "translationEn": "We need to increase sales.",
+        "translationPl": "Musimy zwiększyć sprzedaż."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1335",
+    "word": "avance",
+    "translationEn": "advance;progress",
+    "translationPl": "postęp",
+    "examples": [
+      {
+        "sentence": "Un gran avance.",
+        "translationEn": "A great advance.",
+        "translationPl": "Duży postęp."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1338",
+    "word": "beneficio",
+    "translationEn": "benefit",
+    "translationPl": "korzyść",
+    "examples": [
+      {
+        "sentence": "Obtendrás muchos beneficios.",
+        "translationEn": "You will get many benefits.",
+        "translationPl": "Uzyskasz wiele korzyści."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1339",
+    "word": "búsqueda",
+    "translationEn": "search",
+    "translationPl": "wyszukiwanie;poszukiwanie",
+    "examples": [
+      {
+        "sentence": "Estoy en búsqueda de trabajo.",
+        "translationEn": "I am looking for a job.",
+        "translationPl": "Szukam pracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1355",
+    "word": "cliente",
+    "translationEn": "client;customer",
+    "translationPl": "klient",
+    "examples": [
+      {
+        "sentence": "Un cliente satisfecho.",
+        "translationEn": "A satisfied customer.",
+        "translationPl": "Zadowolony klient."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1368",
+    "word": "construcción",
+    "translationEn": "construction",
+    "translationPl": "budowa",
+    "examples": [
+      {
+        "sentence": "La construcción de un edificio.",
+        "translationEn": "The construction of a building.",
+        "translationPl": "Budowa budynku."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1373",
+    "word": "contribuir",
+    "translationEn": "to contribute",
+    "translationPl": "przyczyniać się",
+    "examples": [
+      {
+        "sentence": "Quiero contribuir al proyecto.",
+        "translationEn": "I want to contribute to the project.",
+        "translationPl": "Chcę przyczynić się do projektu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1379",
+    "word": "crecimiento",
+    "translationEn": "growth",
+    "translationPl": "wzrost",
+    "examples": [
+      {
+        "sentence": "Un gran crecimiento económico.",
+        "translationEn": "Great economic growth.",
+        "translationPl": "Duży wzrost gospodarczy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1388",
+    "word": "dedicar",
+    "translationEn": "to dedicate",
+    "translationPl": "poświęcać",
+    "examples": [
+      {
+        "sentence": "Me dedico a mi trabajo.",
+        "translationEn": "I dedicate myself to my work.",
+        "translationPl": "Poświęcam się swojej pracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1392",
+    "word": "demostrar",
+    "translationEn": "to demonstrate;to show",
+    "translationPl": "demonstrować;pokazywać",
+    "examples": [
+      {
+        "sentence": "Quiero demostrar mi valía.",
+        "translationEn": "I want to prove my worth.",
+        "translationPl": "Chcę udowodnić swoją wartość."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1394",
+    "word": "desarrollar",
+    "translationEn": "to develop",
+    "translationPl": "rozwijać",
+    "examples": [
+      {
+        "sentence": "Necesitamos desarrollar nuevas ideas.",
+        "translationEn": "We need to develop new ideas.",
+        "translationPl": "Musimy rozwijać nowe pomysły."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1403",
+    "word": "dirigir",
+    "translationEn": "to direct;to manage",
+    "translationPl": "kierować;zarządzać",
+    "examples": [
+      {
+        "sentence": "Él dirige la empresa.",
+        "translationEn": "He manages the company.",
+        "translationPl": "On zarządza firmą."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1407",
+    "word": "distribución",
+    "translationEn": "distribution",
+    "translationPl": "dystrybucja",
+    "examples": [
+      {
+        "sentence": "La distribución de productos.",
+        "translationEn": "The distribution of products.",
+        "translationPl": "Dystrybucja produktów."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1409",
+    "word": "documento",
+    "translationEn": "document",
+    "translationPl": "dokument",
+    "examples": [
+      {
+        "sentence": "Necesito este documento.",
+        "translationEn": "I need this document.",
+        "translationPl": "Potrzebuję tego dokumentu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1412",
+    "word": "ejecutivo",
+    "translationEn": "executive",
+    "translationPl": "wykonawczy;dyrektor",
+    "examples": [
+      {
+        "sentence": "Un ejecutivo de ventas.",
+        "translationEn": "A sales executive.",
+        "translationPl": "Dyrektor sprzedaży."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1417",
+    "word": "empleo",
+    "translationEn": "employment;job",
+    "translationPl": "zatrudnienie;praca",
+    "examples": [
+      {
+        "sentence": "Busco empleo.",
+        "translationEn": "I am looking for employment.",
+        "translationPl": "Szukam pracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1418",
+    "word": "empresa",
+    "translationEn": "company;enterprise",
+    "translationPl": "firma;przedsiębiorstwo",
+    "examples": [
+      {
+        "sentence": "Una gran empresa.",
+        "translationEn": "A large company.",
+        "translationPl": "Duże przedsiębiorstwo."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1422",
+    "word": "enfoque",
+    "translationEn": "approach;focus",
+    "translationPl": "podejście;nacisk",
+    "examples": [
+      {
+        "sentence": "Un nuevo enfoque.",
+        "translationEn": "A new approach.",
+        "translationPl": "Nowe podejście."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1428",
+    "word": "entrevista",
+    "translationEn": "interview",
+    "translationPl": "rozmowa kwalifikacyjna;wywiad",
+    "examples": [
+      {
+        "sentence": "Tengo una entrevista de trabajo.",
+        "translationEn": "I have a job interview.",
+        "translationPl": "Mam rozmowę kwalifikacyjną."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1429",
+    "word": "equipo",
+    "translationEn": "team;equipment",
+    "translationPl": "zespół;sprzęt",
+    "examples": [
+      {
+        "sentence": "Somos un buen equipo.",
+        "translationEn": "We are a good team.",
+        "translationPl": "Jesteśmy dobrym zespołem."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1433",
+    "word": "establecer",
+    "translationEn": "to establish",
+    "translationPl": "ustanawiać",
+    "examples": [
+      {
+        "sentence": "Vamos a establecer nuevas reglas.",
+        "translationEn": "We are going to establish new rules.",
+        "translationPl": "Ustanowimy nowe zasady."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1436",
+    "word": "estructura",
+    "translationEn": "structure",
+    "translationPl": "struktura",
+    "examples": [
+      {
+        "sentence": "La estructura del edificio.",
+        "translationEn": "The structure of the building.",
+        "translationPl": "Struktura budynku."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1441",
+    "word": "experiencia",
+    "translationEn": "experience",
+    "translationPl": "doświadczenie",
+    "examples": [
+      {
+        "sentence": "Tengo mucha experiencia.",
+        "translationEn": "I have a lot of experience.",
+        "translationPl": "Mam dużo doświadczenia."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1447",
+    "word": "firmar",
+    "translationEn": "to sign",
+    "translationPl": "podpisywać",
+    "examples": [
+      {
+        "sentence": "Necesito firmar el contrato.",
+        "translationEn": "I need to sign the contract.",
+        "translationPl": "Muszę podpisać umowę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1448",
+    "word": "formar",
+    "translationEn": "to form;to train",
+    "translationPl": "tworzyć;kształcić",
+    "examples": [
+      {
+        "sentence": "Vamos a formar un equipo.",
+        "translationEn": "We are going to form a team.",
+        "translationPl": "Stworzymy zespół."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1474",
+    "word": "innovación",
+    "translationEn": "innovation",
+    "translationPl": "innowacja",
+    "examples": [
+      {
+        "sentence": "La innovación es clave.",
+        "translationEn": "Innovation is key.",
+        "translationPl": "Innowacja jest kluczowa."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1475",
+    "word": "integrar",
+    "translationEn": "to integrate",
+    "translationPl": "integrować",
+    "examples": [
+      {
+        "sentence": "Necesitamos integrar nuevas ideas.",
+        "translationEn": "We need to integrate new ideas.",
+        "translationPl": "Musimy integrować nowe pomysły."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1488",
+    "word": "labor",
+    "translationEn": "labor;task",
+    "translationPl": "praca;zadanie",
+    "examples": [
+      {
+        "sentence": "Es una labor importante.",
+        "translationEn": "It's an important task.",
+        "translationPl": "To ważne zadanie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1517",
+    "word": "negocio",
+    "translationEn": "business",
+    "translationPl": "biznes",
+    "examples": [
+      {
+        "sentence": "Un buen negocio.",
+        "translationEn": "A good business.",
+        "translationPl": "Dobry biznes."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1521",
+    "word": "objetivo",
+    "translationEn": "objective;goal",
+    "translationPl": "cel;obiektywny",
+    "examples": [
+      {
+        "sentence": "Mi principal objetivo.",
+        "translationEn": "My main objective.",
+        "translationPl": "Mój główny cel."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1523",
+    "word": "obtener",
+    "translationEn": "to obtain;to get",
+    "translationPl": "uzyskiwać",
+    "examples": [
+      {
+        "sentence": "Quiero obtener buenos resultados.",
+        "translationEn": "I want to get good results.",
+        "translationPl": "Chcę uzyskać dobre wyniki."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1532",
+    "word": "organización",
+    "translationEn": "organization",
+    "translationPl": "organizacja",
+    "examples": [
+      {
+        "sentence": "Una buena organización.",
+        "translationEn": "A good organization.",
+        "translationPl": "Dobra organizacja."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1551",
+    "word": "plazo",
+    "translationEn": "term;period",
+    "translationPl": "termin;okres",
+    "examples": [
+      {
+        "sentence": "A largo plazo.",
+        "translationEn": "Long-term.",
+        "translationPl": "Długoterminowo."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1564",
+    "word": "proceso",
+    "translationEn": "process",
+    "translationPl": "proces",
+    "examples": [
+      {
+        "sentence": "Un proceso lento.",
+        "translationEn": "A slow process.",
+        "translationPl": "Wolny proces."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1565",
+    "word": "producir",
+    "translationEn": "to produce",
+    "translationPl": "produkować",
+    "examples": [
+      {
+        "sentence": "Producir bienes.",
+        "translationEn": "To produce goods.",
+        "translationPl": "Produkować towary."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1570",
+    "word": "propuesta",
+    "translationEn": "proposal",
+    "translationPl": "propozycja",
+    "examples": [
+      {
+        "sentence": "Una buena propuesta.",
+        "translationEn": "A good proposal.",
+        "translationPl": "Dobra propozycja."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1576",
+    "word": "realizar",
+    "translationEn": "to carry out;to perform",
+    "translationPl": "realizować",
+    "examples": [
+      {
+        "sentence": "Vamos a realizar el proyecto.",
+        "translationEn": "We are going to carry out the project.",
+        "translationPl": "Zrealizujemy projekt."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1580",
+    "word": "recurso",
+    "translationEn": "resource",
+    "translationPl": "zasób",
+    "examples": [
+      {
+        "sentence": "Recursos naturales.",
+        "translationEn": "Natural resources.",
+        "translationPl": "Zasoby naturalne."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1587",
+    "word": "requerir",
+    "translationEn": "to require",
+    "translationPl": "wymagać",
+    "examples": [
+      {
+        "sentence": "Esto requiere atención.",
+        "translationEn": "This requires attention.",
+        "translationPl": "To wymaga uwagi."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1590",
+    "word": "resolver",
+    "translationEn": "to resolve;to solve",
+    "translationPl": "rozwiązywać",
+    "examples": [
+      {
+        "sentence": "Necesito resolver este problema.",
+        "translationEn": "I need to solve this problem.",
+        "translationPl": "Muszę rozwiązać ten problem."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1594",
+    "word": "reunión",
+    "translationEn": "meeting",
+    "translationPl": "spotkanie",
+    "examples": [
+      {
+        "sentence": "Tengo una reunión importante.",
+        "translationEn": "I have an important meeting.",
+        "translationPl": "Mam ważne spotkanie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1610",
+    "word": "solución",
+    "translationEn": "solution",
+    "translationPl": "rozwiązanie",
+    "examples": [
+      {
+        "sentence": "Encontrar una solución.",
+        "translationEn": "To find a solution.",
+        "translationPl": "Znaleźć rozwiązanie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1614",
+    "word": "superior",
+    "translationEn": "superior",
+    "translationPl": "wyższy;przełożony",
+    "examples": [
+      {
+        "sentence": "Un rendimiento superior.",
+        "translationEn": "A superior performance.",
+        "translationPl": "Wyższa wydajność."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1620",
+    "word": "terminar",
+    "translationEn": "to finish;to end",
+    "translationPl": "kończyć",
+    "examples": [
+      {
+        "sentence": "Voy a terminar mi trabajo.",
+        "translationEn": "I'm going to finish my work.",
+        "translationPl": "Skończę moją pracę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1658",
+    "word": "agente",
+    "translationEn": "agent",
+    "translationPl": "agent",
+    "examples": [
+      {
+        "sentence": "Un agente secreto.",
+        "translationEn": "A secret agent.",
+        "translationPl": "Tajny agent."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1661",
+    "word": "alcanzar",
+    "translationEn": "to reach;to achieve",
+    "translationPl": "osiągać",
+    "examples": [
+      {
+        "sentence": "Quiero alcanzar mis metas.",
+        "translationEn": "I want to achieve my goals.",
+        "translationPl": "Chcę osiągnąć swoje cele."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1667",
+    "word": "analizar",
+    "translationEn": "to analyze",
+    "translationPl": "analizować",
+    "examples": [
+      {
+        "sentence": "Necesito analizar los datos.",
+        "translationEn": "I need to analyze the data.",
+        "translationPl": "Muszę analizować dane."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1672",
+    "word": "aplicar",
+    "translationEn": "to apply",
+    "translationPl": "stosować",
+    "examples": [
+      {
+        "sentence": "Necesito aplicar para el trabajo.",
+        "translationEn": "I need to apply for the job.",
+        "translationPl": "Muszę złożyć podanie o pracę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1681",
+    "word": "asistir",
+    "translationEn": "to attend",
+    "translationPl": "uczestniczyć",
+    "examples": [
+      {
+        "sentence": "Voy a asistir a la reunión.",
+        "translationEn": "I'm going to attend the meeting.",
+        "translationPl": "Wezmę udział w spotkaniu."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1683",
+    "word": "atender",
+    "translationEn": "to attend to;to assist",
+    "translationPl": "obsługiwać;pomagać",
+    "examples": [
+      {
+        "sentence": "Vamos a atender al cliente.",
+        "translationEn": "We are going to attend to the client.",
+        "translationPl": "Obsłużymy klienta."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1685",
+    "word": "aumentar",
+    "translationEn": "to increase",
+    "translationPl": "zwiększać",
+    "examples": [
+      {
+        "sentence": "Aumentar el salario.",
+        "translationEn": "To increase the salary.",
+        "translationPl": "Zwiększyć wynagrodzenie."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1687",
+    "word": "avanzar",
+    "translationEn": "to advance;to progress",
+    "translationPl": "postępować",
+    "examples": [
+      {
+        "sentence": "Estamos avanzando.",
+        "translationEn": "We are advancing.",
+        "translationPl": "Idziemy naprzód."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1691",
+    "word": "beneficio",
+    "translationEn": "benefit",
+    "translationPl": "korzyść",
+    "examples": [
+      {
+        "sentence": "Un gran beneficio.",
+        "translationEn": "A great benefit.",
+        "translationPl": "Duża korzyść."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1693",
+    "word": "calificar",
+    "translationEn": "to qualify;to grade",
+    "translationPl": "kwalifikować;oceniać",
+    "examples": [
+      {
+        "sentence": "Él calificó para el puesto.",
+        "translationEn": "He qualified for the position.",
+        "translationPl": "Zakwalifikował się na stanowisko."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1714",
+    "word": "completar",
+    "translationEn": "to complete",
+    "translationPl": "uzupełniać",
+    "examples": [
+      {
+        "sentence": "Voy a completar el formulario.",
+        "translationEn": "I'm going to complete the form.",
+        "translationPl": "Uzupełnię formularz."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1729",
+    "word": "conseguir",
+    "translationEn": "to get;to achieve",
+    "translationPl": "zdobywać",
+    "examples": [
+      {
+        "sentence": "Conseguí el trabajo.",
+        "translationEn": "I got the job.",
+        "translationPl": "Dostałem pracę."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1732",
+    "word": "consultar",
+    "translationEn": "to consult",
+    "translationPl": "konsultować",
+    "examples": [
+      {
+        "sentence": "Voy a consultar a mi abogado.",
+        "translationEn": "I'm going to consult my lawyer.",
+        "translationPl": "Skonsultuję się z moim prawnikiem."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1740",
+    "word": "convenir",
+    "translationEn": "to suit;to agree",
+    "translationPl": "odpowiadać;zgadzać się",
+    "examples": [
+      {
+        "sentence": "Me conviene tu oferta.",
+        "translationEn": "Your offer suits me.",
+        "translationPl": "Twoja oferta mi odpowiada."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1742",
+    "word": "cooperación",
+    "translationEn": "cooperation",
+    "translationPl": "współpraca",
+    "examples": [
+      {
+        "sentence": "Necesitamos tu cooperación.",
+        "translationEn": "We need your cooperation.",
+        "translationPl": "Potrzebujemy twojej współpracy."
+      }
+    ],
+    "category": "work"
+  },
+  {
+    "id": "1745",
+    "word": "crecimiento",
+    "translationEn": "growth",
+    "translationPl": "wzrost",
+    "examples": [
+      {
+        "sentence": "Un crecimiento rápido.",
+        "translationEn": "Rapid growth.",
+        "translationPl": "Szybki wzrost."
+      }
+    ],
+    "category": "work"
+  }
+]

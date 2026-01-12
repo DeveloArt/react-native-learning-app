@@ -2,7 +2,7 @@
   "expo": {
     "name": "react-native-learning-app",
     "slug": "react-native-learning-app",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "reactnativelearningapp",
@@ -11,6 +11,10 @@
     "newArchEnabled": false,
     "ios": {
       "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Potrzebujemy dostępu do mikrofonu, aby sprawdzić Twoją wymowę hiszpańskich słówek.",
+        "NSSpeechRecognitionUsageDescription": "Potrzebujemy dostępu do rozpoznawania mowy, aby sprawdzić Twoją wymowę hiszpańskich słówek."
+      },
       "bundleIdentifier": "com.nemeyeth.reactnativelearningapp"
     },
     "android": {
@@ -19,7 +23,8 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.nemeyeth.reactnativelearningapp"
+      "permissions": ["android.permission.RECORD_AUDIO"],
+      "package": "com.develoart.reactnativelearningapp"
     },
     "web": {
       "bundler": "metro",
@@ -43,10 +48,11 @@
     },
     "extra": {
       "router": {},
+      "ENABLE_SPEAKING": false,
       "eas": {
-        "projectId": "bcd0354c-fbb9-4613-a5de-eebe0ffd420c"
+        "projectId": "e91cb122-8238-4a78-82c5-fc3f338e0fc8"
       }
     },
-    "owner": "nemeyeth"
+    "owner": "develo_art"
   }
 }

@@ -7,6 +7,8 @@ export default {
       settings: 'Ustawienia',
       back: 'Wstecz',
       apply: 'Zastosuj',
+      allCategories: 'Wszystkie kategorie',
+      close: 'Zamknij',
     },
     tabs: {
       home: 'Start',
@@ -46,9 +48,11 @@ export default {
     tapToSeeOriginal: 'Dotknij, aby zobaczyć oryginał',
     swipeForNext: 'Przesuń, aby zobaczyć kolejny przykład',
     allDone: 'Wszystko zrobione!',
+    selectCategory: 'Wybierz kategorię',
   },
   builder: {
     check: 'Sprawdź',
+    backToCategories: 'Powrót do kategorii',
     translate: 'Przetłumacz zdanie',
     examplePrompt: 'Ułóż zdanie',
     correct: 'Doskonale! ✅',
@@ -115,6 +119,8 @@ export default {
     last7Days: 'Ostatnie 7 dni',
     newWordsLearned: 'Nowe słowa',
     currentStreak: 'Aktualna passa',
+    keepItUp: 'Świetnie idzie — nie przerywaj passy!',
+    startLearning: 'Zacznij uczyć się już dziś!',
     days: 'dni',
     streakMessage: 'Świetnie! Kontynuuj, aby osiągnąć kolejny kamień milowy.',
     summary: {
@@ -135,5 +141,15 @@ export default {
   speaking: {
     howDoYouSay: 'Jak powiesz...',
     tapMic: 'Przytrzymaj ikonę mikrofonu',
+    recording: 'Nagrywanie...',
+    processing: 'Sprawdzanie...',
+    correct: 'Doskonale! ✅',
+    tryAgain: 'Spróbuj ponownie 🔄',
+    correctAnswer: 'Prawidłowa odpowiedź:',
+    next: 'Dalej',
+    noPermission: 'Brak uprawnień do mikrofonu',
+    error: 'Wystąpił błąd',
+    notAvailable: 'Rozpoznawanie mowy nie jest dostępne',
+    youSaid: 'Powiedziałeś',
   },
 };

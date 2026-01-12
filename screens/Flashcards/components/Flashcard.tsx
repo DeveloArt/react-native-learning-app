@@ -25,11 +25,13 @@ export const Flashcard = ({
   examples,
   cloze,
 }: FlashcardProps) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const progress = useSharedValue(0);
   const [isFront, setIsFront] = useState(true);
   const [exampleIndex, setExampleIndex] = useState(0);
   const swipeX = useSharedValue(0);
+
+  const isPl = (i18n.language || 'en').startsWith('pl');
 
   const flip = () => {
     progress.value = withTiming(isFront ? 1 : 0, { duration: 300 });
@@ -238,7 +240,12 @@ export const Flashcard = ({
                     {!cloze && highlightParts(sentence, frontText)}
                   </ThemedText>
                   <ThemedText size="medium" className="mt-2 text-center opacity-80">
-                    {highlightParts(examples[exampleIndex]?.translation ?? backText, backText)}
+                    {highlightParts(
+                      isPl
+                        ? examples[exampleIndex]?.translationPl
+                        : (examples[exampleIndex]?.translationEn ?? backText),
+                      backText,
+                    )}
                   </ThemedText>
                 </Animated.View>
               </GestureDetector>
