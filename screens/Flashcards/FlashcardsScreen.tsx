@@ -202,7 +202,7 @@ export function FlashcardsScreen() {
         {done ? (
           <Animated.View entering={FadeInDown} exiting={FadeOutDown}>
             <ThemedText weight="bold" className="text-[24px]">
-              All done!
+              {t('flashcards.allDone')}
             </ThemedText>
           </Animated.View>
         ) : card ? (

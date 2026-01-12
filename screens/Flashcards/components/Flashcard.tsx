@@ -59,32 +59,62 @@ export const Flashcard = ({
   const [speakingBack, setSpeakingBack] = useState(false);
 
   const speakFront = async () => {
-    Speech.stop();
-    setSpeakingFront(true);
-    const stored = await AsyncStorage.getItem('tts-rate');
-    const rate = stored ? parseFloat(stored) : 1.0;
-    Speech.speak(frontText, {
-      language: 'es-ES',
-      rate,
-      onDone: () => setSpeakingFront(false),
-      onStopped: () => setSpeakingFront(false),
-      onError: () => setSpeakingFront(false),
-    } as any);
+    try {
+      Speech.stop();
+      setSpeakingFront(true);
+      let rate = 1.0;
+      try {
+        const stored = await AsyncStorage.getItem('tts-rate');
+        if (stored) {
+          const parsed = parseFloat(stored);
+          if (!isNaN(parsed) && parsed >= 0.5 && parsed <= 1.0) {
+            rate = parsed;
+          }
+        }
+      } catch (error) {
+        console.error('Error loading TTS rate from AsyncStorage:', error);
+      }
+      await Speech.speak(frontText, {
+        language: 'es-ES',
+        rate,
+        onDone: () => setSpeakingFront(false),
+        onStopped: () => setSpeakingFront(false),
+        onError: () => setSpeakingFront(false),
+      });
+    } catch (error) {
+      console.error('Error speaking front text:', error);
+      setSpeakingFront(false);
+    }
   };
 
   const speakBack = async () => {
-    Speech.stop();
-    const sentence = examples?.[exampleIndex]?.sentence ?? backText;
-    setSpeakingBack(true);
-    const stored = await AsyncStorage.getItem('tts-rate');
-    const rate = stored ? parseFloat(stored) : 1.0;
-    Speech.speak(sentence, {
-      language: 'es-ES',
-      rate,
-      onDone: () => setSpeakingBack(false),
-      onStopped: () => setSpeakingBack(false),
-      onError: () => setSpeakingBack(false),
-    } as any);
+    try {
+      Speech.stop();
+      const sentence = examples?.[exampleIndex]?.sentence ?? backText;
+      setSpeakingBack(true);
+      let rate = 1.0;
+      try {
+        const stored = await AsyncStorage.getItem('tts-rate');
+        if (stored) {
+          const parsed = parseFloat(stored);
+          if (!isNaN(parsed) && parsed >= 0.5 && parsed <= 1.0) {
+            rate = parsed;
+          }
+        }
+      } catch (error) {
+        console.error('Error loading TTS rate from AsyncStorage:', error);
+      }
+      await Speech.speak(sentence, {
+        language: 'es-ES',
+        rate,
+        onDone: () => setSpeakingBack(false),
+        onStopped: () => setSpeakingBack(false),
+        onError: () => setSpeakingBack(false),
+      });
+    } catch (error) {
+      console.error('Error speaking back text:', error);
+      setSpeakingBack(false);
+    }
   };
 
   const sentence = examples?.[exampleIndex]?.sentence;

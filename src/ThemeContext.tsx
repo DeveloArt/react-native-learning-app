@@ -19,7 +19,7 @@ export const ThemeProvider: React.FC<{
   defaultScheme?: AppColorScheme;
 }> = ({ children, defaultScheme }) => {
   const [scheme, setSchemeState] = useState<AppColorScheme>(defaultScheme ?? null);
-  const nativewind = useNativewindColorScheme();
+  const { setColorScheme } = useNativewindColorScheme();
 
   useEffect(() => {
     (async () => {
@@ -27,24 +27,45 @@ export const ThemeProvider: React.FC<{
         const stored = await AsyncStorage.getItem(STORAGE_KEY);
         if (stored === 'light' || stored === 'dark') {
           setSchemeState(stored);
-          nativewind.setColorScheme(stored);
+          try {
+            setColorScheme(stored);
+          } catch (e) {
+            // Ignoruj błędy ustawiania color scheme
+          }
         } else if (defaultScheme) {
-          nativewind.setColorScheme(defaultScheme);
+          try {
+            setColorScheme(defaultScheme);
+          } catch (e) {
+            // Ignoruj błędy ustawiania color scheme
+          }
         }
-      } catch (e) {}
+      } catch (error) {
+        // Ignoruj błędy AsyncStorage
+      }
     })();
-  }, []);
+  }, [defaultScheme, setColorScheme]);
 
   const setScheme = async (s: AppColorScheme) => {
-    try {
-      if (s === null) await AsyncStorage.removeItem(STORAGE_KEY);
-      else await AsyncStorage.setItem(STORAGE_KEY, s);
-    } catch (e) {}
     setSchemeState(s);
     try {
-      if (s === null) nativewind.setColorScheme('system');
-      else nativewind.setColorScheme(s as 'light' | 'dark');
-    } catch {}
+      if (s === null) {
+        await AsyncStorage.removeItem(STORAGE_KEY);
+        try {
+          setColorScheme('system');
+        } catch (e) {
+          // Ignoruj błędy ustawiania color scheme
+        }
+      } else {
+        await AsyncStorage.setItem(STORAGE_KEY, s);
+        try {
+          setColorScheme(s as 'light' | 'dark');
+        } catch (e) {
+          // Ignoruj błędy ustawiania color scheme
+        }
+      }
+    } catch (error) {
+      console.error('Error saving color scheme to AsyncStorage:', error);
+    }
   };
 
   return <ThemeContext.Provider value={{ scheme, setScheme }}>{children}</ThemeContext.Provider>;

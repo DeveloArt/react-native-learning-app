@@ -29,14 +29,19 @@ export function BuilderPracticeScreen({ categoryKey, subKey, onExit }: Props) {
   const [poolWords, setPoolWords] = useState<string[]>([]);
   const [selectedWords, setSelectedWords] = useState<string[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [isCorrect, setIsCorrect] = useState(false);
 
   const addWord = (w: string) => {
     setPoolWords((prev) => prev.filter((x) => x !== w));
     setSelectedWords((prev) => [...prev, w]);
+    setIsCorrect(false);
+    setError(null);
   };
   const removeWord = (w: string) => {
     setSelectedWords((prev) => prev.filter((x) => x !== w));
     setPoolWords((prev) => [...prev, w]);
+    setIsCorrect(false);
+    setError(null);
   };
 
   useEffect(() => {
@@ -45,6 +50,7 @@ export function BuilderPracticeScreen({ categoryKey, subKey, onExit }: Props) {
     setPoolWords([...words].sort(() => Math.random() - 0.5));
     setSelectedWords([]);
     setError(null);
+    setIsCorrect(false);
   }, [current]);
 
   useEffect(() => {
@@ -53,8 +59,14 @@ export function BuilderPracticeScreen({ categoryKey, subKey, onExit }: Props) {
       selectedWords.length === expectedWords.length &&
       expectedWords.every((w, i) => selectedWords[i] === w);
     if (isComplete && expectedWords.length > 0) {
+      setIsCorrect(true);
       const nextIdx = idx < sentences.length - 1 ? idx + 1 : 0;
-      setTimeout(() => setIdx(nextIdx), 300);
+      setTimeout(() => {
+        setIdx(nextIdx);
+        setIsCorrect(false);
+      }, 1500);
+    } else {
+      setIsCorrect(false);
     }
   }, [selectedWords, expectedWords, current, idx, sentences]);
 
@@ -77,6 +89,14 @@ export function BuilderPracticeScreen({ categoryKey, subKey, onExit }: Props) {
       />
       {current && (
         <View className="items-center mt-4">
+          <View className="items-center" />
+          {isCorrect && (
+            <View className="mt-4 items-center">
+              <ThemedText weight="bold" className="text-[36px] text-green-500">
+                {t('builder.correct')}
+              </ThemedText>
+            </View>
+          )}
           <View className="items-center"></View>
           {error && (
             <View className="mt-2">

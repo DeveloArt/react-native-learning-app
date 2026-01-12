@@ -47,6 +47,7 @@ export default {
     tapToSeeTranslation: 'Tap to see translation',
     tapToSeeOriginal: 'Tap to see original',
     swipeForNext: 'Swipe to see next example',
+    allDone: 'All done!',
     selectCategory: 'Select category',
   },
   builder: {
@@ -54,6 +55,7 @@ export default {
     backToCategories: 'Back to categories',
     translate: 'Translate the sentence',
     examplePrompt: 'Build the sentence',
+    correct: 'Perfect! ✅',
     tryAgain: 'Almost! Check the word order and try again.',
     categories: {
       cuisine: 'Cuisine',
@@ -120,6 +122,7 @@ export default {
     keepItUp: "Keep it up — don't break the streak!",
     startLearning: 'Start learning today!',
     days: 'Days',
+    streakMessage: "You're on a roll! Keep it up to reach your next milestone.",
     summary: {
       learned: 'Learned',
       studyDays: 'Study Days',

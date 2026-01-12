@@ -28,9 +28,9 @@ export function CategoryItem({ card, onPressSubcategory }: Props) {
         <View className="flex-row gap-4 items-center">
           <View className="p-3 rounded-xl" style={{ backgroundColor: cardBg }}>
             <MaterialCommunityIcons
-              name={card.icon as any}
+              name={card.icon as keyof typeof MaterialCommunityIcons.glyphMap}
               size={22}
-              color={cardIconColor as any}
+              color={cardIconColor}
             />
           </View>
           <View>

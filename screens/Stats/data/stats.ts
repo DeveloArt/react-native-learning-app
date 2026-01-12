@@ -8,7 +8,7 @@ export const summaryStats: SummaryStat[] = [
 
 export const streakInfo: StreakInfo = {
   days: 7,
-  message: "You're on a roll! Keep it up to reach your next milestone.",
+  messageKey: 'stats.streakMessage',
 };
 
 export const progress7d: ProgressPoint[] = [

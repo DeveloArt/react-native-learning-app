@@ -45,7 +45,7 @@ function shuffleArray<T>(array: T[]): T[] {
 
 export function flashcardsReducer(
   state: FlashcardsState,
-  action: FlashcardsAction
+  action: FlashcardsAction,
 ): FlashcardsState {
   switch (action.type) {
     case 'TOGGLE_PICKER':

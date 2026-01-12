@@ -7,8 +7,8 @@
     "icon": "./assets/images/icon.png",
     "scheme": "reactnativelearningapp",
     "userInterfaceStyle": "automatic",
-    "backgroundColor": "#000",
-    "newArchEnabled": true,
+    "backgroundColor": "#000000",
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
@@ -39,7 +39,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#000"
+          "backgroundColor": "#000000"
         }
       ]
     ],

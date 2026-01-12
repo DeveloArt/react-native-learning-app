@@ -47,6 +47,7 @@ export default {
     tapToSeeTranslation: 'Dotknij, aby zobaczyć tłumaczenie',
     tapToSeeOriginal: 'Dotknij, aby zobaczyć oryginał',
     swipeForNext: 'Przesuń, aby zobaczyć kolejny przykład',
+    allDone: 'Wszystko zrobione!',
     selectCategory: 'Wybierz kategorię',
   },
   builder: {
@@ -54,6 +55,7 @@ export default {
     backToCategories: 'Powrót do kategorii',
     translate: 'Przetłumacz zdanie',
     examplePrompt: 'Ułóż zdanie',
+    correct: 'Doskonale! ✅',
     tryAgain: 'Prawie! Sprawdź szyk wyrazów i spróbuj ponownie.',
     categories: {
       cuisine: 'Kulinaria',
@@ -120,6 +122,7 @@ export default {
     keepItUp: 'Świetnie idzie — nie przerywaj passy!',
     startLearning: 'Zacznij uczyć się już dziś!',
     days: 'dni',
+    streakMessage: 'Świetnie! Kontynuuj, aby osiągnąć kolejny kamień milowy.',
     summary: {
       learned: 'Nauczone',
       studyDays: 'Dni nauki',

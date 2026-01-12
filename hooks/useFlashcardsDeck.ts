@@ -17,21 +17,21 @@ function pickRandomEntries<T>(items: T[], desiredCount: number): T[] {
 
 export function useFlashcardsDeck() {
   const { i18n, t } = useTranslation();
-  
+
   const [state, dispatch] = useReducer(flashcardsReducer, initialFlashcardsState);
-  
+
   // Memoized current card
   const currentCard = useMemo(() => state.deck[state.index], [state.deck, state.index]);
-  
+
   // Memoized progress calculations
-  const progress = useMemo(() => 
-    state.deck.length > 0 ? state.knownIds.size / state.deck.length : 0,
-    [state.deck.length, state.knownIds.size]
+  const progress = useMemo(
+    () => (state.deck.length > 0 ? state.knownIds.size / state.deck.length : 0),
+    [state.deck.length, state.knownIds.size],
   );
-  
-  const isDone = useMemo(() => 
-    state.deck.length > 0 && state.knownIds.size === state.deck.length,
-    [state.deck.length, state.knownIds.size]
+
+  const isDone = useMemo(
+    () => state.deck.length > 0 && state.knownIds.size === state.deck.length,
+    [state.deck.length, state.knownIds.size],
   );
 
   // Initialize deck on mount
@@ -123,24 +123,25 @@ export function useFlashcardsDeck() {
     dispatch({ type: 'TOGGLE_PICKER' });
   }, []);
 
-  const getLocalizedCard = useCallback((card: StudyCard) => {
-    const isPl = (i18n.language || 'en').startsWith('pl');
-    const backLanguageLabel = isPl
-      ? t('config.languagePolish')
-      : t('config.languageEnglish');
-    const backText = isPl ? card.backTextPl : card.backTextEn;
-    const examples = (card.examples || []).map((e) => ({
-      sentence: e.sentence,
-      translation: isPl ? e.translationPl : e.translationEn,
-    }));
+  const getLocalizedCard = useCallback(
+    (card: StudyCard) => {
+      const isPl = (i18n.language || 'en').startsWith('pl');
+      const backLanguageLabel = isPl ? t('config.languagePolish') : t('config.languageEnglish');
+      const backText = isPl ? card.backTextPl : card.backTextEn;
+      const examples = (card.examples || []).map((e) => ({
+        sentence: e.sentence,
+        translation: isPl ? e.translationPl : e.translationEn,
+      }));
 
-    return {
-      ...card,
-      backLanguageLabel,
-      backText,
-      examples,
-    };
-  }, [i18n.language, t]);
+      return {
+        ...card,
+        backLanguageLabel,
+        backText,
+        examples,
+      };
+    },
+    [i18n.language, t],
+  );
 
   return {
     // State
@@ -148,14 +149,14 @@ export function useFlashcardsDeck() {
     currentCard,
     progress,
     isDone,
-    
+
     // Actions
     handleUnknown,
     handleKnown,
     reshuffleDeck,
     applyCategorySelection,
     togglePicker,
-    
+
     // Utilities
     getLocalizedCard,
   };
