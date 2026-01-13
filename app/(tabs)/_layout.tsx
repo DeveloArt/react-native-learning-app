@@ -89,40 +89,6 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="flashcards"
-        options={{
-          title: t('common.tabs.flashcards'),
-          tabBarIcon: ({ color, size }) => (
-            <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
-              <MaterialCommunityIcons name="cards-outline" size={size} color={color} />
-            </View>
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="builder"
-        options={{
-          title: t('common.tabs.builder'),
-          tabBarLabel: t('common.tabs.builder'),
-          tabBarIcon: ({ color, size }) => (
-            <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
-              <MaterialCommunityIcons name="view-dashboard-outline" size={size} color={color} />
-            </View>
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="speaking"
-        options={{
-          title: t('common.tabs.speaking'),
-          tabBarIcon: ({ color, size }) => (
-            <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
-              <MaterialCommunityIcons name="microphone-outline" size={size} color={color} />
-            </View>
-          ),
-        }}
-      />
-      <Tabs.Screen
         name="stats"
         options={{
           title: t('common.tabs.stats'),
@@ -130,6 +96,18 @@ export default function TabLayout() {
           tabBarIcon: ({ color, size }) => (
             <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
               <MaterialCommunityIcons name="chart-box-outline" size={size} color={color} />
+            </View>
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: t('common.tabs.profile'),
+          tabBarLabel: t('common.tabs.profile'),
+          tabBarIcon: ({ color, size }) => (
+            <View style={{ height: 24, alignItems: 'center', justifyContent: 'center' }}>
+              <MaterialCommunityIcons name="account-outline" size={size} color={color} />
             </View>
           ),
         }}

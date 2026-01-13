@@ -3,9 +3,10 @@ import type { CategoryCard } from '../types/types';
 export const categoryCards: CategoryCard[] = [
   {
     key: 'cuisine',
-    color: '#f97316',
+    color: 'orange',
     icon: 'silverware-fork-knife',
     iconColor: '#ffffff',
+    progress: 45,
     subcategories: [
       { key: 'food', color: '#fb923c' },
       { key: 'drinks', color: '#fdba74' },
@@ -15,9 +16,10 @@ export const categoryCards: CategoryCard[] = [
   },
   {
     key: 'nature',
-    color: '#22c55e',
+    color: 'emerald',
     icon: 'leaf',
     iconColor: '#ffffff',
+    progress: 5,
     subcategories: [
       { key: 'animals', color: '#4ade80' },
       { key: 'plants', color: '#86efac' },
@@ -27,9 +29,10 @@ export const categoryCards: CategoryCard[] = [
   },
   {
     key: 'travel',
-    color: '#8b5cf6',
+    color: 'blue',
     icon: 'wallet-travel',
     iconColor: '#ffffff',
+    progress: 12,
     subcategories: [
       { key: 'airport', color: '#a78bfa' },
       { key: 'hotel', color: '#c4b5fd' },
@@ -39,9 +42,10 @@ export const categoryCards: CategoryCard[] = [
   },
   {
     key: 'shopping',
-    color: '#0ea5e9',
+    color: 'amber',
     icon: 'cart-outline',
     iconColor: '#ffffff',
+    progress: 35,
     subcategories: [
       { key: 'groceries', color: '#38bdf8' },
       { key: 'clothing', color: '#7dd3fc' },
@@ -51,9 +55,10 @@ export const categoryCards: CategoryCard[] = [
   },
   {
     key: 'health',
-    color: '#ef4444',
+    color: 'rose',
     icon: 'medical-bag',
     iconColor: '#ffffff',
+    progress: 0,
     subcategories: [
       { key: 'symptoms', color: '#f87171' },
       { key: 'doctor', color: '#fca5a5' },
@@ -63,9 +68,10 @@ export const categoryCards: CategoryCard[] = [
   },
   {
     key: 'home',
-    color: '#f59e0b',
+    color: 'purple',
     icon: 'home-outline',
     iconColor: '#ffffff',
+    progress: 80,
     subcategories: [
       { key: 'furnitureRooms', color: '#fbbf24' },
       { key: 'householdChores', color: '#fcd34d' },
@@ -75,9 +81,10 @@ export const categoryCards: CategoryCard[] = [
   },
   {
     key: 'education',
-    color: '#06b6d4',
+    color: 'rose',
     icon: 'school-outline',
     iconColor: '#ffffff',
+    progress: 0,
     subcategories: [
       { key: 'schoolSubjects', color: '#22d3ee' },
       { key: 'universityExams', color: '#67e8f9' },
@@ -87,9 +94,10 @@ export const categoryCards: CategoryCard[] = [
   },
   {
     key: 'work',
-    color: '#3b82f6',
+    color: 'purple',
     icon: 'briefcase-outline',
     iconColor: '#ffffff',
+    progress: 80,
     subcategories: [
       { key: 'recruitmentCV', color: '#60a5fa' },
       { key: 'officeMeetings', color: '#93c5fd' },
@@ -99,9 +107,10 @@ export const categoryCards: CategoryCard[] = [
   },
   {
     key: 'leisure',
-    color: '#10b981',
+    color: 'emerald',
     icon: 'movie-open-outline',
     iconColor: '#ffffff',
+    progress: 25,
     subcategories: [
       { key: 'sports', color: '#34d399' },
       { key: 'music', color: '#6ee7b7' },
@@ -111,9 +120,10 @@ export const categoryCards: CategoryCard[] = [
   },
   {
     key: 'communication',
-    color: '#ef4444',
+    color: 'blue',
     icon: 'message-text-outline',
     iconColor: '#ffffff',
+    progress: 60,
     subcategories: [
       { key: 'greetingsSmallTalk', color: '#f87171' },
       { key: 'requestsPoliteness', color: '#fca5a5' },

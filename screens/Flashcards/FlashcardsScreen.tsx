@@ -1,5 +1,7 @@
 import { mapToStudyCards, spanishFlashcards } from '@/api/database/flashcards';
-import { ProgressBar } from '@/components/progress/ProgressBar';
+import { ActionButtons } from '@/components/buttons/ActionButtons';
+import { Flashcard } from '@/components/flashcards/Flashcard';
+import { SessionProgressBar } from '@/components/progress/SessionProgressBar';
 import { ThemedText } from '@/components/typography/ThemedText';
 import { flashcardsReducer, initialFlashcardsState } from '@/hooks/useFlashcardsReducer';
 import { categoryCards } from '@/screens/Categories/data/cards';
@@ -17,8 +19,6 @@ import {
 } from 'react-native';
 import Animated, { FadeInDown, FadeOutDown } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { Flashcard } from './components/Flashcard';
-import { FlashcardButtons } from './components/FlashcardButtons';
 
 function pickRandomEntries<T>(items: T[], desiredCount: number): T[] {
   if (items.length <= desiredCount) return [...items];
@@ -128,16 +128,30 @@ export function FlashcardsScreen() {
 
   return (
     <View
-      className="flex-1 px-4 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
+      className="flex-1 bg-background-light dark:bg-background-dark"
       style={{ paddingTop, paddingBottom }}
     >
+      {/* Header */}
+      <View className="flex items-center justify-between p-4 pb-2 bg-background-light dark:bg-background-dark">
+        <TouchableOpacity className="size-12 items-center justify-start">
+          <MaterialCommunityIcons name="close" size={24} color="#0d141b" />
+        </TouchableOpacity>
+        <ThemedText className="text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12 text-textPrimary dark:text-white">
+          {state.selectedCategory
+            ? t(`builder.categories.${state.selectedCategory}`)
+            : 'Vocabulary: Basics 1'}
+        </ThemedText>
+      </View>
+
+      {/* Progress Bar */}
+      <SessionProgressBar current={state.knownIds.size} total={state.deck.length} />
       <Modal
         visible={state.pickerOpen}
         animationType="slide"
         onRequestClose={() => dispatch({ type: 'TOGGLE_PICKER' })}
       >
         <ScrollView
-          className="flex-1 bg-surfaceSecondary dark:bg-surfaceSecondary-dark"
+          className="flex-1 bg-background-light dark:bg-background-dark"
           contentContainerStyle={{ padding: 16, paddingTop, paddingBottom }}
         >
           <View className="gap-3 mt-2">
@@ -145,7 +159,7 @@ export function FlashcardsScreen() {
               <TouchableOpacity
                 key={c.key}
                 onPress={() => applyCategorySelection(c.key)}
-                className="rounded-2xl bg-surfacePrimary dark:bg-surfacePrimary-dark"
+                className="rounded-2xl bg-white dark:bg-slate-900"
               >
                 <View className="flex-row justify-between items-center p-4">
                   <View className="flex-row gap-4 items-center">
@@ -164,7 +178,7 @@ export function FlashcardsScreen() {
             <View style={{ height: 24 }} />
             <TouchableOpacity
               onPress={() => dispatch({ type: 'TOGGLE_PICKER' })}
-              className="w-full px-4 py-3 rounded-full bg-white dark:bg-surfaceTertiary-dark"
+              className="w-full px-4 py-3 rounded-full bg-white dark:bg-slate-900"
             >
               <ThemedText className="text-center text-black dark:text-white">
                 {t('common.buttons.close') || 'Close'}
@@ -174,33 +188,10 @@ export function FlashcardsScreen() {
         </ScrollView>
       </Modal>
 
-      <View className="mb-4 w-full">
-        <TouchableOpacity
-          onPress={() => {
-            dispatch({ type: 'TOGGLE_PICKER' });
-          }}
-          className="px-3 py-2 bg-surfacePrimary dark:bg-surfacePrimary-dark rounded mb-3"
-          style={{ marginTop: pickerButtonMarginTop }}
-        >
-          <ThemedText>
-            {state.selectedCategory
-              ? t(`builder.categories.${state.selectedCategory}`)
-              : t('flashcards.selectCategory') || 'Select category'}
-          </ThemedText>
-        </TouchableOpacity>
-        <ProgressBar progress={progress} height={8} />
-      </View>
-      <View className="items-center">
-        <ThemedText size="small" className="opacity-70">
-          {state.knownIds.size}/{state.deck.length}
-        </ThemedText>
-      </View>
-      <View
-        className="flex-1 items-center"
-        style={{ justifyContent: 'flex-start', marginTop: height * 0.1 }}
-      >
+      {/* Central Flashcard Area */}
+      <View className="flex-1 flex-col justify-center px-4 py-4">
         {done ? (
-          <Animated.View entering={FadeInDown} exiting={FadeOutDown}>
+          <Animated.View entering={FadeInDown} exiting={FadeOutDown} className="items-center">
             <ThemedText weight="bold" className="text-[24px]">
               {t('flashcards.allDone')}
             </ThemedText>
@@ -225,11 +216,15 @@ export function FlashcardsScreen() {
               }));
               return (
                 <Flashcard
-                  frontLanguageLabel={card.frontLanguageLabel}
-                  frontText={card.frontText}
-                  backLanguageLabel={backLanguageLabel}
-                  backText={backText}
-                  examples={examples}
+                  data={{
+                    id: card.id,
+                    frontWord: card.frontText,
+                    frontType: card.frontLanguageLabel,
+                    translation: backText,
+                    exampleSentence: examples[0]?.sentence || '',
+                    icon: 'restaurant',
+                  }}
+                  showBack={true}
                 />
               );
             })()}
@@ -241,8 +236,13 @@ export function FlashcardsScreen() {
             </ThemedText>
           </View>
         )}
-        {!done && <FlashcardButtons onUnknown={handleUnknown} onKnown={handleKnown} />}
       </View>
+
+      {/* Navigation / Action Buttons */}
+      {!done && <ActionButtons onUnknownPress={handleUnknown} onKnownPress={handleKnown} />}
+
+      {/* Bottom spacer for iOS home bar area */}
+      <View className="h-6 bg-background-light dark:bg-background-dark" />
     </View>
   );
 }

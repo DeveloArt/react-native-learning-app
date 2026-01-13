@@ -27,12 +27,18 @@ export const builderSentences: BuilderSentenceMap = {
     drinks: [
       {
         id: 'cui-drinks-1',
+        promptEn: 'I want to drink water',
+        promptPl: 'Chcę pić wodę',
+        targetEs: 'Quiero beber agua',
+      },
+      {
+        id: 'cui-drinks-2',
         promptEn: 'I would like a glass of water.',
         promptPl: 'Chciałbym szklankę wody.',
         targetEs: 'Quisiera un vaso de agua.',
       },
       {
-        id: 'cui-drinks-2',
+        id: 'cui-drinks-3',
         promptEn: 'Do you drink coffee in the morning?',
         promptPl: 'Czy pijesz kawę rano?',
         targetEs: '¿Bebes café por la mañana?',

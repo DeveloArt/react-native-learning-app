@@ -12,10 +12,8 @@ export default {
     },
     tabs: {
       home: 'Start',
-      flashcards: 'Fiszki',
-      builder: 'Zdania',
-      speaking: 'Mówienie',
-      stats: 'Statystyki',
+      statistics: 'Statystyki',
+      profile: 'Profil',
     },
   },
   layout: {
@@ -39,6 +37,25 @@ export default {
       subLine1: 'Wybierz tryb nauki i zacznij opanowywać',
       subLine2: 'hiszpański już dziś.',
       helloTitle: '¡Hola!',
+      greeting: '¡Hola, Alex!',
+      readyMessage: 'Gotowy na hiszpańską lekcję dzisiaj?',
+    },
+    streak: {
+      dayStreak: '7 dniowa passa',
+      encouragement: 'Świetnie idzie! Podtrzymaj ogień, aby opanować hiszpański.',
+      practiceNow: 'Praktykuj teraz',
+    },
+    quickPractice: {
+      title: 'Szybka praktyka',
+      flashcards: 'Fiszki',
+      builder: 'Zdania',
+      speaking: 'Mówienie',
+    },
+    progress: {
+      title: 'Twój postęp',
+      wordsLearned: 'Nauczone słowa',
+      dailyGoal: 'Codzienny cel',
+      almostThere: 'Prawie gotowe! Zostało jeszcze 5 minut do osiągnięcia celu.',
     },
   },
   flashcards: {
@@ -151,5 +168,18 @@ export default {
     error: 'Wystąpił błąd',
     notAvailable: 'Rozpoznawanie mowy nie jest dostępne',
     youSaid: 'Powiedziałeś',
+  },
+  profile: {
+    title: 'Profil i ustawienia',
+    preferences: 'Preferencje',
+    appLanguage: 'Język aplikacji / App Language',
+    learningSettings: 'Ustawienia nauki',
+    ttsSpeed: 'Prędkość TTS / TTS Speed',
+    legalAndSupport: 'Prawne i wsparcie',
+    privacyPolicy: 'Polityka prywatności',
+    termsOfService: 'Warunki użytkowania',
+    helpCenter: 'Centrum pomocy',
+    logout: 'Wyloguj',
+    logoutConfirm: 'Czy na pewno chcesz się wylogować?',
   },
 };

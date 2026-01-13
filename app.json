@@ -8,7 +8,7 @@
     "scheme": "reactnativelearningapp",
     "userInterfaceStyle": "automatic",
     "backgroundColor": "#000000",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "infoPlist": {

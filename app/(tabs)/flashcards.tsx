@@ -1,5 +1,5 @@
-import { FlashcardsScreen } from '@/screens/Flashcards/FlashcardsScreen';
+import { Redirect } from 'expo-router';
 
-export default function FlashCardsTab() {
-  return <FlashcardsScreen />;
+export default function FlashcardsRedirect() {
+  return <Redirect href="/(content)/flashcards" />;
 }

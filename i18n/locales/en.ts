@@ -12,10 +12,8 @@ export default {
     },
     tabs: {
       home: 'Home',
-      flashcards: 'FlashCards',
-      builder: 'Builder',
-      speaking: 'Speaking',
-      stats: 'Statistics',
+      statistics: 'Statistics',
+      profile: 'Profile',
     },
   },
   layout: {
@@ -39,6 +37,25 @@ export default {
       subLine1: 'Choose your learning mode and start mastering',
       subLine2: 'Spanish today.',
       helloTitle: '¡Hola!',
+      greeting: '¡Hola, Alex!',
+      readyMessage: 'Ready for your Spanish lesson today?',
+    },
+    streak: {
+      dayStreak: '7 Day Streak',
+      encouragement: "You're doing great! Keep the fire burning to master Spanish.",
+      practiceNow: 'Practice Now',
+    },
+    quickPractice: {
+      title: 'Quick Practice',
+      flashcards: 'Flashcards',
+      builder: 'Builder',
+      speaking: 'Speaking',
+    },
+    progress: {
+      title: 'Your Progress',
+      wordsLearned: 'Words Learned',
+      dailyGoal: 'Daily Goal',
+      almostThere: 'Almost there! Just 5 more minutes to reach your goal.',
     },
   },
   flashcards: {
@@ -151,5 +168,18 @@ export default {
     error: 'An error occurred',
     notAvailable: 'Speech recognition is not available',
     youSaid: 'You said',
+  },
+  profile: {
+    title: 'Profile & Settings',
+    preferences: 'Preferences',
+    appLanguage: 'App Language / Język aplikacji',
+    learningSettings: 'Learning Settings',
+    ttsSpeed: 'TTS Speed / Prędkość lektora',
+    legalAndSupport: 'Legal & Support',
+    privacyPolicy: 'Privacy Policy',
+    termsOfService: 'Terms of Service',
+    helpCenter: 'Help Center',
+    logout: 'Logout',
+    logoutConfirm: 'Are you sure you want to logout?',
   },
 };

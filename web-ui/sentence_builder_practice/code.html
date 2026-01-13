@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sentence Builder - ¡Hola!</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b8cee",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-[#0d141b] dark:text-slate-100 min-h-screen flex flex-col">
+<!-- Top Navigation Bar -->
+<div class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10">
+<div class="text-[#0d141b] dark:text-slate-100 flex size-12 shrink-0 items-center justify-start">
+<span class="material-symbols-outlined cursor-pointer">close</span>
+</div>
+<div class="flex-1 flex flex-col gap-1 px-2">
+<div class="flex gap-6 justify-between">
+<p class="text-[#0d141b] dark:text-slate-100 text-xs font-medium leading-normal">Lesson 4 of 10</p>
+</div>
+<div class="rounded-full bg-[#cfdbe7] dark:bg-slate-700 h-2.5 w-full overflow-hidden">
+<div class="h-full rounded-full bg-primary" style="width: 40%;"></div>
+</div>
+</div>
+<div class="flex w-12 items-center justify-end">
+<button class="flex cursor-pointer items-center justify-center rounded-full h-10 w-10 bg-transparent text-[#0d141b] dark:text-slate-100">
+<span class="material-symbols-outlined">lightbulb</span>
+</button>
+</div>
+</div>
+<!-- Main Content Area -->
+<main class="flex-1 flex flex-col px-4 max-w-md mx-auto w-full pb-32">
+<!-- Instruction / Headline -->
+<h3 class="text-[#0d141b] dark:text-white tracking-tight text-2xl font-bold leading-tight text-left pb-2 pt-8">
+            Translate this sentence
+        </h3>
+<!-- Source Sentence Card -->
+<div class="mt-4 mb-8 flex items-center gap-4">
+<div class="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">volume_up</span>
+</div>
+<div class="flex-1">
+<p class="text-[#0d141b] dark:text-slate-200 text-xl font-medium leading-snug">
+                    I want to drink water
+                </p>
+<p class="text-[#0d141b]/60 dark:text-slate-400 text-sm italic">
+                    Chcę pić wodę
+                </p>
+</div>
+</div>
+<!-- Assembly Area (Empty State) -->
+<div class="flex flex-col min-h-[160px] justify-center items-center">
+<div class="w-full flex flex-wrap gap-2 items-center justify-center py-8 border-y-2 border-dashed border-[#cfdbe7] dark:border-slate-700">
+<!-- If chips were selected, they would appear here -->
+<p class="text-[#0d141b]/40 dark:text-slate-500 text-sm font-normal text-center max-w-[200px]">
+                    Tap the words below to build the sentence
+                </p>
+</div>
+</div>
+<!-- Word Pool / Chips -->
+<div class="mt-auto pt-10">
+<div class="flex flex-wrap justify-center gap-3">
+<!-- Chip: Yo -->
+<button class="px-5 py-3 rounded-xl border-2 border-[#cfdbe7] dark:border-slate-700 bg-white dark:bg-slate-800 text-[#0d141b] dark:text-white font-medium shadow-sm active:translate-y-0.5 transition-all">
+                    Yo
+                </button>
+<!-- Chip: beber -->
+<button class="px-5 py-3 rounded-xl border-2 border-[#cfdbe7] dark:border-slate-700 bg-white dark:bg-slate-800 text-[#0d141b] dark:text-white font-medium shadow-sm active:translate-y-0.5 transition-all">
+                    beber
+                </button>
+<!-- Chip: agua -->
+<button class="px-5 py-3 rounded-xl border-2 border-[#cfdbe7] dark:border-slate-700 bg-white dark:bg-slate-800 text-[#0d141b] dark:text-white font-medium shadow-sm active:translate-y-0.5 transition-all">
+                    agua
+                </button>
+<!-- Chip: quiero -->
+<button class="px-5 py-3 rounded-xl border-2 border-[#cfdbe7] dark:border-slate-700 bg-white dark:bg-slate-800 text-[#0d141b] dark:text-white font-medium shadow-sm active:translate-y-0.5 transition-all">
+                    quiero
+                </button>
+<!-- Distractor Chip (optional in apps) -->
+<button class="px-5 py-3 rounded-xl border-2 border-[#cfdbe7] dark:border-slate-700 bg-white dark:bg-slate-800 text-[#0d141b] dark:text-white font-medium shadow-sm active:translate-y-0.5 transition-all">
+                    comida
+                </button>
+</div>
+</div>
+</main>
+<!-- Bottom Action Area -->
+<div class="fixed bottom-0 left-0 right-0 p-4 bg-background-light dark:bg-background-dark border-t border-[#cfdbe7] dark:border-slate-800">
+<div class="max-w-md mx-auto flex gap-3">
+<!-- Skip Button -->
+<button class="flex-1 h-14 rounded-xl border-2 border-[#cfdbe7] dark:border-slate-700 bg-transparent text-[#0d141b] dark:text-slate-200 font-bold uppercase tracking-wider text-sm">
+                Skip
+            </button>
+<!-- Check Button (Primary) -->
+<button class="flex-[2] h-14 rounded-xl bg-primary text-white font-bold uppercase tracking-wider text-sm shadow-lg shadow-primary/20 hover:bg-primary/90 transition-colors">
+                Check
+            </button>
+</div>
+<!-- Safe area padding for newer iOS devices -->
+<div class="h-6"></div>
+</div>
+<!-- Hidden Feedback State Example (Conceptual) -->
+<!-- 
+    <div class="fixed bottom-0 left-0 right-0 bg-green-100 dark:bg-green-900/30 p-6 rounded-t-xl transform translate-y-0 transition-transform">
+        <div class="max-w-md mx-auto flex items-center gap-4">
+            <div class="bg-green-500 text-white p-2 rounded-full">
+                <span class="material-symbols-outlined">check</span>
+            </div>
+            <div>
+                <h4 class="text-green-800 dark:text-green-400 font-bold">Excellent!</h4>
+                <p class="text-green-700 dark:text-green-500 text-sm">You translated it correctly.</p>
+            </div>
+            <button class="ml-auto bg-green-500 text-white px-6 py-3 rounded-xl font-bold uppercase text-sm">Continue</button>
+        </div>
+    </div>
+    -->
+</body></html>

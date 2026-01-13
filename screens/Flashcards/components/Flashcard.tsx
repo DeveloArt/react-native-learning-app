@@ -1,5 +1,5 @@
-import { ButtonIcon } from '@/components/buttons/ButtonIcon';
 import { ThemedText } from '@/components/typography/ThemedText';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Haptics from 'expo-haptics';
 import * as Speech from 'expo-speech';
@@ -32,6 +32,9 @@ export const Flashcard = ({
   const swipeX = useSharedValue(0);
 
   const isPl = (i18n.language || 'en').startsWith('pl');
+
+  // Use the appropriate back text based on user's language
+  const userBackText = backText;
 
   const flip = () => {
     progress.value = withTiming(isFront ? 1 : 0, { duration: 300 });
@@ -90,7 +93,6 @@ export const Flashcard = ({
   const speakBack = async () => {
     try {
       Speech.stop();
-      const sentence = examples?.[exampleIndex]?.sentence ?? backText;
       setSpeakingBack(true);
       let rate = 1.0;
       try {
@@ -104,8 +106,17 @@ export const Flashcard = ({
       } catch (error) {
         console.error('Error loading TTS rate from AsyncStorage:', error);
       }
-      await Speech.speak(sentence, {
-        language: 'es-ES',
+
+      // Speak in the user's language for the back content
+      const language = isPl ? 'pl-PL' : 'en-US';
+      const textToSpeak = examples?.[exampleIndex]
+        ? isPl
+          ? examples[exampleIndex].translationPl
+          : examples[exampleIndex].translationEn
+        : backText;
+
+      await Speech.speak(textToSpeak, {
+        language,
         rate,
         onDone: () => setSpeakingBack(false),
         onStopped: () => setSpeakingBack(false),
@@ -185,113 +196,147 @@ export const Flashcard = ({
 
   return (
     <Pressable onPress={flip} className="w-full">
-      <View className="w-full h-[260px]">
+      <View className="w-full h-[400px]">
         <Animated.View
-          className="absolute inset-0 justify-center items-center px-6 py-6 rounded-3xl bg-surfacePrimary dark:bg-surfacePrimary-dark shadow-shadowM"
+          className="absolute inset-0 justify-between items-center px-8 py-8 rounded-xl shadow-[0_12px_24px_rgba(0,0,0,0.08)] bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700"
           style={[frontStyle]}
           pointerEvents={isFront ? 'auto' : 'none'}
         >
-          <ThemedText size="small" className="text-textSecondary dark:text-textSecondary-dark">
-            {frontLanguageLabel}
-          </ThemedText>
-          <ThemedText weight="bold" className="mt-2 text-[32px]">
-            {frontText}
-          </ThemedText>
-          <View className="mt-3">
-            <ButtonIcon
-              icon="volume-high"
-              diameter={52}
-              variant={speakingFront ? 'danger' : 'neutral'}
-              stopPropagation
+          {/* Front Side Content */}
+          <View className="flex-col items-center w-full gap-6">
+            {/* Image component as a header of the card */}
+            <View className="w-24 h-24 bg-primary/10 dark:bg-primary/20 rounded-full flex items-center justify-center">
+              <MaterialCommunityIcons name="food-apple" size={80} color="#2b8cee" />
+            </View>
+
+            <View className="text-center">
+              <ThemedText weight="bold" className="text-[40px] text-center mb-2">
+                {frontText}
+              </ThemedText>
+              <ThemedText
+                size="medium"
+                className="text-[#4c739a] dark:text-slate-400 text-lg font-normal text-center"
+              >
+                {frontLanguageLabel}
+              </ThemedText>
+            </View>
+
+            {/* Audio Trigger */}
+            <Pressable
               onPress={speakFront}
-            />
+              className="flex items-center justify-center w-14 h-14 bg-primary text-white rounded-full shadow-lg shadow-primary/30 active:scale-95 transition-transform"
+            >
+              <MaterialCommunityIcons name="volume-high" size={24} color="white" />
+            </Pressable>
           </View>
-          <ThemedText
-            size="medium"
-            weight="medium"
-            className="mt-3 text-iconInfo dark:text-iconInfo-dark"
-          >
-            {t('flashcards.tapToSeeTranslation')}
-          </ThemedText>
+
+          {/* Top Right corner visual cue */}
+          <View className="absolute top-4 right-4">
+            <MaterialCommunityIcons name="information" size={24} color="#94a3b8" />
+          </View>
         </Animated.View>
 
         <Animated.View
-          className="absolute inset-0 justify-center items-center px-6 py-6 rounded-3xl bg-surfacePrimary dark:bg-surfacePrimary-dark shadow-shadowM"
+          className="absolute inset-0 justify-between items-center px-8 py-8 rounded-xl shadow-[0_12px_24px_rgba(0,0,0,0.08)] bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700"
           style={[backStyle]}
           pointerEvents={isFront ? 'none' : 'auto'}
         >
-          <ThemedText size="small" className="text-textSecondary dark:text-textSecondary-dark">
-            {backLanguageLabel}
-          </ThemedText>
-          {examples?.length ? (
-            <>
-              <GestureDetector gesture={swipeGesture}>
-                <Animated.View style={exampleSlideStyle}>
-                  <ThemedText weight="bold" className="mt-2 text-[24px] text-center">
-                    {cloze
-                      ? (examples[exampleIndex]?.sentence ?? '').replace(
-                          new RegExp(
-                            `\\b${frontText.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}\\b`,
-                            'i',
-                          ),
-                          '____',
-                        )
-                      : null}
-                    {!cloze && highlightParts(sentence, frontText)}
-                  </ThemedText>
-                  <ThemedText size="medium" className="mt-2 text-center opacity-80">
-                    {highlightParts(
-                      isPl
-                        ? examples[exampleIndex]?.translationPl
-                        : (examples[exampleIndex]?.translationEn ?? backText),
-                      backText,
-                    )}
-                  </ThemedText>
-                </Animated.View>
-              </GestureDetector>
-              {examples.length > 1 ? (
-                <View className="mt-3 items-center">
-                  <View className="flex-row gap-2">
-                    {examples.map((_, i) => (
-                      <View
-                        key={i}
-                        className={`w-2 h-2 rounded-full ${i === exampleIndex ? 'bg-surfaceActionSecondary' : 'bg-surfaceTertiary dark:bg-surfaceTertiary-dark'}`}
-                      />
-                    ))}
-                  </View>
-                  <ThemedText
-                    size="medium"
-                    weight="medium"
-                    className="mt-2 text-iconInfo dark:text-iconInfo-dark"
-                  >
-                    {t('flashcards.swipeForNext')}
-                  </ThemedText>
-                </View>
-              ) : null}
-            </>
-          ) : (
-            <ThemedText weight="bold" className="mt-2 text-[32px]">
-              {backText}
-            </ThemedText>
-          )}
-          <View className="mt-3">
-            <ButtonIcon
-              icon="volume-high"
-              diameter={52}
-              variant={speakingBack ? 'danger' : 'neutral'}
-              stopPropagation
-              onPress={speakBack}
-            />
+          {/* Front Content (compact) */}
+          <View className="flex-col items-center w-full gap-6">
+            {/* Icon Header */}
+            <View className="w-24 h-24 bg-primary/10 dark:bg-primary/20 rounded-full flex items-center justify-center">
+              <MaterialCommunityIcons name="food-apple" size={80} color="#2b8cee" />
+            </View>
+
+            {/* Front Content */}
+            <View className="text-center">
+              <ThemedText weight="bold" className="text-[36px] text-center mb-2">
+                {frontText}
+              </ThemedText>
+              <ThemedText
+                size="medium"
+                className="text-textSecondary dark:text-textSecondary-dark text-lg font-normal text-center"
+              >
+                {frontLanguageLabel}
+              </ThemedText>
+            </View>
           </View>
-          <ThemedText
-            size="medium"
-            weight="medium"
-            className="mt-3 text-iconInfo dark:text-iconInfo-dark"
+
+          {/* Dashed Divider */}
+          <View className="w-full border-t border-dashed border-slate-200 dark:border-slate-700 my-8" />
+
+          {/* Back Content */}
+          <View className="w-full flex-col gap-4">
+            {examples?.length ? (
+              <>
+                <GestureDetector gesture={swipeGesture}>
+                  <Animated.View style={exampleSlideStyle} className="flex-col items-center gap-2">
+                    <View className="flex-col items-center">
+                      <ThemedText weight="bold" className="text-[24px] font-semibold text-center">
+                        {cloze
+                          ? (examples[exampleIndex]?.sentence ?? '').replace(
+                              new RegExp(
+                                `\b${frontText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\b`,
+                                'i',
+                              ),
+                              '____',
+                            )
+                          : highlightParts(sentence, frontText)}
+                      </ThemedText>
+                      <View className="h-1 w-8 bg-primary rounded-full mt-1" />
+                    </View>
+                    <ThemedText
+                      size="medium"
+                      className="text-textSecondary dark:text-textSecondary-dark text-base italic leading-relaxed text-center px-4"
+                    >
+                      {highlightParts(
+                        isPl
+                          ? examples[exampleIndex]?.translationPl
+                          : (examples[exampleIndex]?.translationEn ?? backText),
+                        backText,
+                      )}
+                    </ThemedText>
+                  </Animated.View>
+                </GestureDetector>
+                {examples.length > 1 ? (
+                  <View className="mt-3 items-center">
+                    <View className="flex-row gap-2">
+                      {examples.map((_, i) => (
+                        <View
+                          key={i}
+                          className={`w-2 h-2 rounded-full ${i === exampleIndex ? 'bg-primary' : 'bg-slate-300 dark:bg-slate-600'}`}
+                        />
+                      ))}
+                    </View>
+                  </View>
+                ) : null}
+              </>
+            ) : (
+              <View className="flex-col items-center">
+                <ThemedText weight="bold" className="text-[24px] font-semibold text-center">
+                  {userBackText}
+                </ThemedText>
+                <View className="h-1 w-8 bg-primary rounded-full mt-1" />
+              </View>
+            )}
+          </View>
+
+          {/* Audio Button */}
+          <Pressable
+            onPress={speakBack}
+            className="flex items-center justify-center w-14 h-14 bg-primary rounded-full shadow-lg shadow-primary/30 active:scale-95 transition-transform"
           >
-            {t('flashcards.tapToSeeOriginal')}
-          </ThemedText>
+            <MaterialCommunityIcons name="volume-high" size={24} color="white" />
+          </Pressable>
+
+          {/* Info Icon */}
+          <View className="absolute top-4 right-4">
+            <MaterialCommunityIcons name="information" size={24} color="#94a3b8" />
+          </View>
         </Animated.View>
       </View>
     </Pressable>
   );
 };
+
+export default Flashcard;

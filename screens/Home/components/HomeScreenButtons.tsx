@@ -12,17 +12,17 @@ export function HomeScreenButtons() {
       <ButtonPrimary
         title={t('common.buttons.flashcards') || 'Flashcards'}
         variant="secondaryBlue"
-        onPress={() => router.push('/(tabs)/flashcards')}
+        onPress={() => router.push('/(content)/flashcards')}
       />
       <ButtonPrimary
         title={t('common.buttons.sentenceBuilder') || 'Sentence Builder'}
         variant="secondary"
-        onPress={() => router.push('/(tabs)/builder')}
+        onPress={() => router.push('/(content)/builder')}
       />
       <ButtonPrimary
         title={t('common.buttons.speakingMode') || 'Speaking Mode'}
         variant="secondary"
-        onPress={() => router.push('/(tabs)/speaking')}
+        onPress={() => router.push('/(content)/speaking')}
       />
     </View>
   );

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>¡Hola! - Choose a Topic</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b8cee",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased">
+<div class="relative flex h-screen w-full flex-col overflow-hidden max-w-md mx-auto shadow-2xl bg-background-light dark:bg-background-dark">
+<!-- TopAppBar -->
+<header class="flex items-center bg-background-light dark:bg-background-dark p-6 pb-2 justify-between sticky top-0 z-10">
+<div class="text-primary flex size-10 shrink-0 items-center justify-center rounded-full bg-primary/10" data-icon="arrow_back_ios">
+<span class="material-symbols-outlined text-xl">arrow_back_ios_new</span>
+</div>
+<h2 class="text-[#0d141b] dark:text-white text-xl font-bold leading-tight tracking-tight flex-1 text-center pr-10">Choose a Topic</h2>
+</header>
+<!-- Welcome Section -->
+<div class="px-6 pt-4">
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium uppercase tracking-widest">Aprende español</p>
+<h1 class="text-3xl font-bold mt-1">¡Hola!</h1>
+</div>
+<!-- ImageGrid with modified Topic Cards -->
+<main class="flex-1 overflow-y-auto px-4 py-6">
+<div class="grid grid-cols-2 gap-4">
+<!-- Cuisine Card (Orange) -->
+<div class="flex flex-col gap-3 p-4 bg-orange-50 dark:bg-orange-950/20 rounded-xl border border-orange-100 dark:border-orange-900/30 shadow-sm">
+<div class="w-full aspect-square rounded-xl bg-orange-100 dark:bg-orange-900/40 flex items-center justify-center text-orange-500">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1">restaurant</span>
+</div>
+<div>
+<p class="text-[#0d141b] dark:text-white text-base font-bold leading-normal">Cuisine</p>
+<div class="mt-2 w-full bg-orange-200 dark:bg-orange-900/30 h-1.5 rounded-full overflow-hidden">
+<div class="bg-orange-500 h-full w-[45%] rounded-full"></div>
+</div>
+<p class="text-orange-600 dark:text-orange-400 text-xs font-semibold mt-2">45% complete</p>
+</div>
+</div>
+<!-- Travel Card (Blue) -->
+<div class="flex flex-col gap-3 p-4 bg-blue-50 dark:bg-blue-950/20 rounded-xl border border-blue-100 dark:border-blue-900/30 shadow-sm">
+<div class="w-full aspect-square rounded-xl bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-500">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1">flight_takeoff</span>
+</div>
+<div>
+<p class="text-[#0d141b] dark:text-white text-base font-bold leading-normal">Travel</p>
+<div class="mt-2 w-full bg-blue-200 dark:bg-blue-900/30 h-1.5 rounded-full overflow-hidden">
+<div class="bg-blue-500 h-full w-[12%] rounded-full"></div>
+</div>
+<p class="text-blue-600 dark:text-blue-400 text-xs font-semibold mt-2">12% complete</p>
+</div>
+</div>
+<!-- Work Card (Purple) -->
+<div class="flex flex-col gap-3 p-4 bg-purple-50 dark:bg-purple-950/20 rounded-xl border border-purple-100 dark:border-purple-900/30 shadow-sm">
+<div class="w-full aspect-square rounded-xl bg-purple-100 dark:bg-purple-900/40 flex items-center justify-center text-purple-500">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1">work</span>
+</div>
+<div>
+<p class="text-[#0d141b] dark:text-white text-base font-bold leading-normal">Work</p>
+<div class="mt-2 w-full bg-purple-200 dark:bg-purple-900/30 h-1.5 rounded-full overflow-hidden">
+<div class="bg-purple-500 h-full w-[80%] rounded-full"></div>
+</div>
+<p class="text-purple-600 dark:text-purple-400 text-xs font-semibold mt-2">80% complete</p>
+</div>
+</div>
+<!-- Nature Card (Green) -->
+<div class="flex flex-col gap-3 p-4 bg-emerald-50 dark:bg-emerald-950/20 rounded-xl border border-emerald-100 dark:border-emerald-900/30 shadow-sm">
+<div class="w-full aspect-square rounded-xl bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-emerald-500">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1">eco</span>
+</div>
+<div>
+<p class="text-[#0d141b] dark:text-white text-base font-bold leading-normal">Nature</p>
+<div class="mt-2 w-full bg-emerald-200 dark:bg-emerald-900/30 h-1.5 rounded-full overflow-hidden">
+<div class="bg-emerald-500 h-full w-[5%] rounded-full"></div>
+</div>
+<p class="text-emerald-600 dark:text-emerald-400 text-xs font-semibold mt-2">5% complete</p>
+</div>
+</div>
+<!-- Education Card (Red/Pink) - Additional -->
+<div class="flex flex-col gap-3 p-4 bg-rose-50 dark:bg-rose-950/20 rounded-xl border border-rose-100 dark:border-rose-900/30 shadow-sm">
+<div class="w-full aspect-square rounded-xl bg-rose-100 dark:bg-rose-900/40 flex items-center justify-center text-rose-500">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1">school</span>
+</div>
+<div>
+<p class="text-[#0d141b] dark:text-white text-base font-bold leading-normal">Education</p>
+<div class="mt-2 w-full bg-rose-200 dark:bg-rose-900/30 h-1.5 rounded-full overflow-hidden">
+<div class="bg-rose-500 h-full w-[0%] rounded-full"></div>
+</div>
+<p class="text-rose-600 dark:text-rose-400 text-xs font-semibold mt-2">0% complete</p>
+</div>
+</div>
+<!-- Shopping Card (Yellow) - Additional -->
+<div class="flex flex-col gap-3 p-4 bg-amber-50 dark:bg-amber-950/20 rounded-xl border border-amber-100 dark:border-amber-900/30 shadow-sm">
+<div class="w-full aspect-square rounded-xl bg-amber-100 dark:bg-amber-900/40 flex items-center justify-center text-amber-500">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1">shopping_bag</span>
+</div>
+<div>
+<p class="text-[#0d141b] dark:text-white text-base font-bold leading-normal">Shopping</p>
+<div class="mt-2 w-full bg-amber-200 dark:bg-amber-900/30 h-1.5 rounded-full overflow-hidden">
+<div class="bg-amber-500 h-full w-[35%] rounded-full"></div>
+</div>
+<p class="text-amber-600 dark:text-amber-400 text-xs font-semibold mt-2">35% complete</p>
+</div>
+</div>
+</div>
+<div class="h-10"></div>
+</main>
+<!-- BottomNavBar -->
+<nav class="flex gap-2 border-t border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark px-4 pb-6 pt-3 sticky bottom-0 z-20">
+<a class="flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-primary" href="#">
+<div class="flex h-8 items-center justify-center" data-icon="book">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">menu_book</span>
+</div>
+<p class="text-xs font-bold leading-normal tracking-wide">Learn</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-slate-400 dark:text-slate-500" href="#">
+<div class="flex h-8 items-center justify-center" data-icon="person">
+<span class="material-symbols-outlined">person</span>
+</div>
+<p class="text-xs font-medium leading-normal tracking-wide">Profile</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-slate-400 dark:text-slate-500" href="#">
+<div class="flex h-8 items-center justify-center" data-icon="settings">
+<span class="material-symbols-outlined">settings</span>
+</div>
+<p class="text-xs font-medium leading-normal tracking-wide">Settings</p>
+</a>
+</nav>
+</div>
+</body></html>

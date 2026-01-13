@@ -152,8 +152,8 @@ export class CardUtils {
   } {
     return cards.reduce(
       (groups, card) => {
-        const difficulty = this.getCardDifficulty(card);
-        groups[difficulty].push(card);
+        const difficulty = CardUtils.getCardDifficulty(card);
+        (groups as any)[difficulty].push(card);
         return groups;
       },
       { easy: [], medium: [], hard: [] },

@@ -1,5 +1,5 @@
-import { SpeakingScreen } from '@/screens/Speaking/SpeakingScreen';
+import { Redirect } from 'expo-router';
 
-export default function SpeakingTab() {
-  return <SpeakingScreen />;
+export default function SpeakingRedirect() {
+  return <Redirect href="/(content)/speaking" />;
 }

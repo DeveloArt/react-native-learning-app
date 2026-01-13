@@ -1,6 +1,6 @@
 import { mapToStudyCards, spanishFlashcards, StudyCard } from '@/api/database/flashcards';
 import { getSelectedCategory, saveSelectedCategory } from '@/src/storage/category';
-import { useCallback, useEffect, useMemo } from 'react';
+import { useCallback, useEffect, useMemo, useReducer } from 'react';
 import { useTranslation } from 'react-i18next';
 import { flashcardsReducer, initialFlashcardsState } from './useFlashcardsReducer';
 

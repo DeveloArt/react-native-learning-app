@@ -1,4 +1,5 @@
 import { ThemedText } from '@/components/typography/ThemedText';
+import { MaterialIcons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
 import { Pressable, View } from 'react-native';
 import type { BuilderWordMoveHandlers } from '../types/types';
@@ -8,6 +9,7 @@ interface Props extends BuilderWordMoveHandlers {
   poolWords: string[];
   expectedWords: string[];
   prompt: string;
+  targetSentence?: string;
 }
 
 export function BuilderWordAreas({
@@ -17,58 +19,73 @@ export function BuilderWordAreas({
   addWord,
   removeWord,
   prompt,
+  targetSentence,
 }: Props) {
   const { t } = useTranslation();
+
   return (
     <>
-      <View className="items-center mt-6">
-        <ThemedText size="small" className="text-textSecondary dark:text-textSecondary-dark">
-          {t('builder.translate')}
-        </ThemedText>
-        <ThemedText weight="bold" className="mt-2 text-[24px] text-center">
-          {prompt}
+      {/* Instruction / Headline */}
+      <View className="pt-8 pb-2">
+        <ThemedText weight="bold" className="text-2xl leading-tight">
+          {t('builder.translateSentence') || 'Translate this sentence'}
         </ThemedText>
       </View>
 
-      <View className="mt-6 p-3 rounded-2xl border-2 border-dashed border-borderPrimaryDefault min-h-[100px] bg-white/20 dark:bg-white/5">
-        <View className="flex-row flex-wrap gap-2">
-          {selectedWords.map((word, index) => {
-            const isWrongPlace = expectedWords[index] !== word;
-            return (
-              <Pressable
-                key={`sel-${word}-${index}`}
-                onPress={() => removeWord(word)}
-                className={`px-4 py-2 rounded-full border ${
-                  isWrongPlace
-                    ? 'bg-[#fee2e2] border-[#ef4444]'
-                    : 'bg-surfacePrimary dark:bg-surfacePrimary-dark border-borderPrimaryDefault'
-                }`}
-              >
-                <ThemedText size="small" weight="medium">
-                  {word}
-                </ThemedText>
-              </Pressable>
-            );
-          })}
+      {/* Source Sentence Card */}
+      <View className="mt-4 mb-8 flex-row items-center gap-4">
+        <View className="w-16 h-16 rounded-2xl bg-primary/10 items-center justify-center">
+          <MaterialIcons name="volume-up" size={32} color="#2b8cee" />
+        </View>
+        <View className="flex-1">
+          <ThemedText className="text-xl font-medium leading-snug">{prompt}</ThemedText>
+          {targetSentence && (
+            <ThemedText className="text-sm italic opacity-60">{targetSentence}</ThemedText>
+          )}
         </View>
       </View>
 
-      <View className="flex-row flex-wrap gap-3 justify-center mt-6">
-        {poolWords.map((word) => (
-          <Pressable
-            key={`pool-${word}`}
-            onPress={() => addWord(word)}
-            className="px-5 py-2.5 rounded-full bg-surfacePrimary dark:bg-surfacePrimary-dark border border-borderPrimaryDefault shadow-xs"
-          >
-            <ThemedText
-              size="small"
-              weight="bold"
-              className="text-textPrimary dark:text-textPrimary-dark"
-            >
-              {word}
+      {/* Assembly Area */}
+      <View className="flex-col min-h-[160px] justify-center items-center">
+        <View className="w-full flex-row flex-wrap gap-2 items-center justify-center py-8 border-y-2 border-dashed border-borderPrimaryDefault">
+          {selectedWords.length === 0 ? (
+            <ThemedText className="text-sm font-normal text-center opacity-40 max-w-[200px]">
+              {t('builder.tapWordsToBuild') || 'Tap the words below to build the sentence'}
             </ThemedText>
-          </Pressable>
-        ))}
+          ) : (
+            selectedWords.map((word, index) => {
+              const isWrongPlace = expectedWords[index] !== word;
+              return (
+                <Pressable
+                  key={`sel-${word}-${index}`}
+                  onPress={() => removeWord(word)}
+                  className={`px-5 py-3 rounded-xl border-2 ${
+                    isWrongPlace
+                      ? 'bg-red-100 border-red-500'
+                      : 'bg-white dark:bg-slate-800 border-borderPrimaryDefault'
+                  } shadow-sm`}
+                >
+                  <ThemedText weight="medium">{word}</ThemedText>
+                </Pressable>
+              );
+            })
+          )}
+        </View>
+      </View>
+
+      {/* Word Pool / Chips */}
+      <View className="mt-auto pt-10">
+        <View className="flex-row flex-wrap justify-center gap-3">
+          {poolWords.map((word) => (
+            <Pressable
+              key={`pool-${word}`}
+              onPress={() => addWord(word)}
+              className="px-5 py-3 rounded-xl border-2 border-borderPrimaryDefault bg-white dark:bg-slate-800 shadow-sm active:translate-y-0.5"
+            >
+              <ThemedText weight="medium">{word}</ThemedText>
+            </Pressable>
+          ))}
+        </View>
       </View>
     </>
   );
